@@ -1,0 +1,463 @@
+.form {
+	margin: 0px; padding: 0px;
+}
+i{
+	font-style:normal;
+}
+.error-message {
+	color: rgb(204, 0, 0);
+	padding-top:2px;
+}
+.contents_form {
+	width: 100%;
+	margin: 15px 0px;
+	padding: 0px 0px 20px;
+}
+.contents {
+	margin: 0px auto; padding: 0px; width: 90%;
+}
+.contents-wrapper {
+	margin: 0px auto; padding: 0px; width: 90%;
+}
+.form-input {
+	margin: 0px auto; padding: 0px; width: 90%;
+}
+.form-btn {
+	margin: 0px auto; padding: 0px;
+}
+.form-input {
+	width: 100%;
+	margin: 15px auto;
+}
+.form-checkbox span {
+	font-size: 13px;
+}
+.form-checkbox::after {
+	clear: both; display: block; content: "";
+}
+
+.text {
+	background: rgb(238, 238, 238); padding: 14px; border-radius: 0px; border: 0px solid rgb(238, 238, 238); border-image: none; width: 100%; color: rgb(153, 153, 153); font-size: 13px; box-sizing:border-box;
+}
+.text:focus {
+	background: rgb(248, 248, 248);
+}
+
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+dl {
+	padding: 0px; font-size: 13px;
+}
+.form-input dt {
+	margin: 20px 0px 1px; font-size: 18px; font-weight: 700;
+}
+.form-input dd {
+	font-size: 13px;
+}
+.form-input p.member {
+	font-size: 13px; margin-top: 5px;
+}
+.form-input p.mail {
+	font-size: 13px; margin-top: 5px;
+}
+.form-input p.member {
+	margin-top: 20px;
+}
+.form-confirm p.member {
+	margin-top: 20px;
+}
+.form-input p.mail {
+	margin-top: 15px;
+}
+.form-confirm p.mail {
+	margin-top: 15px;
+}
+.form-btn {
+	text-align: left;
+}
+.form-btn .submit-btn {
+	padding: 20px 0px 30px; text-align: center;
+}
+.form-btn .submit {
+	background: rgb(12, 48, 142); margin: 0px auto; width: 70%; color: rgb(255, 255, 255); cursor: pointer;
+}
+.holder.form-checkbox {
+	margin-top: 5px;
+}
+.form-checkbox .agree_newsletter {
+	display: block; position: relative;
+}
+.form-checkbox .agree_newsletter::after {
+	clear: both; display: block; content: "";
+}
+.form-checkbox .agree_newsletter label {
+	display: inline; cursor: pointer;
+}
+.form-checkbox .agree_newsletter span {
+	width: 90%;
+}
+select {
+	background: none; margin: 0px; padding: 0px; border-radius: 0px; border: 0px currentColor; border-image: none; color: inherit; font-size: inherit; vertical-align: middle; box-sizing: content-box; -webkit-appearance: none; -moz-appearance: none; -o-appearance: none; -ms-appearance: none; appearance: none;
+}
+
+#gender {
+	background: url("../images/pc_select_bg.png") no-repeat right / contain rgb(238, 238, 238); padding: 12px 0px 12px 12px; border-radius: 0px; border: 0px solid rgb(204, 204, 204); border-image: none; height: 20px; color: rgb(153, 153, 153); font-size: 13px;
+}
+#gendert:focus {
+	background: rgb(248, 248, 248);
+}
+#gender {
+	width:97%;
+	overflow: inherit;
+}
+.custom {
+	overflow: hidden;
+}
+
+input[type=checkbox] {
+	height:30px; font-family: "FontAwesome"; display: none; content: "\f096"; background-color: rgb(238, 238, 238);
+}
+input[type=checkbox] + label::before {
+	width: 30px; height:30px; font-size: 22px; margin-right: 10px; background-color: rgb(238, 238, 238); text-align:center; color: rgb(238, 238, 238); padding-top:4px; line-height: 1; font-family: "FontAwesome"; display: inline-block; content: "\f096"; box-sizing:border-box;
+}
+input[type=checkbox]:checked + label::before {
+	color: rgb(255, 255, 255); background-color: rgb(12, 48, 142); font-family: "FontAwesome"; content: "\f00c"; padding-top:4px; box-sizing:border-box;
+}
+.submit-btn {
+	margin: 0px auto; width: 100%; overflow: hidden; clear: both; display: block;
+}
+.submit-btn button {
+	background: rgb(12, 48, 142); padding: 3px 30px 0px 10px; border-radius: 40px; border: 0px currentColor; border-image: none; width: 225px; height: 55px; color: rgb(255, 255, 255); font-size: 22px; font-weight: 700; position:relative;
+}
+.submit-btn button i {
+	top: 32%; right: 20%; font-family: "FontAwesome"; font-size: 22px; display: block; position: absolute;
+}
+.error {
+	color: rgb(218, 14, 14); font-size: 14px; display: inline-block;
+}
+.error::before {
+	width: 14px; color: rgb(217, 13, 13); line-height: 1; font-family: "FontAwesome"; font-size: 12px; display: inline-block; content: "\f06a";
+}
+.message {
+	margin: 5px 0px 0px; color: rgb(218, 14, 14); display: none;
+}
+.message::before {
+	width: 14px; color: rgb(217, 13, 13); line-height: 1; font-family: "FontAwesome"; display: inline-block; content: "\f06a";
+}
+
+.form-confirm {
+	padding: 2px 0px 0px;
+}
+.form-confirm p {
+	font-size: 13px; margin-top: 0px;
+}
+.form-confirm .form-checkbox {
+	margin: 20px 0px 0px; padding: 0px 0px 30px; display: block;
+}
+.form-btn .form-checkbox {
+	margin: 20px 0px 0px; padding: 0px 0px 30px; display: block;
+}
+.form-confirm .form-checkbox p.agree_newsletter {
+	margin: 0px 0px 15px; padding: 0px 0px 0px 20px; height: 20px; position: relative;
+}
+.form-confirm .agree_newsletter span {
+	width: 100%;
+}
+.form-confirm .form-checkbox i {
+	left: 0px; top: 20%; color: rgb(12, 48, 142); font-family: "FontAwesome"; font-size: 14px; display: block; position: absolute;
+}
+.form-confirm .form-checkbox i.display {
+	visibility: visible;
+}
+.form-btn .form-checkbox i.display {
+	visibility: visible;
+}
+.form-confirm .form-checkbox i.hidden {
+	visibility: hidden;
+}
+.form-btn .form-checkbox i.hidden {
+	visibility: hidden;
+}
+.form-confirm dl {
+	padding: 10px 0px 0px; width: 100%;
+}
+.form-confirm dl::after {
+	clear: both; display: block; content: "";
+}
+.eticket-number-input::after {
+	clear: both; display: block; content: "";
+}
+.eticket-number-confirm::after {
+	clear: both; display: block; content: "";
+}
+.flight-no-input::after {
+	clear: both; display: block; content: "";
+}
+.flight-no-confirm::after {
+	clear: both; display: block; content: "";
+}
+.form-confirm dt {
+	margin: 0px; padding: 0px; width: 80%; text-align: left; font-size: 13px; font-weight: 700; float: left;
+}
+.form-confirm dd {
+	padding: 0px; width: 100%; font-size: 13px; font-weight: normal; float: left;
+}
+.form-confirm dd p {
+	margin-bottom: 0px;
+}
+.confirm-btn.submit-btn {
+	margin: 20px auto 0px; width: 100%; overflow: hidden; padding-top: 0px; clear: both;
+}
+.confirm-btn.submit-btn .back {
+	width: 47%; color: rgb(255, 255, 255); font-size: 18px; display: inline-block; cursor: pointer;
+}
+.confirm-btn.submit-btn .send {
+	width: 47%; color: rgb(255, 255, 255); font-size: 18px; display: inline-block; cursor: pointer;
+}
+.confirm-btn.submit-btn .back {
+	background: rgb(196, 196, 196); margin-right: 3%;
+}
+.confirm-btn.submit-btn .send {
+	background: rgb(12, 48, 142);
+}
+.submit-btn button.back {
+	padding: 3px 15px 0px 30px; border-radius: 40px;
+}
+.submit-btn button.back i {
+	left: 15%; top: 32%; text-align: left; font-family: "FontAwesome"; font-size: 22px; font-weight: 700; display: block; position: absolute;
+}
+.submit-btn button.send i {
+	left: 15%; top: 32%; text-align: left; font-family: "FontAwesome"; font-size: 22px; font-weight: 700; display: block; position: absolute;
+}
+.submit-btn button.send i {
+	top: 32%; text-align: right; right: 15%; font-size: 22px; font-weight: 700;
+}
+
+.form-note {
+	width: 100%; background: rgb(238, 238, 238); margin: 0 auto 20px;
+}
+.form-note p {
+	font-size: 13px; line-height: 1.6; padding: 20px;
+}
+
+.thanks-contents {
+	margin: 0px auto; padding: 0px; width: 90%; text-align: left;
+}
+.wifi-cam-confirm-list i.fa-check{
+	margin-right:10px;
+	color: rgb(12, 48, 142);
+}
+.wifi-cam-confirm-list .club_menber i.fa-check{
+	color: rgb(191, 191, 191);
+}
+dt span.form--attention {
+	color: rgb(255, 0, 0); font-size: 13px; font-weight: 700;
+}
+
+@media screen and (min-width:640px){
+	button:hover {
+		opacity: 0.8;
+	}
+	.contents_form {
+		width: 100%;
+	}
+	.contents_form-confirm {
+		width: 100%;
+	}
+	.contents {
+		width: 100%;
+	}
+	.form-input {
+		width: 100%;
+	}
+	.form-confirm {
+		width: 100%;
+	}
+	.form-btn {
+		width: 100%;
+	}
+	.contents_form {
+		margin: 0px 0px 0px; padding: 0px 0px 30px;
+	}
+	.contents_form-confirm {
+		margin: 25px 0px 0px; padding: 15px 0px 0px;
+	}
+	.form-confirm {
+		margin: 0px auto; width: 720px;
+	}
+	.form-input {
+		margin: 30px auto; padding-bottom: 20px;
+	}
+	.form-btn {
+		margin: 0px auto; width: 100%;
+	}
+	dl::after {
+		clear: both; display: block; content: "";
+	}
+	.form-checkbox {
+		padding: 25px 0px 0px; clear: both; margin-left: 29%;
+	}
+	.form-checkbox {
+		height: 75px;
+	}
+	.text {
+		background: rgb(238, 238, 238); padding: 20px; border-radius: 0px; border: 0px solid rgb(238, 238, 238); border-image: none; width: 100%; color: rgb(153, 153, 153); font-size: 16px;
+	}
+	.text:focus {
+		background: rgb(248, 248, 248);
+	}
+	.textarea {
+		background: rgb(238, 238, 238); padding: 14px; border-radius: 0px; border: 2px solid rgb(238, 238, 238); border-image: none; width: 100%; color: rgb(153, 153, 153); font-size: 13px;
+	}
+	.form-input dl {
+		padding: 15px 0px 0px; width: 100%;
+	}
+	.form-input dt {
+		margin: 5px 0px; padding: 0px 15px 0px 0px; width: 25%; text-align: right; font-size: 16px; font-weight: 700; float: left;
+	}
+	.form-input dt span {
+		font-size: 13px;
+	}
+	.form-input dd {
+		width: 71%; font-size: 16px; font-weight: normal; float: right; margin:5px 0; text-align: left;
+	}
+	#gender {
+		background: rgb(238, 238, 238); padding: 20px 0px 20px 20px; border-radius: 0px; border: 0px solid rgb(204, 204, 204); border-image: none; height: 20px; color: rgb(153, 153, 153); font-size: 16px;
+	}
+	#gendert:focus {
+		background: rgb(248, 248, 248);
+	}
+
+
+	#name_title {
+		background: rgb(255, 255, 255); padding: 12px 0px 12px 12px; border-radius: 8px; border: 2px solid rgb(204, 204, 204); border-image: none; width: 105%; height: 20px; font-size: 16px;
+	}
+	input[type=checkbox] + label::before {
+		width: 30px; font-size: 22px; display: inline-block;
+	}
+	input[type=submit] {
+		background: rgb(12, 48, 142); padding: 3px 0px 0px 15px; border-radius: 8px; border: 0px currentColor; border-image: none; width: 300px; height: 64px; color: rgb(255, 255, 255); line-height: 1; font-family: "FontAwesome"; font-size: 22px; font-weight: normal;
+	}
+	.form-btn .form-checkbox {
+		margin: 30px 0px 0px 218px;
+	}
+	.form-input p.mail {
+		font-size: 16px; margin-top: 5px;
+	}
+	.form-confirm p.mail {
+		font-size: 16px; margin-top: 5px;
+	}
+	.form-input p.mail {
+		margin-top: 15px;
+	}
+	.form-checkbox {
+		height: inherit;
+	}
+	.form-checkbox span {
+		font-size: 16px;
+	}
+	.agree_newsletter.form-checkbox {
+		margin-top: 0px;
+	}
+	.holder.form-checkbox {
+		margin: 0px; padding: 10px; width: 550px; line-height: 1.6; clear: inherit;
+	}
+	.form-note p {
+	 	color: rgb(51, 51, 51); font-size: 16px; line-height: 2; padding: 30px;
+	}
+	.form-btn .submit {
+		text-align:center;
+		width: 500px;
+	}
+	.form-btn .submit-btn {
+		margin: 0px 0px 60px;
+	}
+	.submit-btn button {
+		padding: 3px 30px 0px 15px; border-radius: 40px; width: 480px; height: 70px; font-size: 22px; font-weight: 700;
+	}
+	.submit-btn button i {
+		top: 35%; right: 35%; font-family: "FontAwesome"; font-size: 22px; font-weight: 700; display: block; position: absolute;
+	}
+	.error {
+		color: rgb(218, 14, 14); font-size: 15px; margin-top: 5px; display: inline-block;
+	}
+	.error::before {
+		width: 20px; color: rgb(217, 13, 13); line-height: 1; font-family: "FontAwesome"; font-size: 16px; display: inline-block; content: "\f06a";
+	}
+
+	.form-confirm p {
+		font-size: 16px; margin-top: 0px;
+	}
+	.form-confirm .form-checkbox p.agree_newsletter {
+		margin: 0px 0px 20px; padding: 0px 0px 0px 30px; position: relative;
+	}
+
+	.confirm-policy.form-btn {
+		margin: 30px auto 0px;
+	}
+	.form-confirm .form-checkbox i {
+		left: 0px; top: 8%; color: rgb(12, 48, 142); font-family: "FontAwesome"; font-size: 18px; display: block; position: absolute;
+	}
+	.form-confirm dl {
+		padding: 30px 0px 0px; width: 960px;
+	}
+	.form-confirm dt {
+		margin: 0px; padding: 0px 35px 0px 0px; width: 228px; text-align: right; font-size: 16px; font-weight: 700; float: left;
+	}
+	.form-confirm dd {
+		padding: 0px; width: 400px; font-size: 16px; font-weight: normal; float: left;
+	}
+	.form-confirm dd p {
+		margin-bottom: 15px;
+	}
+	.form-confirm .form-checkbox {
+		margin-left: 208px;
+	}
+	.confirm-btn.submit-btn {
+		margin: 20px auto 60px; width: 546px;
+	}
+	.confirm-btn.submit-btn::after {
+		clear: both; display: block; content: "";
+	}
+	.confirm-btn.submit-btn .back {
+		margin: 0px; width: 260px; color: rgb(255, 255, 255); display: inline-block; cursor: pointer;
+	}
+	.confirm-btn.submit-btn .send {
+		margin: 0px; width: 260px; color: rgb(255, 255, 255); display: inline-block; cursor: pointer;
+	}
+	.confirm-btn.submit-btn .back {
+		background: rgb(196, 196, 196); margin: 0px 20px 0px 0px;
+	}
+	.confirm-btn.submit-btn .send {
+		background: rgb(12, 48, 142);
+	}
+	.submit-btn button.back {
+		padding: 3px 15px 0px 30px; border-radius: 40px; font-size: 22px;
+	}
+	.submit-btn button.back i {
+		left: 24.5%; top: 35%; text-align: left; font-family: "FontAwesome"; font-size: 22px; font-weight: 700; display: block; position: absolute;
+	}
+	.submit-btn button.send i {
+		top: 35%; right: 24.5%;
+	}
+}
+
+@media screen and (max-width:829px) and (min-width:641px){
+	.form-input dt,
+	.form-input dd{
+		width:100%;
+	}
+	.form-checkbox{
+		margin-left:0px;
+	}
+	.form-btn .form-checkbox{
+		margin-left:0px;
+	}
+}

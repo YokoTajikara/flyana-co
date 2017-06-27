@@ -1,0 +1,180 @@
+{
+	"button_lang_en": "English",
+	"button_lang_th": "ไทย",
+	"campaign_name": "ENDLESS INSPIRE",
+	"campaign": "CAMPAIGN",
+	"btn_homepage": "Home",
+
+	"btn_join_campaign" : "Join Campaign",
+	"btn_book_now" : "BOOK NOW",
+	"btn_terms_conditions" : "Terms & Conditions",
+	"link_ana_website" : "ANA Website",
+
+	"s1_p1_date": "On October 03, 2016 – December 30, 2016",
+	"s1_p1_desc": "Experience Ultimate Travel in Japan with ANA Thailand. Buy online ticket now to win a prize!",
+
+	"s1_p2_title": "Grand Prize",
+	"s1_p2_desc": "A pair of ANA economy Class <br />tickets to Japan for 2 prize",
+
+	"s2_p1_title": "Grand Prize",
+	"s2_p1_desc": "A pair of ANA Economy Class tickets to any destination in Japan for 2 prizes.",
+	"s2_p2_title": "2nd Prize",
+	"s2_p2_desc": "Cabin Luggage for 5 winners",
+	"s2_p3_title": "3nd Prize",
+	"s2_p3_desc": "Mug Bottle for 30 winners",
+
+	"s3_p1_head": "How To <span>Participate</span>",
+	"s3_p1_title": "Step 1",
+	"s3_p1_desc": "Purchase ANA ticket from Bangkok to Japan or USA via ANA Sky Web (Thailand) during October 03, 2016 - December 30, 2016.",
+	"s3_p1_sub_desc": "*Please see Campaign Details below for eligibility.",
+	"s3_p2_title": "Step 2",
+	"s3_p2_desc": "Visit the campaign website <br />(this campaign website)",
+	"s3_p3_title": "Step 3",
+	"s3_p3_desc": "Click join campaign and fill the form.",
+	"s3_p4_title": "Step 4",
+	"s3_p4_desc": "Submit the form.",
+	"s3_p5_title1": "Eligibility",
+	"s3_p5_desc1": "Restricted only for the Entrant who purchase campaign eligible ticket through ANA Sky Web (Thailand) during the campaign period. Participants must be 18 years old and above.",
+	"s3_p5_title2": "Campaign Period",
+	"s3_p5_desc2": "October 03, 2016 (Mon) – December 30 , 2016 (Fri)  23:59 PM",
+	"s3_p5_title3": "Travel Period",
+	"s3_p5_desc3": "October 03, 2016 - March 31, 2017",
+
+	"s4_p1_head": "TRIP TO <span>JAPAN</span>",
+	"s4_p2_head": "TRIP TO <span>USA</span>",
+
+	"tncs_terms": "TERMS &",
+	"tncs_conditions": "CONDITIONS",
+
+	"translatedPageTitle" : "ANA Endless Inspire Campaign",
+	"translatedPageContent" : "ANA Endless Inspire Campaign",
+
+	"tncs_menu_basic": "Basic Regulations",
+	"tncs_menu_campaign_prizes": "Campaign Prizes",
+	"tncs_menu_eligibility": "Eligibility",
+	"tncs_menu_eligibleticket": "Eligible Ticket",
+	"tncs_menu_selection_method": "Selection method",
+	"tncs_menu_announcement_winners": "Announcement of Winners",
+	"tncs_menu_winner_conditions": "1st prize - Air tickets conditions",
+	"tncs_menu_prohibited": "Prohibited items",
+	"tncs_menu_temporary_interruption": "General",
+	"tncs_menu_handling_personal_information": "Handling of personal information",
+	"tncs_menu_inquiries": "Inquiries",
+
+	"tncs_basic_regulations_p1": "This terms & conditions apply to the campaign of &ldquo;<strong>Endless inspire</strong>&rdquo; (herein referred to as the &ldquo;Campaign&rdquo;). Those who wish to submit Campaign entries (herein referred to as the &ldquo;Entrant(s)&rdquo;), should read the following rules carefully and submit an entry only after agreeing to the campaign terms and conditions. It will be assumed that Entrants who submit entries are in agreement with the following content. ANA social media terms of use (<a href='http://www.ana.co.jp/share/social/' target='_blank'>http://www.ana.co.jp/share/social/</a>) shall apply to the Campaign.",
+	"tncs_basic_regulations_p2": "ANA reserves the right to revise all or part of this terms & conditions at their own discretion without any prior notification to the Entrants. In such cases, said revisions shall go into effect from the time they are posted on the following site. (<a href='https://www.ana-campaign.com/bangkok16b' target='_blank'>https://www.ana-campaign.com/bangkok16b</a>)",
+	"tncs_basic_regulations_p3": "All matters of disputes arising from the campaign will be subjects to the final decision of ANA.",
+	"tncs_basic_regulations_p4": "In the event of a discrepancy or conflict between the English and the translated version of these Terms and Conditions, the English version shall prevail.",
+	"tncs_basic_regulations_li1": "<strong>Campaign period :</strong>  October 03, 2016 (Mon) – December 30 , 2016 (Fri)  23:59 PM",
+	"tncs_basic_regulations_li2": "<strong>Travel period :</strong>  October 03, 2016 (Mon) – March 31, 2017 (Fri)",
+
+	"tncs_campaign_prizes_p1": "<strong>The campaign prizes are:</strong>",
+	"tncs_campaign_prizes_li1": "<strong>1st Prize:</strong> A pair of ANA Economy Class tickets to any destination in Japan for 2 prizes valued (each) 40,000 baht",
+	"tncs_campaign_prizes_li2": "<strong>2nd Prize:</strong> ANA DESIGN Cabin Luggage for 5 winners valued (each) 6,000 baht",
+	"tncs_campaign_prizes_li3": "<strong>3nd Prize:</strong> ANA Original Mug Bottle for 30 winners valued (each) 300 baht",
+
+	"tncs_eligibility_li1": "The Entrants are restricted to those who reside in Thailand  (Employee of ANA, Its subsidiaries, affiliates, parent companies and joint venture companies, as well as members of theirimmediate families and households (including children and siblings and persons living in the same household) are not eligible.",
+	"tncs_eligibility_li2": "The Entrants must be 18 years old or above as of 3 October 2016",
+	"tncs_eligibility_li3": "This campaign only for the Entrant who purchase campaign eligible ticket through <a href='http://www.ana.co.jp/asw/wws/th/e/' target='_blank'>ANA Sky Web (Thailand)</a> during the campaign period of : October 03, 2016 (Mon) – December 30 , 2016 (Fri)",
+	"tncs_eligibility_li4": "Limited to one (1) entry per qualifying.",
+
+	"tncs_eligibleticket_p1": "Campaign qualified tickets must be fulfill all conditions below.",
+	"tncs_eligibleticket_li1": "Reserved and purchased Round trip ticket originated from Bangkok to Japan or to the North America, through <strong>ANA Sky Web (Thailand)</strong>. Itinerary travelling date from Bangkok on October 03, 2016 (Mon) – March 31, 2017 (Fri)",
+	"tncs_eligibleticket_li2": "Flight Application : ANA operated flights between Bangkok and Japan",
+	"tncs_eligibleticket_li3": "Valid on Adult tickets",
+	"tncs_eligibleticket_li4": "NH ticket plate (205)",
+	"tncs_eligibleticket_li5": "Payment currency of the ticket is the Thai baht (THB)",
+	"tncs_eligibleticket_p2": "<strong>&lt;&lt;Disqualified conditions&gt;&gt;</strong> <br/> ※ANA Mileage Award tickets</br> ※Cancelled/Unused tickets",
+
+	"tncs_selection_method_p1_li1": "The Campaign&rsquo;s management office (herein referred to as the &ldquo;Office&rdquo;) will randomly select the winners of the Campaign (herein referred to as the &ldquo;Winner(s)&rdquo;",
+	"tncs_selection_method_p1_li2": "The draw will be held on  at the following date and venue or such other date or time as ANA may determine at its sole and absolute discretion:",
+	"tncs_selection_method_p2": "Date of draw: on <strong>January 16, 2017</strong><br/> Time: 10:00 am<br/> Venue: ANA Bangkok city office 4nd Fl. C.P. Tower 313 Silom Rd. Bangkok 10500, Thailand.<br/>",
+	"tncs_selection_method_p3_li1": "Each participant shall only be entitled to win a maximum of one (1) prize.",
+
+	"tncs_announcement_of_winner_li1": "The winners will be individually notified from the Office (<a href='mailto:bkkdesk@ana-campaign.com'>bkkdesk@ana-campaign.com</a>) via email with a prize confirmation form before <strong>January 20, 2017</strong>.  Only the Winners will receive result notifications. We cannot respond to inquiries regarding the reasons for selection or progress.",
+	"tncs_announcement_of_winner_li7": "Winners lists will be announced on January 20, 2016  at Reservation counter  All Nippon Airways, 2nd floor CP Tower, Silom, Bangkok.",
+	"tncs_announcement_of_winner_li2": "In the event that the winner is found to have breached the Terms and Conditions, or if the winner cannot be contacted via his/her email within 30 days from the date of ANA&rsquo;s notification, the prize shall be forfeited and an alternate winner will be selected at the discretion of ANA.",
+	"tncs_announcement_of_winner_li3": "The winner must produce his/her proof of identification (identification card) in order to receive his/her prize at ANA Bangkok city office.",
+	"tncs_announcement_of_winner_li4": "For ANA Original Mug Bottle, officer will sent to the winner in Thailand Home address as a registered.",
+	"tncs_announcement_of_winner_li5": "The prizes cannot be changed or redeemed for cash and cannot be sold or transferred to others.",
+	"tncs_announcement_of_winner_li6": "The winner of the prize worth more than over 1,000 Baht shall pay 5% withholding tax of the value of the prize, according to the Revenue Department&rsquo;s order number T.P.101/2544",
+
+	"tncs_title_winner_conditions" : "The Winner of 1st prize shall be subject to the following conditions",
+	"tncs_winner_conditions_li1" : "A prize consists of two seats in economy class which 1st prize winner & travel companion must depart and return on the same dates and flights.",
+	"tncs_winner_conditions_li2" : "Flight will be strictly departing from Bangkok only.",
+	"tncs_winner_conditions_li3" : "Ticket is not exchangeable for cash, non-transferable, non-endorsable, non- reroutable and non-refundable under any circumstances.",
+	"tncs_winner_conditions_li4" : "Ticket is not applicable on code-share flights.",
+	"tncs_winner_conditions_li14" : "As for Japan domestic sectors, you are only permitted to select a flight operated by ANA or ANA Wings.",
+	"tncs_winner_conditions_li5" : "<strong>Seats are subject to availability.</strong>",
+	"tncs_winner_conditions_li6" : "Ticket is ineligible for AMC mileage accrual & upgrading using mileage is not allowed.",
+	"tncs_winner_conditions_li15" : "<strong>Applicable taxes and surcharges shall be paid fully by 1st prize winner and payable by cash only.</strong>",
+	"tncs_winner_conditions_li7" : "Ticket is valid on flight date shown.",
+	"tncs_winner_conditions_li8" : "Changes are not permitted, once booking is confirmed.",
+	"tncs_winner_conditions_li9" : "Ticket is valid for one month from date of departure out from Bangkok.",
+	"tncs_winner_conditions_li10" : "Travel period: 1 April 2017 [based on departure date from Bangkok] till end of 30 September 2017 [based on arrival date in Japan]",
+	"tncs_winner_conditions_li11" : "Any flights falling on the following periods cannot be selected.<br/> <ul> <li>Between 06 April, 2017 and 18 April, 2017</li> <li>Between 29 April 2017 and 07 May, 2017</li> <li>Between 11 August 2017 and 15 August 2017</li> </ul>",
+	"tncs_winner_conditions_li12" : "Booking and ticketing must be made at least 2 weeks before departure from Bangkok for travel.",
+	"tncs_winner_conditions_li13" : "Prize not claimed before or on 17 September 2017 shall be forfeited. No extension of validity under any circumstances is allowed.",
+
+	"tncs_title_prohibited_items" : "Prohibited items",
+	"tncs_prohibited_items_p1": "The Entrants agree not to engage in the following items with regard to the Campaign. In the event that the Entrant(s) or their affiliates do engage in any of the following, regardless of reason, participation in the Campaign will be declined.",
+	"tncs_prohibited_items_li1" : "Using someone else&rsquo;s name,for the purpose of impersonation",
+	"tncs_prohibited_items_li2" : "Using the service provided by the Campaign for fraudulent purposes",
+	"tncs_prohibited_items_li3" : "Infringement on any rights of other Entrants or third parties, such as discrimination, slander, intimidation, or infringement of privacy or human rights.",
+	"tncs_prohibited_items_li4" : "Any act that results in harming the honour or credit of the Campaign or damages its reliability",
+	"tncs_prohibited_items_li5" : "Any act that interferes with the operation of the Campaign",
+	"tncs_prohibited_items_li6" : "Any acts in violation of laws, regulations, or public order and morals, or any acts that could possibly be interpreted as such",
+	"tncs_prohibited_items_li7" : "Any other acts the ANA deems unsuitable or inappropriate",
+
+	"tncs_title_temporary_interruption" : "Temporary interruption of the Site",
+	"tncs_temporary_interruption_p1": "ANA may change, suspend, cancel or end part or all of the Campaign without any prior notice in the following cases. ANA will not assume any responsibility for any damages that may be incurred as a result of these circumstances.",
+	"tncs_temporary_interruption_li1" : "Regular or emergency maintenance of the Campaign&rsquo;s site",
+	"tncs_temporary_interruption_li2" : "Cases where the Campaign Site cannot be maintained due to fire, power failure, or poor connectivity",
+	"tncs_temporary_interruption_li3" : "Cases where the Campaign Site cannot be maintained due to earthquake, volcanic eruption, flooding, tidal wave, or other acts of God, riots, labour disputes, or by order of a government office",
+	"tncs_temporary_interruption_li4" : "Cases where there has been a disturbance in the Campaign&rsquo;s system, or when the Sponsor has determined there is a risk of disturbance",
+	"tncs_temporary_interruption_li5" : "Other cases where ANA has determined it would be difficult to accommodate or continue the Campaign",
+
+	"tncs_title_handling_personal_information" : "Handling of personal information",
+	"tncs_handling_personal_information_li1" : "ANA will be collecting the personal data of the Entrants and/or their parents or guardians for the purpose of contacting the Winners, security clearance, this lucky draw, statistical analyses, marketing and/or survey participation. ANA may also disclose such personal data to our service providers and/or agents for these purposes.",
+	"tncs_handling_personal_information_li2" : "Any other personal information provided will not be disclosed or provided to any third parties outside our subcontracted affiliates without the customer&rsquo;s consent. (Except in cases where disclosure is required by law)",
+	"tncs_handling_personal_information_li3" : "Each Entrant's participation in the contest indicates the Entrants&rsquo; and/or his/her parent&rsquo;s or guardian&rsquo;s consent for the collection and use of the personal data as described above and their parents/guardians may contact us to request a copy of the relevant personal data held by ANA, and may correct any inaccuracies in such personal data. Please contact us via <a href='mailto:bkkdesk@ana-campaign.com'>bkkdesk@ana-campaign.com</a> for this purpose.",
+	"tncs_handling_personal_information_li4" : "*Please refer to ANA&rsquo;s privacy policy (<a href='https://www.ana.co.jp/share/privacy/' target='_blank'>https://www.ana.co.jp/share/privacy/</a>) regarding the handling of personal information.",
+	"tncs_handling_personal_information_li5" : "Images of Endless inspire Campaign will be published on ANA SKY WEB (including but not limited to the company homepage and social networking services managed by the company) and/or used in ANA promotional campaigns. Also, media coverage may include the presence of TV cameras. Please be noticed that the Winners and their guests may also be filmed in that coverage.",
+
+	"tncs_title_inquiries" : "ANA campaign office",
+	"tncs_inquiries_p1": "E-mail address: <a href='mailto:bkkdesk@ana-campaign.com'>bkkdesk@ana-campaign.com</a>",
+	"tncs_inquiries_li1": "Please write &ldquo;Endless inspire Campaign&rdquo; as the subject line.",
+	"tncs_inquiries_li2": "Inquiries are only taken via e-mail. You will be sent an e-mail response within 48 hours.",
+
+
+
+	"trip_to_japan_sapporo_title" : "Sapporo",
+	"trip_to_japan_sapporo_p" : "In the end of the year, it&rsquo;s good to experience the winner at Sapporo, the capital of Hokkaido. The famous thing is beauty and delicious food. The place where you won&rsquo;t miss is &ldquo;Sapporo Beer Museum&rdquo; – the 1st beer factory in Japan &ldquo;Sapporo Clock Tower&rdquo; – the symbol of Sapporo and &ldquo;Mt. Moiwa&rdquo; – the viewpoint will turn into the large ski area.",
+
+	"trip_to_japan_tokyo_title" : "Tokyo",
+	"trip_to_japan_tokyo_p" : "The one of traveler&rsquo;s destination is Tokyo; Japan – the city of light providing you the places to travel, food, shop or temple. That is to say, Tokyo was named the sleepless city. If you have decided to visit here in the end of the year, don&rsquo;t hesitate because you will have never missed the decorative light on Christmas!",
+
+	"trip_to_japan_okinawa_title" : "Okinawa",
+	"trip_to_japan_okinawa_p" : "If you desire to explore a new experience to travel in Japan, book the plane ticket to Okinawa - the southernmost prefecture of Japan. The famous festival and event was held here. Especially, In the October and November, there&rsquo;re many traveler visit here to explore the authentic Okinawa culture. For example, Shuri Castle Festival – the most important attractive place in Okinawa, Naha Otsunahiki festival – the Giant Tug-of-War, and Okinawa Churaumi Aquarium – the most largest and biggest aquarium in Japan. No worry about food! Okinawa provided you many kind of food!",
+
+	"trip_to_japan_osaka_title" : "OSAKA",
+	"trip_to_japan_osaka_p" : "&ldquo;Osaka&rdquo; is the most famous designated city in the Kansai region of Japan. Actually, most of travelers want to check in at the famous landmark such as Glico Man Billboard, Dotonbori. This place is crammed by shop, restaurant and entertainment venue. Should you plan to come here on winter, don&rsquo;t miss to tour at Osaka Castle.",
+
+	"trip_to_japan_fukuoka_title" : "FUKUOKA",
+	"trip_to_japan_fukuoka_p" : "Welcome to Fukuoka in the winter season!! The first thing that you won&rsquo;t miss it is visiting strawberry farm. There&rsquo;re many strawberry farm that you can pick your own strawberries! Other than that, you have to travel around the city because Fukuoka is the very nice and peaceful city. Let&rsquo; explore charming Fukuoka with your own eyes",
+
+	"trip_to_usa_washington_dc_title" : "Washington DC",
+	"trip_to_usa_washington_dc_p" : "Washington DC, the capital of the United States. Washington DC, the great city plan, have many landmarks for tourist to discover. Let&rsquo;s begin our journey! The White House, work place of the United State president. Smithsonian Institution, the largest museum in the world. Let&rsquo;s explore there with your own eyes.",
+
+	"trip_to_usa_new_york_title" : "New York",
+	"trip_to_usa_new_york_p" : "New York is the one of destination place for many traveler. The best memorable experience in New York is visiting the Statue of Liberty at Liberty Island. But don&rsquo;t miss to check in at Central Park. Enjoy the arts and learn more about history at museums. You can fulfill more memorable experience in this city called &ldquo;New York City&rdquo;",
+
+	"trip_to_usa_los_angeles_title" : "Los Angeles",
+	"trip_to_usa_los_angeles_p" : "Are you looking for something entertain? Los Angeles or LA is the best choice that you yearn for. You will get the extremely funniest experience in Disneyland and Universal Studios. In addition, you also explore new experience as if you were a Hollywood superstar at Paramount Studios and Hollywood Walk of Fame. Now! Please make sure that you have enough time to come here and visit all of place in Los Angeles.",
+
+	"page_title" : "ANA Endless Inspire Campaign",
+	"meta_description" : "Customers who purchase tickets flights through Japan or USA on ANA Sky Web (Thailand) during campaign period (3 October 2016 – 30 December 2016) and apply for join the campaign on websites. You will be the eligible customer who can get the top rewards from ENDLESS INSPIRE Campaign, ANA economy Class tickets to Japan for 2 persons.",
+	"og_description" : "Join the campaign on websites to get the ANA economy Class tickets to Japan for 2 persons",
+
+	"last_text" : ""
+}

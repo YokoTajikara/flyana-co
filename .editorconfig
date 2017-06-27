@@ -1,0 +1,49 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+indent_style = tab
+indent_size = 4
+
+[*.blade.php]
+end_of_line = lf
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.blade.php]
+end_of_line = lf
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.html]
+end_of_line = lf
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.css]
+end_of_line = lf
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.scss]
+end_of_line = lf
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.js]
+end_of_line = lf
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true

@@ -1,0 +1,52 @@
+# herokuの環境変数でANA_DISABLE_BASIC_AUTH=1でない場合はBasic認証する。
+#<If "osenv('ANA_DISABLE_BASIC_AUTH') != '1'">
+#    AuthUserFile  /app/.htpasswd
+#    AuthGroupfile /dev/null
+#    AuthName "only members"
+#    AuthType Basic
+#    require valid-user
+#    Satisfy Any
+#    Order Allow,Deny
+#</If>
+
+DirectoryIndex index.html index.php
+
+# allow facebook ogp
+SetEnvIf User-Agent "^facebookexternalhit.*$" fb_crawler
+SetEnvIf User-Agent "^facebookplatform.*$" fb_crawler
+Allow from env=fb_crawler
+
+# allow twitter ogp
+SetEnvIf User-Agent "Twitterbot" tw_crawler
+Allow from env=tw_crawler
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # only www
+    RewriteCond %{HTTP_HOST} ^ana-campaign\.com
+    RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+#	RewriteCond %{HTTPS} !=on
+#    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R,L]
+
+    RewriteCond %{HTTP:X-Forwarded-Proto} =http
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R,L]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_URI} !^(.*)\.(gif|png|jpg|jpeg|css|ico|map|html)$
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>

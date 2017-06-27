@@ -1,0 +1,45 @@
+<div class="container terms">
+	<h2>{{'tncs_terms'|translate}} <span>{{'tncs_conditions'|translate}}</span></h2>
+</div>
+<div class="terms-menu">
+	<div  slidermenu >
+		<div class="item">
+			<a class="terms-en" ui-sref="tncs.basic_regulations" ui-sref-active="active">{{'tncs_menu_basic'|translate}}</a>
+		</div>
+
+		<!--
+		<div class="item">
+			<a class="terms-en" ui-sref="tncs.campaign_prizes" ui-sref-active="active">{{'tncs_menu_campaign_prizes'|translate}}</a>
+		</div>
+		<div class="item">
+			<a class="terms-en" ui-sref="tncs.eligibility" ui-sref-active="active">{{'tncs_menu_eligibility'|translate}}</a>
+		</div>
+		<div class="item">
+			<a class="terms-en" ui-sref="tncs.eligibleticket" ui-sref-active="active">{{'tncs_menu_eligibleticket'|translate}}</a>
+		</div>
+		-->
+
+		<div class="item">
+			<a class="terms-en" ui-sref="tncs.section_method" ui-sref-active="active">{{'tncs_menu_selection_method'|translate}}</a>
+		</div>
+		<!--
+		<div class="item">
+			<a class="terms-en" ui-sref="tncs.announcement_of_winner" ui-sref-active="active">{{'tncs_menu_announcement_winners'|translate}}</a>
+		</div>
+		-->
+
+		<div class="item">
+			<a class="terms-en" ui-sref="tncs.winner_conditions" ui-sref-active="active" translate="tncs_menu_winner_conditions"></a>
+		</div>
+		<div class="item">
+			<a class="terms-en" ui-sref="tncs.temporary_interruption" ui-sref-active="active" translate="tncs_menu_temporary_interruption"></a>
+		</div>
+		<!--
+		<div class="item">
+			<a class="terms-en last" ui-sref="tncs.inquiries" ui-sref-active="active" translate="tncs_menu_inquiries"></a>
+		</div>
+		-->
+	</div>
+</div>
+
+<div class="terms-content" ui-view></div>

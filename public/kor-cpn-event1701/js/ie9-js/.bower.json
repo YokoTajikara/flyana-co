@@ -1,0 +1,31 @@
+{
+  "name": "ie9-js",
+  "authors": [
+    "Dean Edwards <dean.edwards@gmail.com>",
+    "Dirk Sidney Jansen <sid@sidisinsane.com>"
+  ],
+  "main": "lib/IE9.js",
+  "keywords": [
+    "ie",
+    "polyfill"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sidisinsane/ie7-js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "30122844f1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "30122844f110a5b4f60a1d336783137eda3cb647"
+  },
+  "_source": "https://github.com/sidisinsane/ie9-js.git",
+  "_target": "*",
+  "_originalSource": "ie9-js",
+  "_direct": true
+}

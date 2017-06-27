@@ -1,0 +1,154 @@
+.page-th,
+.main-campaign h4,
+.main-campaign p,
+.btn-join,
+.prize h2,
+.prize1 .prize-box h3,
+.prize1 .prize-box p,
+.prize2 h4,
+.prize3 h4,
+.prize2 p,
+.prize3 p,
+.howto,
+.howto>h2,
+.howto>ul>li>label,
+.howto-step h3,
+.trip-top h2,
+.trip-japan h2,
+.trip h3,
+.trip .trip-content p,
+.page-closed .trip-usa h2,
+.page-open .terms>h2,
+.page-open .terms-menu .item a,
+.page-open .terms-content h3
+{
+  font-family: 'Kanit', sans-serif;
+}
+
+.main-campaign p,
+.prize1 .prize-box p,
+.howto-step p,
+.howto>ul>li>p,
+.howto>ul>li>label,
+.btn-join
+{
+  font-weight: 300;
+}
+.main-campaign p{
+  max-width: 410px;
+}
+.page-closed .main-campaign{
+  background-image: url('../images/close-map-th.png');
+  background-position: center;
+}
+.prize h2 {
+  background-position: right top 6px;
+}
+.howto-step p{
+  font-size: 1.15em;
+}
+.btn-join{
+  padding: 10px 25px 10px 25px;
+}
+.btn-join > i {
+  font-size: 1.1em;
+}
+.page-closed .btn-join > i {
+  font-size: 1.5em;
+  margin-top: -1px;
+}
+.howto>h2{
+  padding-top: 10px;
+}
+.trip .trip-content p{
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+.trip-top h2 {
+  padding-top: 0px;
+  padding-right: 70px;
+  margin-bottom: 25px;
+  margin-top: 60px;
+}
+.trip-japan h2{
+  padding-top: 30px;
+}
+.trip-usa{
+  padding-top: 15px;
+}
+.trip-usa h2{
+  padding-top: 32px;
+}
+
+.prize2 p, .prize3 p {
+  font-size: 1.25em;
+}
+
+.trip h3{
+  font-size: 2.5em;
+}
+.page-open .terms>h2{
+  line-height: 42px;
+}
+
+.page-open .section-thank{
+  font-family: 'Kanit', sans-serif !important;
+}
+@media screen and (max-width: 1199px){
+  .trip h3{
+    margin-bottom: 5px;
+  }
+  .trip .trip-content{
+    padding: 30px 30px 0px 40px;
+  }
+  .trip .trip-content p{
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .prize2 h4, .prize3 h4 {
+    font-size: 1.6em;
+  }
+  .prize2 p, .prize3 p {
+    font-size: 1.25em;
+  }
+  .trip h3{
+    margin-bottom: 15px;
+  }
+  .trip .trip-content{
+    padding: 40px 50px 40px 50px;
+  }
+  .trip .trip-content p{
+    margin-bottom: 30px;
+    line-height: 1.5em;
+  }
+}
+@media screen and (max-width: 580px) {
+  .page-open .trip-japan h2,
+  .page-open .trip-usa h2
+  {
+    padding-top: 0;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .page-open .trip-top h2 {
+    font-size: 2.3em;
+  }
+  .page-open .trip .trip-content {
+    padding: 30px 20px;
+  }
+  .page-open .prize2 p, .page-open .prize3 p{
+    height: 80px;
+  }
+  .page-open .section-thank h1{
+    font-size: 4.2em;
+  }
+  .page-open .section-thank h2{
+    font-size: 2.23em;
+  }
+  .page-open .section-thank h4{
+    font-size: 1.6em;
+  }
+}
