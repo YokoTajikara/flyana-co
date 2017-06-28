@@ -19,3 +19,4 @@ Route::get("ph-email", "PhEmailController@registrationGet");
 Route::get("ph-email/registration", "PhEmailController@registrationGet");
 Route::post("ph-email/confirm", "PhEmailController@confirmPost");
 Route::post("ph-email/thankyou", "PhEmailController@thankyouPost");
+Route::get("ph-email/thankyou", "PhEmailController@thankyouget");

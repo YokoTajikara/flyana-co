@@ -102,7 +102,7 @@
                             <dd class="wifi-cam">
                                 <input size="35" class="text tf-required tf-email" placeholder="sorano-taro@ana.com" name="email" type="email" value="{{array_get($form,'email')}}">
                                 <p class="tf-message-email-required message"> messages.s25_form_error_mail_required</p>
-                                {!! $errors->first('email_confirm', '<p class="error">:message</p>') !!}
+                                {!! $errors->first('email', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>
 
@@ -116,7 +116,7 @@
                         <dl>
                             <dt><label for="residence_region">Residence Region</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
-                                {{Form::input('text','residence_region',array_get($form,'residence_region'),['size'=>35,'class'=>'text tf-required tf-en','placeholder'=>''])}}
+                                {{Form::input('text','residence_region',array_get($form,'residence_region','Philippines'),['size'=>35,'class'=>'text tf-required tf-en','placeholder'=>''])}}
                                 {!! $errors->first('residence_region', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>

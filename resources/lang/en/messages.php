@@ -7,6 +7,7 @@ return [
     'ph-email_form_error_name_Gender__c_required'           => 'Please select Gender.',
     'ph-email_form_error_name_Email_required'               => 'Please enter Email Address.',
     'ph-email_form_error_name_Email_email'                  => 'Please enter valid Email Address.',
+    'ph-email_form_error_name_Email_confirm_required'       => 'Please enter Email (confirmation).',
     'ph-email_form_error_name_Email_confirm_same'           => 'Email Address does not match.',
     'ph-email_form_error_name_Residence_Region__c_required' => 'Please enter your Residence Region.',
     "ph-email_form_name_empty"                              => "Please select",

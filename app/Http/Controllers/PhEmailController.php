@@ -127,6 +127,11 @@ class PhEmailController extends Controller
 
     }
 
+    public function thankyouGet(Request $request)
+    {
+
+    }
+
     /**
      * バリデーション
      *
@@ -149,13 +154,14 @@ class PhEmailController extends Controller
         ];
         // エラーメッセージ設定
         $messages = [
-            'first_name.required'       => trans('messages.ph-email_form_error_name_First_Name__c_required'),
-            'last_name.required'        => trans('messages.ph-email_form_error_name_Last_Name__c_required'),
-            'gender.required'           => trans('messages.ph-email_form_error_name_Gender__c_required'),
-            'email.required'            => trans('messages.ph-email_form_error_name_Email_required'),
-            'email.email'               => trans('messages.ph-email_form_error_name_Email_email'),
-            'email_confirm.same'        => trans('messages.ph-email_form_error_name_Email_confirm_same'),
-            'residence_region.required' => trans('messages.ph-email_form_error_name_Residence_Region__c_required'),
+            'first_name.required'       => Lang::get('messages.ph-email_form_error_name_First_Name__c_required'),
+            'last_name.required'        => Lang::get('messages.ph-email_form_error_name_Last_Name__c_required'),
+            'gender.required'           => Lang::get('messages.ph-email_form_error_name_Gender__c_required'),
+            'email.required'            => Lang::get('messages.ph-email_form_error_name_Email_required'),
+            'email.email'               => Lang::get('messages.ph-email_form_error_name_Email_email'),
+            'email_confirm.required'    => Lang::get('messages.ph-email_form_error_name_Email_confirm_required'),
+            'email_confirm.same'        => Lang::get('messages.ph-email_form_error_name_Email_confirm_same'),
+            'residence_region.required' => Lang::get('messages.ph-email_form_error_name_Residence_Region__c_required'),
         ];
 
         // バリデーション実施
