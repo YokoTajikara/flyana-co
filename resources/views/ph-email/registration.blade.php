@@ -167,7 +167,6 @@
 <script>
   $(document).ready(function(){
     $('#agree_newsletter').on('change', function () {
-      console.log("agree_newsletter");
       if ($(this).prop('checked')) {
         $('#submit').removeAttr('disabled').removeClass('disabled');
       }else{
