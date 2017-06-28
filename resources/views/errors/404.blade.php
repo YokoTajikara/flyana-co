@@ -65,12 +65,7 @@ fjs.parentNode.insertBefore(js, fjs);
 						<dt></dt>
 						<dd class="multiline">
 							<ul>
-								<li><a href="https://{!! $_SERVER["HTTP_HOST"] !!}/anausa/" target="_blank">ANA USA | WiFi Router 7 Days Free in USA Campagin | English website</a></li>
-								<li><a href="https://{!! $_SERVER["HTTP_HOST"] !!}/anausa/jp/" target="_blank">ANA USA | WiFi Router 7 Days Free in USA Campagin | 日本語サイト</a></li>
-
-								<li><a href="https://{!! $_SERVER["HTTP_HOST"] !!}/anayose2017manila/" target="_blank">ANA YOSE ON FEBRUARY 19TH, 2017</a></li>
-
-								<li><a href="https://{!! $_SERVER["HTTP_HOST"] !!}/kor-cpn-event1701/" target="_blank">ANA 항공권 구매 이벤트 | 캠페인 | ANA</a></li>
+								<li><a href="https://{!! $_SERVER["HTTP_HOST"] !!}/ph-email/" target="_blank">Sign up for ANA E-newsletter</a></li>
 							</ul>
 						</dd>
 					</dl>
@@ -85,7 +80,7 @@ fjs.parentNode.insertBefore(js, fjs);
 		<div class="inquiry">
 			<ul class="clearfix">
 				<li><span class="inq">CONTACT</span><span class="mailto"><a
-							href="mailto:info@ana-campaign.com">info@ana-campaign.com</a></span></li>
+							href="mailto:info@flyana.co">info@flyana.co</a></span></li>
 				<li><a href="http://www.staralliance.com/" target="_blank"><img src="/ninjawifi/image/footer_logo.png" alt="A STAR ALLIANCE MEMBER"></a></li>
 			</ul>
 		</div>

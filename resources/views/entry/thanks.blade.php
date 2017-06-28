@@ -130,7 +130,7 @@
 		<div class="inquiry">
 			<ul class="clearfix">
 				<li><span class="inq">{{ trans('messages.cap_inquiry') }}</span><span class="mailto"><a
-							href="mailto:info@ana-campaign.com">info@ana-campaign.com</a></span></li>
+							href="mailto:info@flyana.co">info@flyana.co</a></span></li>
 				<li><a href="http://www.staralliance.com/"><img src="/ninjawifi/image/footer_logo.png"
 																alt="A STAR ALLIANCE MEMBER"></a></li>
 			</ul>

@@ -62,13 +62,13 @@ fjs.parentNode.insertBefore(js, fjs);
 						<dd class="multiline">
 							Please contact us with the displayed error code<br>
 							error code: {{ $errorCode }}<br>
-							<span class="mailto"><a href="mailto:info@ana-campaign.com">info@ana-campaign.com</a></span>
+							<span class="mailto"><a href="mailto:info@flyana.co">info@flyana.co</a></span>
 						</dd>
 						@else
 						<dt></dt>
 						<dd class="multiline">
 							Please contact us<br>
-							<span class="mailto"><a href="mailto:info@ana-campaign.com">info@ana-campaign.com</a></span>
+							<span class="mailto"><a href="mailto:info@flyana.co">info@flyana.co</a></span>
 						</dd>
 						@endif
 					</dl>
@@ -83,7 +83,7 @@ fjs.parentNode.insertBefore(js, fjs);
 		<div class="inquiry">
 			<ul class="clearfix">
 				<li><span class="inq">CONTACT</span><span class="mailto"><a
-							href="mailto:info@ana-campaign.com">info@ana-campaign.com</a></span></li>
+							href="mailto:info@flyana.co">info@flyana.co</a></span></li>
 				<li><a href="http://www.staralliance.com/" target="_blank"><img src="/ninjawifi/image/footer_logo.png"
 																				alt="A STAR ALLIANCE MEMBER"></a></li>
 			</ul>
