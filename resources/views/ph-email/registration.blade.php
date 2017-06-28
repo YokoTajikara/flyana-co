@@ -131,7 +131,7 @@
 
                     <div class="form-note">
                         <p>By submitting this ANA e-Newsletter enrollment form you acknowledge to ANA that you are at least 18 years of age.<br>
-                            ANA will only use the personal information you provide in this sign up form in accordance with ANA's privacy policy, and ANA will comply with your requests indicated above, and any changes to those requests you indicate in the future, regarding the receipt of marketing materials from ANA.</p>
+                            ANA will only use the personal information you provide in this sign up form in accordance with <a href="http://www.ana.co.jp/wws/privacy/e/ana.html" target="_blank">ANA's privacy policy</a>, and ANA will comply with your requests indicated above, and any changes to those requests you indicate in the future, regarding the receipt of marketing materials from ANA.</p>
                     </div>
 
                     <div class="form-btn">
