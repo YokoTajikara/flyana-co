@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
-    <title>You got a coupon code | ANA USA | WiFi Router 7 Days Free in USA Campagin</title>
+    <title>Thank you for your registration | ANA E-Newsletter Registration From</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
