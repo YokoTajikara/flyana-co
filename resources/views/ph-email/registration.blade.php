@@ -76,7 +76,7 @@
                             <dd class="wifi-cam">
                                 {{Form::input('text','first_name',array_get($form,'first_name'),['maxlength'=>'40','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Taro (Given name)'])}}
                                 <p class="tf-message-first_name-required message"> Please enter first name.</p>
-                                {!! $errors->first('first_name', '<p class="error-message">:message</p>') !!}
+                                {!! $errors->first('first_name', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>
                         <dl>
@@ -85,7 +85,7 @@
                                 {{Form::input('text','last_name',array_get($form,'last_name'),['maxlength'=>'80','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Sorano (Surname)'])}}
 
                                 <p class="tf-message-last_name-required message"> Please enter last name.</p>
-                                {!! $errors->first('last_name', '<p class="error-message">:message</p>') !!}
+                                {!! $errors->first('last_name', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>
                         <dl>
@@ -94,7 +94,7 @@
                                 <div class="custom">
                                     {{Form::select("gender",$genderList,array_get($form,'gender'),['id'=>'gender','class'=>'tf-required'])}}
                                 </div>
-                                {!! $errors->first('gender', '<p class="error-message">:message</p>') !!}
+                                {!! $errors->first('gender', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>
                         <dl>
