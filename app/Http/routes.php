@@ -13,12 +13,6 @@
 
 Route::get('/system-error', 'SystemErrorController@index');
 
-if ('staging' == env('APP_ENV')) {
-	Route::get('/system-error-test7yr2', function () {
-		throw new Exception('test:called system-error-test.');
-	});
-}
-
 // --------------------------------------------------------
 // ph-email
 Route::get("ph-email", "PhEmailController@registrationGet");

@@ -66,7 +66,7 @@
             </div>
 
             <!-- form -->
-            <form method="POST" action="{{action('PhEmailController@confirmPost')}}" accept-charset="UTF-8" id="" name="">
+            <form method="POST" action="/ph-email/confirm" accept-charset="UTF-8" id="" name="">
                 {!! csrf_field() !!}
 
                 <div class="contents_form">

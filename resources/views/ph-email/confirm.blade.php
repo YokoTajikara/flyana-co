@@ -65,7 +65,7 @@
             </div>
 
             <!-- form -->
-            <form method="POST" action="{{action('PhEmailController@thankyouPost')}}" accept-charset="UTF-8" id="" name="">
+            <form method="POST" action="/ph-email/thankyou" accept-charset="UTF-8" id="" name="">
                 {!! csrf_field() !!}
 
                 <div class="contents_form">
@@ -102,7 +102,7 @@
                     <div class="form-btn wifi-cam-confirm-list">
 
                         <div class="submit-btn confirm-btn">
-                            <button type="button" class="back" id="back-btn" name="back-btn" value="BACK" onclick="location.href='{{action('PhEmailController@registrationGet')}}'">
+                            <button type="button" class="back" id="back-btn" name="back-btn" value="BACK" onclick="location.href='/ph-email/registration'">
                                 <i class="fa-angle-left"></i>Back
                             </button>
                             <button type="submit" class="send" name="regist-btn" value="REGIST">Submit
