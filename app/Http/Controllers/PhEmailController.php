@@ -129,7 +129,8 @@ class PhEmailController extends Controller
 
     public function thankyouGet(Request $request)
     {
-
+        \Session::clear();
+        return redirect()->action('PhEmailController@registrationGet');
     }
 
     /**
@@ -184,7 +185,7 @@ class PhEmailController extends Controller
         $salesForceRequest = [
             "First_Name__c"       => Arr::get($data, 'first_name'),
             "Last_Name__c"        => Arr::get($data, 'last_name'),
-            "Gender__c"           => Arr::get($data, 'gender'),
+            "Gender__c"           => Arr::get($data, 'gender') == "Male" ? "Male" : "Female",
             "Email__c"            => Arr::get($data, 'email'),
             "Residence_Region__c" => Arr::get($data, 'residence_region'),
             "e_newsletter__c"     => (bool)Arr::get($data, 'agree_newsletter'),

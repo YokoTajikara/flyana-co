@@ -74,7 +74,7 @@
                         <dl>
                             <dt><label for="first_name">First Name</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
-                                {{Form::input('text','first_name',array_get($form,'first_name'),['size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Taro (Given name)'])}}
+                                {{Form::input('text','first_name',array_get($form,'first_name'),['maxlength'=>'40','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Taro (Given name)'])}}
                                 <p class="tf-message-first_name-required message"> Please enter first name.</p>
                                 {!! $errors->first('first_name', '<p class="error-message">:message</p>') !!}
                             </dd>
@@ -82,7 +82,7 @@
                         <dl>
                             <dt><label for="last_name">Last Name</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
-                                {{Form::input('text','last_name',array_get($form,'last_name'),['size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Sorano (Surname)'])}}
+                                {{Form::input('text','last_name',array_get($form,'last_name'),['maxlength'=>'80','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Sorano (Surname)'])}}
 
                                 <p class="tf-message-last_name-required message"> Please enter last name.</p>
                                 {!! $errors->first('last_name', '<p class="error-message">:message</p>') !!}
@@ -100,7 +100,7 @@
                         <dl>
                             <dt><label for="email">Email</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
-                                <input size="35" class="text tf-required tf-email" placeholder="sorano-taro@ana.com" name="email" type="text" value="{{array_get($form,'email')}}">
+                                <input size="35" class="text tf-required tf-email" placeholder="sorano-taro@ana.com" name="email" type="text" value="{{array_get($form,'email')}}" maxlength="50">
                                 <p class="tf-message-email-required message"> messages.s25_form_error_mail_required</p>
                                 {!! $errors->first('email', '<p class="error">:message</p>') !!}
                             </dd>
@@ -109,7 +109,7 @@
                         <dl>
                             <dt><label for="email_confirm">Email <span>(Confirmation)</span> <span class="form--attention">*</span></label></dt>
                             <dd class="wifi-cam">
-                                <input id="email_confirm" size="35" class="text tf-required" placeholder="sorano-taro@ana.com" name="email_confirm" type="text" value="{{array_get($form,'email_confirm')}}">
+                                <input id="email_confirm" size="35" class="text tf-required" placeholder="sorano-taro@ana.com" name="email_confirm" type="text" value="{{array_get($form,'email_confirm')}}" maxlength="50">
                                 {!! $errors->first('email_confirm', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>
