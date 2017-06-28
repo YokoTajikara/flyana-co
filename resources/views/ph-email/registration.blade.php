@@ -100,7 +100,7 @@
                         <dl>
                             <dt><label for="email">Email</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
-                                <input size="35" class="text tf-required tf-email" placeholder="sorano-taro@ana.com" name="email" type="email" value="{{array_get($form,'email')}}">
+                                <input size="35" class="text tf-required tf-email" placeholder="sorano-taro@ana.com" name="email" type="text" value="{{array_get($form,'email')}}">
                                 <p class="tf-message-email-required message"> messages.s25_form_error_mail_required</p>
                                 {!! $errors->first('email', '<p class="error">:message</p>') !!}
                             </dd>
@@ -166,15 +166,15 @@
 
 <script>
   $(document).ready(function(){
-    $('#agree_newsletter2').on('change', function () {
-      console.log("agree_newsletter2");
+    $('#agree_newsletter').on('change', function () {
+      console.log("agree_newsletter");
       if ($(this).prop('checked')) {
         $('#submit').removeAttr('disabled').removeClass('disabled');
       }else{
         $('#submit').attr('disabled','disabled').addClass('disabled');
       }
     });
-    $('#agree_newsletter2').trigger('change');
+    $('#agree_newsletter').trigger('change');
   });
 </script>
 

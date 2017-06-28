@@ -150,7 +150,8 @@ class PhEmailController extends Controller
             'gender'           => 'required',
             'email'            => 'required|email',
             'email_confirm'    => 'required|same:email',
-            'residence_region' => 'required'
+            'residence_region' => 'required',
+            'agree_newsletter' => 'required'
         ];
         // エラーメッセージ設定
         $messages = [
