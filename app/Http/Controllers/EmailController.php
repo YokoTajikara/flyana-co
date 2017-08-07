@@ -193,7 +193,7 @@ class EmailController extends Controller
 
         $sfSrv = App::make(\Ana\SalesForceService::class);
         $sfSrv->init();
-        $ret = $sfSrv->EmailInsertLead($salesForceRequest);
+        $ret = $sfSrv->phEmailInsertLead($salesForceRequest);
 
         return $ret["success"];
     }
