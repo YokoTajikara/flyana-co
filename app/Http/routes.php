@@ -23,8 +23,8 @@ Route::get("ph-email/thankyou", "PhEmailController@thankyouget");
 
 // --------------------------------------------------------
 // email
-Route::get("email", "EmailController@registrationGet");
-Route::get("registration", "EmailController@registrationGet");
-Route::post("confirm", "EmailController@confirmPost");
-Route::post("thankyou", "EmailController@thankyouPost");
-Route::get("thankyou", "EmailController@thankyouget");
+Route::get("", "EmailController@registrationGet");
+Route::get("/registration", "EmailController@registrationGet");
+Route::post("/confirm", "EmailController@confirmPost");
+Route::post("/thankyou", "EmailController@thankyouPost");
+Route::get("/thankyou", "EmailController@thankyouget");
