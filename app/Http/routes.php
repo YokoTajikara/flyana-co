@@ -20,3 +20,11 @@ Route::get("ph-email/registration", "PhEmailController@registrationGet");
 Route::post("ph-email/confirm", "PhEmailController@confirmPost");
 Route::post("ph-email/thankyou", "PhEmailController@thankyouPost");
 Route::get("ph-email/thankyou", "PhEmailController@thankyouget");
+
+// --------------------------------------------------------
+// email
+Route::get("email", "EmailController@registrationGet");
+Route::get("registration", "EmailController@registrationGet");
+Route::post("confirm", "EmailController@confirmPost");
+Route::post("thankyou", "EmailController@thankyouPost");
+Route::get("thankyou", "EmailController@thankyouget");

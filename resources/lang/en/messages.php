@@ -12,6 +12,17 @@ return [
     'ph-email_form_error_name_Residence_Region__c_required' => 'Please enter your Residence Region.',
     "ph-email_form_name_empty"                              => "Please select",
 
+    //email
+    'email_form_error_name_First_Name__c_required'       => 'Please enter First Name.',
+    'email_form_error_name_Last_Name__c_required'        => 'Please enter Last Name.',
+    'email_form_error_name_Gender__c_required'           => 'Please select Gender.',
+    'email_form_error_name_Email_required'               => 'Please enter Email Address.',
+    'email_form_error_name_Email_email'                  => 'Please enter valid Email Address.',
+    'email_form_error_name_Email_confirm_required'       => 'Please enter Email (confirmation).',
+    'email_form_error_name_Email_confirm_same'           => 'Email Address does not match.',
+    'email_form_error_name_Residence_Region__c_required' => 'Please enter your Residence Region.',
+    "email_form_name_empty"                              => "Please select",
+
     // anayose2017manila
     "anayose2017manila_form_error_name_Title__c_required"                                   => "Please select Title",
     'anayose2017manila_form_error_name_First_Name__c_required'                              => 'Please enter First Name',
