@@ -52,7 +52,8 @@ $app->bind('path.public', function () {
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
 $response = $kernel->handle(
-    $request = Illuminate\Http\Request::capture()
+    $request = App\Http\AnaRequest::capture()
+    /*$request = Illuminate\Http\Request::capture()*/
 );
 
 $response->send();
