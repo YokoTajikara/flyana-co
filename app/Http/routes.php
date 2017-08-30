@@ -28,3 +28,4 @@ Route::get("/registration", "EmailController@registrationGet");
 Route::post("/confirm", "EmailController@confirmPost");
 Route::post("/thankyou", "EmailController@thankyouPost");
 Route::get("/thankyou", "EmailController@thankyouget");
+Route::get("/test", "TestController@test");
