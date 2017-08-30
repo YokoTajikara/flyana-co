@@ -20,8 +20,7 @@ class TestController extends BaseController
         // "country".
         $user_ip = $this->getUserIP();
         echo $user_ip."<br/>";
-        $record = $reader->city('128.101.101.101');
-        echo '128.101.101.101<br/>';
+        $record = $reader->city($user_ip);
 
         print($record->country->isoCode . "\n"); // 'US'
         print($record->country->name . "\n"); // 'United States'
