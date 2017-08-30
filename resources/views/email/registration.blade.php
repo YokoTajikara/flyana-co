@@ -116,7 +116,7 @@
                         <dl>
                             <dt><label for="residence_region">Residence Region</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
-                                {{Form::input('text','residence_region',array_get($form,'residence_region','Thailand'),['size'=>35,'class'=>'text tf-required tf-en','placeholder'=>''])}}
+                                {{Form::input('text','residence_region',array_get($form,'residence_region',$country_name),['size'=>35,'class'=>'text tf-required tf-en','placeholder'=>''])}}
                                 {!! $errors->first('residence_region', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>

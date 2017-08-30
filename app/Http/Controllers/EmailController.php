@@ -43,6 +43,15 @@ class EmailController extends Controller
      */
     public function registrationGet(AnaRequest $request)
     {
+        #read Maxmind GeoIP Db
+        $reader = new \GeoIp2\Database\Reader('GeoLite2-City.mmdb');
+        #get the client's IP
+        $user_ip = $this->getUserIP();
+        #get country of IP from Maxmind GeoIP db
+        $record = $reader->city($user_ip);
+        #the country name of client
+        $country_name = $record->country->name;
+        
         $form = \Session::get("email_form", []);
         \Session::remove('email_form');
 
@@ -57,7 +66,8 @@ class EmailController extends Controller
         $data = [
             "form"       => $form,
             "errors"     => $error,
-            "genderList" => $this->genderList
+            "genderList" => $this->genderList,
+            "country_name" => $country_name
         ];
 
         return view('email.registration', $data);
@@ -196,6 +206,29 @@ class EmailController extends Controller
         $ret = $sfSrv->phEmailInsertLead($salesForceRequest);
 
         return $ret["success"];
+    }
+    
+    #Returns the IP of the client
+    function getUserIP()
+    {
+        $client  = @$_SERVER['HTTP_CLIENT_IP'];
+        $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
+        $remote  = $_SERVER['REMOTE_ADDR'];
+
+        if(filter_var($client, FILTER_VALIDATE_IP))
+        {
+            $ip = $client;
+        }
+        elseif(filter_var($forward, FILTER_VALIDATE_IP))
+        {
+            $ip = $forward;
+        }
+        else
+        {
+            $ip = $remote;
+        }
+
+        return $ip;
     }
 
 }
