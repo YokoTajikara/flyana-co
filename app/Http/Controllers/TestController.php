@@ -18,6 +18,8 @@ class TestController extends BaseController
 
         // Replace "city" with the appropriate method for your database, e.g.,
         // "country".
+        $user_ip = $this->getUserIP();
+        echo $user_ip."<br/>";
         $record = $reader->city('128.101.101.101');
         echo '128.101.101.101<br/>';
 
@@ -35,6 +37,27 @@ class TestController extends BaseController
         print($record->location->latitude . "\n"); // 44.9733
         print($record->location->longitude . "\n"); // -93.2323
         
+    }
+    function getUserIP()
+    {
+        $client  = @$_SERVER['HTTP_CLIENT_IP'];
+        $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
+        $remote  = $_SERVER['REMOTE_ADDR'];
+
+        if(filter_var($client, FILTER_VALIDATE_IP))
+        {
+            $ip = $client;
+        }
+        elseif(filter_var($forward, FILTER_VALIDATE_IP))
+        {
+            $ip = $forward;
+        }
+        else
+        {
+            $ip = $remote;
+        }
+
+        return $ip;
     }
     
 }
