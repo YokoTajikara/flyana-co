@@ -13,6 +13,7 @@ class TestController extends BaseController
     use AuthorizesRequests, AuthorizesResources, DispatchesJobs, ValidatesRequests;
         // This creates the Reader object, which should be reused across
         // lookups.
+    public function test(){
         $reader = new \GeoIp2\Database\Reader('GeoLite2-City.mmdb');
 
         // Replace "city" with the appropriate method for your database, e.g.,
@@ -33,4 +34,7 @@ class TestController extends BaseController
 
         print($record->location->latitude . "\n"); // 44.9733
         print($record->location->longitude . "\n"); // -93.2323
+        
+    }
+    
 }
