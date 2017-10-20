@@ -16,6 +16,7 @@ class EmailController extends Controller
 {
     private $language   = "en";
     private $genderList = [];
+    private $countryList = [];
 
     /**
      * EmailController constructor.
@@ -30,6 +31,25 @@ class EmailController extends Controller
             ""       => Lang::get("messages.email_form_name_empty"),
             "Male"   => "Male",
             "Female" => "Female"
+        ];
+
+        // Regionコンボボックスリスト
+        $this->countryList = [
+            ""       => Lang::get("messages.email_form_name_empty"),
+            "Australia"   => "Australia",
+            "Cambodia"   => "Cambodia",
+            "Hong Kong" => "Hong Kong"
+            "India"   => "India",
+            "Indonesia"   => "Indonesia",
+            "Korea"   => "Korea",
+            "Malaysia"   => "Malaysia",
+            "Myanmar"   => "Myanmar",
+            "Singapore"   => "Singapore",
+            "Taiwan"   => "Taiwan",
+            "Thailand"   => "Thailand",
+            "The Philippines" => "The Philippines"
+            "Vietnam"   => "Vietnam",
+
         ];
 
     }
@@ -67,6 +87,7 @@ class EmailController extends Controller
             "form"       => $form,
             "errors"     => $error,
             "genderList" => $this->genderList,
+            "countryList" => $this->countryList,
             "country_name" => $country_name
         ];
 
@@ -102,6 +123,7 @@ class EmailController extends Controller
         $data = [
             "form"       => $request->toArray(),
             "genderList" => $this->genderList
+            "countryList" => $this->countryList
         ];
 
         return view('email.confirm', $data);
