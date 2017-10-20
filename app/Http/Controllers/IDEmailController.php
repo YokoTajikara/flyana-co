@@ -12,9 +12,9 @@ use Lang;
  * Class EmailController
  * @package App\Http\Controllers
  */
-class EmailController extends Controller
+class IDEmailController extends Controller
 {
-    private $language   = "en";
+    private $language   = "id";
     private $genderList = [];
 
     /**
@@ -28,8 +28,8 @@ class EmailController extends Controller
         // 性別コンボボックスリスト
         $this->genderList = [
             ""       => Lang::get("messages.email_form_name_empty"),
-            "Male"   => "Male",
-            "Female" => "Female"
+            "Male"   => "Pria",
+            "Female" => "Wanita"
         ];
 
     }
@@ -96,7 +96,7 @@ class EmailController extends Controller
             // 入力画面へ
             \Session::set("email_error", $validRet->errors());
 
-            return redirect()->action('EmailController@registrationGet');
+            return redirect()->action('IDEmailController@registrationGet');
         }
 
         $data = [
@@ -140,7 +140,7 @@ class EmailController extends Controller
     public function thankyouGet(Request $request)
     {
         \Session::clear();
-        return redirect()->action('EmailController@registrationGet');
+        return redirect()->action('IDEmailController@registrationGet');
     }
 
     /**

@@ -24,44 +24,46 @@ Route::post("/thankyou", "EmailController@thankyouPost");
 Route::get("/thankyou", "EmailController@thankyouget");
 
 // email-kr
-Route::get("/kr/", "EmailController@registrationGetKR");
-Route::get("/kr/registration", "EmailController@registrationGetKR");
-Route::post("/kr/confirm", "EmailController@confirmPostKR");
-Route::post("/kr/thankyou", "EmailController@thankyouPostKR");
-Route::get("/kr/thankyou", "EmailController@thankyougetKR");
+Route::get("/kr/", "KREmailController@registrationGet");
+Route::get("/kr/registration", "KREmailController@registrationGet");
+Route::post("/kr/confirm", "KREmailController@confirmPost");
+Route::post("/kr/thankyou", "KREmailController@thankyouPost");
+Route::get("/kr/thankyou", "KREmailController@thankyouget");
 
 // email-hk
-Route::get("/hk/", "EmailController@registrationGetHK");
-Route::get("/hk/registration", "EmailController@registrationGetHK");
-Route::post("/hk/confirm", "EmailController@confirmPostHK");
-Route::post("/hk/thankyou", "EmailController@thankyouPostHK");
-Route::get("/hk/thankyou", "EmailController@thankyougetHK");
+Route::get("/hk/", "HKEmailController@registrationGet");
+Route::get("/hk/registration", "HKEmailController@registrationGet");
+Route::post("/hk/confirm", "HKEmailController@confirmPost");
+Route::post("/hk/thankyou", "HKEmailController@thankyouPost");
+Route::get("/hk/thankyou", "HKEmailController@thankyouget");
 
 // email-tw
-Route::get("/tw/", "EmailController@registrationGetTW");
-Route::get("/tw/registration", "EmailController@registrationGetTW");
-Route::post("/tw/confirm", "EmailController@confirmPostTW");
-Route::post("/tw/thankyou", "EmailController@thankyouPostTW");
-Route::get("/tw/thankyou", "EmailController@thankyougetTW");
+Route::get("/tw/", "TWEmailController@registrationGet");
+Route::get("/tw/registration", "TWEmailController@registrationGet");
+Route::post("/tw/confirm", "TWEmailController@confirmPost");
+Route::post("/tw/thankyou", "TWEmailController@thankyouPost");
+Route::get("/tw/thankyou", "TWEmailController@thankyouget");
 
 // email-th
-Route::get("/th/", "EmailController@registrationGetTH");
-Route::get("/th/registration", "EmailController@registrationGetTH");
-Route::post("/th/confirm", "EmailController@confirmPostTH");
-Route::post("/th/thankyou", "EmailController@thankyouPostTH");
-Route::get("/th/thankyou", "EmailController@thankyougetTH");
+Route::get("/th/", "THEmailController@registrationGet");
+Route::get("/th/registration", "THEmailController@registrationGet");
+Route::post("/th/confirm", "THEmailController@confirmPost");
+Route::post("/th/thankyou", "THEmailController@thankyouPost");
+Route::get("/th/thankyou", "THEmailController@thankyouget");
 
 // email-id
-Route::get("/id/", "EmailController@registrationGetID");
-Route::get("/id/registration", "EmailController@registrationGetID");
-Route::post("/id/confirm", "EmailController@confirmPostID");
-Route::post("/id/thankyou", "EmailController@thankyouPostID");
-Route::get("/id/thankyou", "EmailController@thankyougetID");
+Route::get("/id/", "IDEmailController@registrationGet");
+Route::get("/id/registration", "IDEmailController@registrationGet");
+Route::post("/id/confirm", "IDEmailController@confirmPost");
+Route::post("/id/thankyou", "IDEmailController@thankyouPost");
+Route::get("/id/thankyou", "IDEmailController@thankyouget");
 
 // email-vn
-Route::get("/vn/", "EmailController@registrationGetVN");
-Route::get("/vn/registration", "EmailController@registrationGetVN");
-Route::post("/vn/confirm", "EmailController@confirmPostVN");
-Route::post("/vn/thankyou", "EmailController@thankyouPostVN");
-Route::get("/vn/thankyou", "EmailController@thankyougetVN");
+Route::get("/vn/", "VNEmailController@registrationGet");
+Route::get("/vn/registration", "VNEmailController@registrationGet");
+Route::post("/vn/confirm", "VNEmailController@confirmPost");
+Route::post("/vn/thankyou", "VNEmailController@thankyouPost");
+Route::get("/vn/thankyou", "VNEmailController@thankyouget");
+
+
 Route::get("/test", "TestController@test");

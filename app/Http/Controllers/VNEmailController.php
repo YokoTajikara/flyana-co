@@ -9,16 +9,16 @@ use Illuminate\Support\Arr;
 use Lang;
 
 /**
- * Class EmailController
+ * Class VNEmailController
  * @package App\Http\Controllers
  */
-class EmailController extends Controller
+class VNEmailController extends Controller
 {
-    private $language   = "en";
+    private $language   = "vn";
     private $genderList = [];
 
     /**
-     * EmailController constructor.
+     * VNEmailController constructor.
      */
     public function __construct()
     {
@@ -28,8 +28,8 @@ class EmailController extends Controller
         // 性別コンボボックスリスト
         $this->genderList = [
             ""       => Lang::get("messages.email_form_name_empty"),
-            "Male"   => "Male",
-            "Female" => "Female"
+            "Male"   => "Nam",
+            "Female" => "Nữ"
         ];
 
     }
@@ -96,7 +96,7 @@ class EmailController extends Controller
             // 入力画面へ
             \Session::set("email_error", $validRet->errors());
 
-            return redirect()->action('EmailController@registrationGet');
+            return redirect()->action('VNEmailController@registrationGet');
         }
 
         $data = [
@@ -140,7 +140,7 @@ class EmailController extends Controller
     public function thankyouGet(Request $request)
     {
         \Session::clear();
-        return redirect()->action('EmailController@registrationGet');
+        return redirect()->action('VNEmailController@registrationGet');
     }
 
     /**
