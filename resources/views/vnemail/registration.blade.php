@@ -127,7 +127,9 @@
                         <dl>
                             <dt><label for="residence_region">Khu vực cư trú</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
-                                {{Form::input('text','residence_region',array_get($form,'residence_region',$country_name),['size'=>35,'class'=>'text tf-required tf-en','placeholder'=>''])}}
+                                <div class="custom">
+                                    {{Form::select("residence_region",$countryList,array_get($form,'residence_region',$country_name),['id'=>'gender','class'=>'tf-required'])}}
+                                </div>
                                 {!! $errors->first('residence_region', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>

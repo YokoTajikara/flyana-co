@@ -16,6 +16,7 @@ class IDEmailController extends Controller
 {
     private $language   = "id";
     private $genderList = [];
+    private $countryList = [];
 
     /**
      * EmailController constructor.
@@ -27,10 +28,30 @@ class IDEmailController extends Controller
 
         // 性別コンボボックスリスト
         $this->genderList = [
-            ""       => Lang::get("messages.email_form_name_empty"),
+            ""       => "Silahkan Pilih",
             "Male"   => "Pria",
             "Female" => "Wanita"
         ];
+
+         // Regionコンボボックスリスト
+        $this->countryList = [
+            ""       => "Silahkan Pilih",
+            "Indonesia"   => "Indonesia",
+            "Australia"   => "Australia",
+            "Cambodia"   => "Cambodia",
+            "Hong Kong" => "Hong Kong",
+            "India"   => "India",
+            "Korea"   => "Korea",
+            "Malaysia"   => "Malaysia",
+            "Myanmar"   => "Myanmar",
+            "Singapore"   => "Singapore",
+            "Taiwan"   => "Taiwan",
+            "Thailand"   => "Thailand",
+            "The Philippines" => "The Philippines",
+            "Vietnam"   => "Vietnam",
+
+        ];
+
 
     }
 
@@ -67,6 +88,7 @@ class IDEmailController extends Controller
             "form"       => $form,
             "errors"     => $error,
             "genderList" => $this->genderList,
+            "countryList" => $this->countryList,
             "country_name" => $country_name
         ];
 
@@ -101,7 +123,8 @@ class IDEmailController extends Controller
 
         $data = [
             "form"       => $request->toArray(),
-            "genderList" => $this->genderList
+            "genderList" => $this->genderList,
+            "countryList" => $this->countryList
         ];
 
         return view('idemail.confirm', $data);

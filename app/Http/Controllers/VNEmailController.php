@@ -16,6 +16,7 @@ class VNEmailController extends Controller
 {
     private $language   = "vn";
     private $genderList = [];
+    private $countryList = [];
 
     /**
      * VNEmailController constructor.
@@ -27,9 +28,28 @@ class VNEmailController extends Controller
 
         // 性別コンボボックスリスト
         $this->genderList = [
-            ""       => Lang::get("messages.email_form_name_empty"),
+            ""       => "Vui lòng chọn",
             "Male"   => "Nam",
             "Female" => "Nữ"
+        ];
+
+        // Regionコンボボックスリスト
+        $this->countryList = [
+            ""       => "Vui lòng chọn",
+            "Vietnam"   => "Việt Nam",
+            "Australia"   => "Úc",
+            "Cambodia"   => "Cambodia",
+            "Hong Kong" => "Hồng Kông",
+            "India"   => "Ấn Độ",
+            "Indonesia"   => "Indonesia",
+            "Korea"   => "Hàn Quốc",
+            "Malaysia"   => "Malaysia",
+            "Myanmar"   => "Myanmar",
+            "Singapore"   => "Singapore",
+            "Taiwan"   => "Đài Loan",
+            "Thailand"   => "Thái Lan",
+            "The Philippines" => "Philippines",
+
         ];
 
     }
@@ -67,6 +87,7 @@ class VNEmailController extends Controller
             "form"       => $form,
             "errors"     => $error,
             "genderList" => $this->genderList,
+            "countryList" => $this->countryList,
             "country_name" => $country_name
         ];
 
@@ -101,7 +122,8 @@ class VNEmailController extends Controller
 
         $data = [
             "form"       => $request->toArray(),
-            "genderList" => $this->genderList
+            "genderList" => $this->genderList,
+            "countryList" => $this->countryList
         ];
 
         return view('vnemail.confirm', $data);

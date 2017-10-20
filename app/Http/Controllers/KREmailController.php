@@ -16,6 +16,7 @@ class KREmailController extends Controller
 {
     private $language   = "kr";
     private $genderList = [];
+    private $countryList = [];
 
     /**
      * KREmailController constructor.
@@ -27,9 +28,28 @@ class KREmailController extends Controller
 
         // 性別コンボボックスリスト
         $this->genderList = [
-            ""       => Lang::get("messages.email_form_name_empty"),
+            ""       => "선택해 주세요",
             "Male"   => "남",
             "Female" => "여"
+        ];
+
+        // Regionコンボボックスリスト
+        $this->countryList = [
+            ""       => "선택해 주세요",
+            "Korea"   => "한국",
+            "Australia"   => "호주",
+            "Cambodia"   => "캄보디아",
+            "Hong Kong" => "홍콩",
+            "India"   => "인도",
+            "Indonesia"   => "인도네시아",
+            "Malaysia"   => "말레이시아",
+            "Myanmar"   => "미얀마",
+            "Singapore"   => "싱가폴",
+            "Taiwan"   => "타이완",
+            "Thailand"   => "태국",
+            "The Philippines" => "필리핀",
+            "Vietnam"   => "베트남",
+
         ];
 
     }
@@ -67,6 +87,7 @@ class KREmailController extends Controller
             "form"       => $form,
             "errors"     => $error,
             "genderList" => $this->genderList,
+            "countryList" => $this->countryList,
             "country_name" => $country_name
         ];
 
@@ -101,7 +122,8 @@ class KREmailController extends Controller
 
         $data = [
             "form"       => $request->toArray(),
-            "genderList" => $this->genderList
+            "genderList" => $this->genderList,
+            "countryList" => $this->countryList
         ];
 
         return view('kremail.confirm', $data);

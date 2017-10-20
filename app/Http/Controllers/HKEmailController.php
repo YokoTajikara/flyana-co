@@ -16,6 +16,7 @@ class HKEmailController extends Controller
 {
     private $language   = "en";
     private $genderList = [];
+    private $countryList = [];
 
     /**
      * HKEmailController constructor.
@@ -27,9 +28,28 @@ class HKEmailController extends Controller
 
         // 性別コンボボックスリスト
         $this->genderList = [
-            ""       => Lang::get("messages.email_form_name_empty"),
+            ""       => "請選擇",
             "Male"   => "男性",
             "Female" => "女性"
+        ];
+
+        // Regionコンボボックスリスト
+        $this->countryList = [
+            ""       => "請選擇",
+            "Hong Kong" => "香港",
+            "Australia"   => "澳洲",
+            "Cambodia"   => "柬埔寨",
+            "India"   => "印尼",
+            "Indonesia"   => "印尼",
+            "Korea"   => "韓國",
+            "Malaysia"   => "馬來西亞",
+            "Myanmar"   => "緬甸",
+            "Singapore"   => "新加坡",
+            "Taiwan"   => "台灣",
+            "Thailand"   => "泰國",
+            "The Philippines" => "菲律賓",
+            "Vietnam"   => "越南",
+
         ];
 
     }
@@ -67,6 +87,7 @@ class HKEmailController extends Controller
             "form"       => $form,
             "errors"     => $error,
             "genderList" => $this->genderList,
+            "countryList" => $this->countryList,
             "country_name" => $country_name
         ];
 
@@ -101,7 +122,8 @@ class HKEmailController extends Controller
 
         $data = [
             "form"       => $request->toArray(),
-            "genderList" => $this->genderList
+            "genderList" => $this->genderList,
+            "countryList" => $this->countryList
         ];
 
         return view('hkemail.confirm', $data);
