@@ -43,15 +43,15 @@
 		});
 	</script>
 	 <script type="text/javascript">
-	 $('#js-target-select').minimalect({
-    onchange: function() {
-    $('#js-target-select').trigger('change');
-    }
-    });
+	 $('select').each(function() {
+	$(this).minimalect({
+		source: this,
+		onchange: function() {
+			$(this.source).trigger('change');
+		}
+	});
+});
 
-    $('#js-target-select').change(function(){
-    // do onchange event
-    });
     </script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
