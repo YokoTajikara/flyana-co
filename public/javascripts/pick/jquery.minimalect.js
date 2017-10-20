@@ -578,7 +578,7 @@
 			this._showResetLink();
 
 			// callback
-			this.options.onchange.call(this, ch.data("value"), ch.text());
+			// this.options.onchange.call(this, ch.data("value"), ch.text());
 		},
 
 		// clear the select
