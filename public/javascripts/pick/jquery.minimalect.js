@@ -578,7 +578,7 @@
 			this._showResetLink();
 
 			// callback
-			// this.options.onchange.call(this, ch.data("value"), ch.text());
+			this.options.onchange.call(this, ch.data("value"), ch.text());
 		},
 
 		// clear the select
@@ -649,15 +649,15 @@
 				$.data(this, "plugin_" + pluginName, new Plugin( this, options ));
 			}
 		});
-	};
-
-	$('select').each(function() {
-	$(this).minimalect({
-		source: this,
-		onchange: function() {
-			$(this.source).trigger('change');
-		}
-	});
+		$('#js-target-select').minimalect({
+  onchange: function() {
+    $('#js-target-select').trigger('change');
+  }
 });
+
+$('#js-target-select').change(function(){
+  // do onchange event
+});
+	};
 
 })( jQuery, window, document );
