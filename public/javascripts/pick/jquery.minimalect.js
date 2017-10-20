@@ -40,7 +40,7 @@
 		class_disabled: "disabled", // applied to list elements that are disabled
 		class_hidden: "hidden", // an item that doesn't match the filter search term
 		class_highlighted: "highlighted", // item highlighted by keyboard navigation
-		class_first: "minict_first", // first visible element
+		//class_first: "minict_first", // first visible element
 		class_last: "minict_last", // last visible element
 		class_reset: "minict_reset", // reset link
 
