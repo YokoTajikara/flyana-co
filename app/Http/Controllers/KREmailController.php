@@ -70,7 +70,7 @@ class KREmailController extends Controller
             "country_name" => $country_name
         ];
 
-        return view('email.registration', $data);
+        return view('kremail.registration', $data);
 
     }
 
@@ -104,7 +104,7 @@ class KREmailController extends Controller
             "genderList" => $this->genderList
         ];
 
-        return view('email.confirm', $data);
+        return view('kremail.confirm', $data);
 
     }
 
@@ -133,7 +133,7 @@ class KREmailController extends Controller
         }
 
 
-        return view('email.thanks');
+        return view('kremail.thanks');
 
     }
 

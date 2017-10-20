@@ -70,7 +70,7 @@ class THEmailController extends Controller
             "country_name" => $country_name
         ];
 
-        return view('email.registration', $data);
+        return view('themail.registration', $data);
 
     }
 
@@ -104,7 +104,7 @@ class THEmailController extends Controller
             "genderList" => $this->genderList
         ];
 
-        return view('email.confirm', $data);
+        return view('themail.confirm', $data);
 
     }
 
@@ -133,7 +133,7 @@ class THEmailController extends Controller
         }
 
 
-        return view('email.thanks');
+        return view('themail.thanks');
 
     }
 

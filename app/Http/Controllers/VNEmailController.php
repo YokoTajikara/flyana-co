@@ -70,7 +70,7 @@ class VNEmailController extends Controller
             "country_name" => $country_name
         ];
 
-        return view('email.registration', $data);
+        return view('vnemail.registration', $data);
 
     }
 
@@ -104,7 +104,7 @@ class VNEmailController extends Controller
             "genderList" => $this->genderList
         ];
 
-        return view('email.confirm', $data);
+        return view('vnemail.confirm', $data);
 
     }
 
@@ -133,7 +133,7 @@ class VNEmailController extends Controller
         }
 
 
-        return view('email.thanks');
+        return view('vnemail.thanks');
 
     }
 

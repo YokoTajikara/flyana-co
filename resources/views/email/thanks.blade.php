@@ -1,19 +1,5 @@
 ﻿<!DOCTYPE HTML>
-<?php if ('en' == $language) { ?>
 <html lang="en" class="en">
-<?php } else if ('tw' == $language) { ?>
-<html lang="zh" class="zh">
-<?php } else if ('hk' == $language) { ?>
-<html lang="zh" class="zh">
-<?php } else if ('kr' == $language) { ?>
-<html lang="ko" class="ko">
-<?php } else if ('th' == $language) { ?>
-<html lang="th" class="th">
-<?php } else if ('id' == $language) { ?>
-<html lang="in" class="in">
-<?php } else if ('vn' == $language) { ?>
-<html lang="vi" class="vi">
-<?php } ?>
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
@@ -72,42 +58,12 @@
         </div>
     </header>
 
-<?php if ('en' == $language) { ?>
+
     <div class="section-thanks">
         <h1 class="title">Thank you for registration!</h1>
         <h2 class="copy">Look forward to<br>first E-newsletter from ANA!</h2>
     </div>
-<?php } else if ('tw' == $language) { ?>
-    <div class="section-thanks">
-        <h1 class="title">感謝您的訂閱</h1>
-        <h2 class="copy">敬請期待您的<br />首份ANA電子報</h2>
-    </div>
-<?php } else if ('tw' == $language) { ?>
-    <div class="section-thanks">
-        <h1 class="title">등록해 주셔서 감사합니다!</h1>
-        <h2 class="copy">ANA로부터의 첫 소식을 많이 기대해 주세요!</h2>
-    </div>
-<?php } else if ('hk' == $language) { ?>
-    <div class="section-thanks">
-        <h1 class="title">感謝你的訂閱</h1>
-        <h2 class="copy">請期待下一份送上的<br>ANA E-newsletter!</h2>
-    </div>
-<?php } else if ('vn' == $language) { ?>
-    <div class="section-thanks">
-        <h1 class="title">Cám ơn quý khách đã đăng ký!</h1>
-        <h2 class="copy">Mong chờ bản tin đầu tiên từ ANA!</h2>
-    </div>
-<?php } else if ('th' == $language) { ?>
-    <div class="section-thanks">
-        <h1 class="title">ขอบคุณสำหรับการลงทะเบียน</h1>
-        <h2 class="copy">โปรดรอรับจดหมายข่าวฉบับแรกจาก ANA</h2>
-    </div>
-<?php } else if ('id' == $language) { ?>
-    <div class="section-thanks">
-        <h1 class="title">Terima kasih telah mendaftar!</h1>
-        <h2 class="copy">Nantikan E-newsletter pertama dari ANA!</h2>
-    </div>
-<?php } ?>
+
     <footer>
         <div class="container">
             <div class="row">

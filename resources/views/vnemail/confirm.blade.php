@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE HTML>
-<html lang="en" class="en">
+<html lang="vi" class="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
@@ -60,7 +60,7 @@
 
     <section class="section-mainvisual">
         <div class="mainimg">
-            <h1 class="title">Sign up for ANA E-newsletter</h1>
+            <h1 class="title">Đăng ký nhận bản tin điện tử của ANA</h1>
         </div>
     </section>
 
@@ -68,28 +68,28 @@
         <div class="container">
             <div class="step-number">
                 <ol>
-                    <li>Input</li>
-                    <li class="current">Confirmation</li>
-                    <li>Completion</li>
+                    <li>Nhập thông tin</li>
+                    <li class="current">Xác nhận</li>
+                    <li>Hoàn tất</li>
                 </ol>
             </div>
 
             <!-- form -->
-            <form method="POST" action="/thankyou" accept-charset="UTF-8" id="" name="">
+            <form method="POST" action="/vn/thankyou" accept-charset="UTF-8" id="" name="">
                 {!! csrf_field() !!}
 
                 <div class="contents_form">
                     <div class="form-input">
                         <dl>
-                            <dt>First Name <span class="form--attention">*</span></dt>
+                            <dt>Tên (Chữ cái) <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{ array_get($form, 'first_name') }}</dd>
                         </dl>
                         <dl>
-                            <dt>Last Name <span class="form--attention">*</span></dt>
+                            <dt>Họ (Chữ cái) <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{ array_get($form, 'last_name') }}</dd>
                         </dl>
                         <dl>
-                            <dt>Gender <span class="form--attention">*</span></dt>
+                            <dt>Giới tính <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{$genderList[array_get($form,'gender')]}}</dd>
                         </dl>
                         <dl>
@@ -97,14 +97,14 @@
                             <dd class="wifi-cam-confirm">{{array_get($form,'email')}}</dd>
                         </dl>
                         <dl>
-                            <dt>Residence Region <span class="form--attention">*</span></dt>
+                            <dt>Khu vực cư trú <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{array_get($form,'residence_region')}}</dd>
                         </dl>
 
                         <div class="form-checkbox agree_newsletter wifi-cam-confirm-list">
                             <p class="agree_newsletter">
                                 @if (array_get($form,'agree_newsletter',false)) <i class="fa fa-check " aria-hidden="true"></i> @else <i></i> @endif
-                                <span>Yes, I would like to receive e-newsletter from ANA.</span></p>
+                                <span>Vâng, tôi đồng ý nhận bản tin điện tử từ ANA.</span></p>
                         </div>
                     </div>
                     <!-- /form-input -->
@@ -113,9 +113,9 @@
 
                         <div class="submit-btn confirm-btn">
                             <button type="button" class="back" id="back-btn" name="back-btn" value="BACK" onclick="location.href='/registration'">
-                                <i class="fa-angle-left"></i>Back
+                                <i class="fa-angle-left"></i>Trở về
                             </button>
-                            <button type="submit" class="send" name="regist-btn" value="REGIST">Submit
+                            <button type="submit" class="send" name="regist-btn" value="REGIST">Gửi
                                 <i class="fa-angle-right"></i>
                             </button>
                         </div>
@@ -130,6 +130,7 @@
 
     </div>
     <!-- /registration -->
+
 
     <footer>
         <div class="container">

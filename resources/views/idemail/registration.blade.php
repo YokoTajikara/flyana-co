@@ -1,5 +1,5 @@
-﻿<!DOCTYPE HTML>
-<html lang="en" class="en">
+<!DOCTYPE HTML>
+<html lang="in" class="in">
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
@@ -44,6 +44,7 @@
 
 </script>
 
+
 </head>
 
 <body class="page-en">
@@ -58,9 +59,10 @@
         </div>
     </header>
 
+
     <section class="section-mainvisual">
         <div class="mainimg">
-            <h1 class="title">Sign up for ANA E-newsletter</h1>
+            <h1 class="title">Pendaftaran ANA E-newsletter</h1>
         </div>
     </section>
 
@@ -68,56 +70,83 @@
         <div class="container">
             <div class="step-number">
                 <ol>
-                    <li>Input</li>
-                    <li class="current">Confirmation</li>
-                    <li>Completion</li>
+                    <li class="current">Memasukkan</li>
+                    <li>Setuju</li>
+                    <li>Penamatan</li>
                 </ol>
             </div>
 
             <!-- form -->
-            <form method="POST" action="/thankyou" accept-charset="UTF-8" id="" name="">
+            <form method="POST" action="/id/confirm" accept-charset="UTF-8" id="" name="">
                 {!! csrf_field() !!}
 
                 <div class="contents_form">
                     <div class="form-input">
                         <dl>
-                            <dt>First Name <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{ array_get($form, 'first_name') }}</dd>
+                            <dt><label for="first_name">Nama Depan (Alfabet)</label> <span class="form--attention">*</span></dt>
+                            <dd class="wifi-cam">
+                                {{Form::input('text','first_name',array_get($form,'first_name'),['maxlength'=>'40','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Taro (Nama pemberian)'])}}
+                                <p class="tf-message-first_name-required message"> Masukkan Nama Depan.</p>
+                                {!! $errors->first('first_name', '<p class="error">:message</p>') !!}
+                            </dd>
                         </dl>
                         <dl>
-                            <dt>Last Name <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{ array_get($form, 'last_name') }}</dd>
+                            <dt><label for="last_name">Nama Belakang (Alfabet)</label> <span class="form--attention">*</span></dt>
+                            <dd class="wifi-cam">
+                                {{Form::input('text','last_name',array_get($form,'last_name'),['maxlength'=>'80','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Sorano (Nama Keluarga)'])}}
+
+                                <p class="tf-message-last_name-required message"> Masukkan Nama Belakang</p>
+                                {!! $errors->first('last_name', '<p class="error">:message</p>') !!}
+                            </dd>
                         </dl>
                         <dl>
-                            <dt>Gender <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{$genderList[array_get($form,'gender')]}}</dd>
+                            <dt><label for="gender">Jenis Kelamin</label> <span class="form--attention">*</span></dt>
+                            <dd class="wifi-cam">
+                                <div class="custom">
+                                    {{Form::select("gender",$genderList,array_get($form,'gender'),['id'=>'gender','class'=>'tf-required'])}}
+                                </div>
+                                {!! $errors->first('gender', '<p class="error">:message</p>') !!}
+                            </dd>
                         </dl>
                         <dl>
-                            <dt>Email <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{array_get($form,'email')}}</dd>
-                        </dl>
-                        <dl>
-                            <dt>Residence Region <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{array_get($form,'residence_region')}}</dd>
+                            <dt><label for="email">Email</label> <span class="form--attention">*</span></dt>
+                            <dd class="wifi-cam">
+                                <input size="35" class="text tf-required tf-email" placeholder="sorano-taro@ana.com" name="email" type="text" value="{{array_get($form,'email')}}" maxlength="50">
+                                <p class="tf-message-email-required message"> messages.s25_form_error_mail_required</p>
+                                {!! $errors->first('email', '<p class="error">:message</p>') !!}
+                            </dd>
                         </dl>
 
-                        <div class="form-checkbox agree_newsletter wifi-cam-confirm-list">
+                        <dl>
+                            <dt><label for="email_confirm">Konfirmasi Email  <span class="form--attention">*</span></label></dt>
+                            <dd class="wifi-cam">
+                                <input id="email_confirm" size="35" class="text tf-required" placeholder="sorano-taro@ana.com" name="email_confirm" type="text" value="{{array_get($form,'email_confirm')}}" maxlength="50">
+                                {!! $errors->first('email_confirm', '<p class="error">:message</p>') !!}
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><label for="residence_region">Negara</label> <span class="form--attention">*</span></dt>
+                            <dd class="wifi-cam">
+                                {{Form::input('text','residence_region',array_get($form,'residence_region',$country_name),['size'=>35,'class'=>'text tf-required tf-en','placeholder'=>''])}}
+                                {!! $errors->first('residence_region', '<p class="error">:message</p>') !!}
+                            </dd>
+                        </dl>
+
+                        <div class="form-checkbox agree_newsletter">
                             <p class="agree_newsletter">
-                                @if (array_get($form,'agree_newsletter',false)) <i class="fa fa-check " aria-hidden="true"></i> @else <i></i> @endif
-                                <span>Yes, I would like to receive e-newsletter from ANA.</span></p>
+                            <p class="agree_newsletter"><input id="agree_newsletter" class="checkbox" checked="checked" name="agree_newsletter" type="checkbox" value="1"><label for="agree_newsletter" class="checkbox"><span>Saya setuju untuk menerima e-newsletter dari ANA.</span></label></p>
+                            {!! $errors->first('agree_newsletter', '<p class="error">:message</p>') !!}
                         </div>
                     </div>
                     <!-- /form-input -->
 
-                    <div class="form-btn wifi-cam-confirm-list">
+                    <div class="form-note">
+                        <p>B"Dengan mengisi formulir pendaftaran ANA e-Newsletter ini, Anda memastikan bahwa usia Anda minimal 18 tahun. Kami hanya akan menggunakan informasi pribadi yang Anda berikan dalam formulir pendaftaran ini sesuai dengan kebijakan privasi dan akan mematuhi permintaan Anda yang ditunjukkan di atas serta setiap perubahan atas permintaan yang Anda nyatakan di masa depan, mengenai penerimaan materi penawaran dari ANA.</p>
+                    </div>
 
-                        <div class="submit-btn confirm-btn">
-                            <button type="button" class="back" id="back-btn" name="back-btn" value="BACK" onclick="location.href='/registration'">
-                                <i class="fa-angle-left"></i>Back
-                            </button>
-                            <button type="submit" class="send" name="regist-btn" value="REGIST">Submit
-                                <i class="fa-angle-right"></i>
-                            </button>
+                    <div class="form-btn">
+                        <div class="submit-btn">
+                            <button type="submit" name="confirm-btn" id="submit" class="submit" value="CONFIRM">Setuju<i class="fa-angle-right"></i></button>
                         </div>
                     </div>
 
@@ -130,6 +159,7 @@
 
     </div>
     <!-- /registration -->
+
 
     <footer>
         <div class="container">
@@ -146,20 +176,20 @@
 <a title="Scroll to top" class="scrollup" href="#"><i class="fa fa-angle-up"></i></a>
 
 <script>
-    $(document).ready(function(){
-        $('#policy').on('change', function () {
-            if ($(this).prop('checked')) {
-                $('#submit').removeAttr('disabled').removeClass('disabled');
-            }else{
-                $('#submit').attr('disabled','disabled').addClass('disabled');
-            }
-        });
-        $('#policy').trigger('change');
+  $(document).ready(function(){
+    $('#agree_newsletter').on('change', function () {
+      if ($(this).prop('checked')) {
+        $('#submit').removeAttr('disabled').removeClass('disabled');
+      }else{
+        $('#submit').attr('disabled','disabled').addClass('disabled');
+      }
     });
+    $('#agree_newsletter').trigger('change');
+  });
 </script>
 
-<script type="text/javascript">
-	$(".boxer").boxer();
+<script>
+  $(".boxer").boxer();
 </script>
 
 

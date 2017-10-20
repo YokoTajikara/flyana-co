@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE HTML>
-<html lang="en" class="en">
+<html lang="zh" class="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
@@ -58,9 +58,10 @@
         </div>
     </header>
 
+
     <section class="section-mainvisual">
         <div class="mainimg">
-            <h1 class="title">Sign up for ANA E-newsletter</h1>
+            <h1 class="title">立即訂閱 ANA E-Newsletter</h1>
         </div>
     </section>
 
@@ -68,43 +69,43 @@
         <div class="container">
             <div class="step-number">
                 <ol>
-                    <li>Input</li>
-                    <li class="current">Confirmation</li>
-                    <li>Completion</li>
+                    <li>輸入</li>
+                    <li class="current">確認</li>
+                    <li>完成</li>
                 </ol>
             </div>
 
             <!-- form -->
-            <form method="POST" action="/thankyou" accept-charset="UTF-8" id="" name="">
+            <form method="POST" action="/hk/thankyou" accept-charset="UTF-8" id="" name="">
                 {!! csrf_field() !!}
 
                 <div class="contents_form">
                     <div class="form-input">
                         <dl>
-                            <dt>First Name <span class="form--attention">*</span></dt>
+                            <dt>名字 (英文) <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{ array_get($form, 'first_name') }}</dd>
                         </dl>
                         <dl>
-                            <dt>Last Name <span class="form--attention">*</span></dt>
+                            <dt>姓氏 (英文) <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{ array_get($form, 'last_name') }}</dd>
                         </dl>
                         <dl>
-                            <dt>Gender <span class="form--attention">*</span></dt>
+                            <dt>性別 <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{$genderList[array_get($form,'gender')]}}</dd>
                         </dl>
                         <dl>
-                            <dt>Email <span class="form--attention">*</span></dt>
+                            <dt>電郵地址 <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{array_get($form,'email')}}</dd>
                         </dl>
                         <dl>
-                            <dt>Residence Region <span class="form--attention">*</span></dt>
+                            <dt>居住地區 <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{array_get($form,'residence_region')}}</dd>
                         </dl>
 
                         <div class="form-checkbox agree_newsletter wifi-cam-confirm-list">
                             <p class="agree_newsletter">
                                 @if (array_get($form,'agree_newsletter',false)) <i class="fa fa-check " aria-hidden="true"></i> @else <i></i> @endif
-                                <span>Yes, I would like to receive e-newsletter from ANA.</span></p>
+                                <span>是，我希望收到 ANA E-Newsletter</span></p>
                         </div>
                     </div>
                     <!-- /form-input -->
@@ -113,9 +114,9 @@
 
                         <div class="submit-btn confirm-btn">
                             <button type="button" class="back" id="back-btn" name="back-btn" value="BACK" onclick="location.href='/registration'">
-                                <i class="fa-angle-left"></i>Back
+                                <i class="fa-angle-left"></i>返回
                             </button>
-                            <button type="submit" class="send" name="regist-btn" value="REGIST">Submit
+                            <button type="submit" class="send" name="regist-btn" value="REGIST">登記
                                 <i class="fa-angle-right"></i>
                             </button>
                         </div>
@@ -130,6 +131,7 @@
 
     </div>
     <!-- /registration -->
+
 
     <footer>
         <div class="container">
