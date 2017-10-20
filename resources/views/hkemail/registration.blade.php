@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="zh-cmn-Hant-HK" class="zh">
+<html lang="zh-HK" class="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">

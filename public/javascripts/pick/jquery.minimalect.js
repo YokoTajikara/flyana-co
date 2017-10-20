@@ -651,4 +651,13 @@
 		});
 	};
 
+	$('select').each(function() {
+	$(this).minimalect({
+		source: this,
+		onchange: function() {
+			$(this.source).trigger('change');
+		}
+	});
+});
+
 })( jQuery, window, document );
