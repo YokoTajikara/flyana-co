@@ -1,1 +1,0 @@
-<a href="http://twitter.com/share?url={{ $shareUrl or 'https://' . $_SERVER['HTTP_HOST'] }}" onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=550, height=410, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" rel="nofollow" target="_blank">

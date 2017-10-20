@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="en">
+<html lang="zh" class="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
@@ -61,7 +61,7 @@
 
     <section class="section-mainvisual">
         <div class="mainimg">
-            <h1 class="title">Sign up for ANA E-newsletter</h1>
+            <h1 class="title">立即訂閱ANA電子報</h1>
         </div>
     </section>
 
@@ -69,37 +69,37 @@
         <div class="container">
             <div class="step-number">
                 <ol>
-                    <li class="current">Input</li>
-                    <li>Confirmation</li>
-                    <li>Completion</li>
+                    <li class="current">輸入</li>
+                    <li>確認</li>
+                    <li>完成</li>
                 </ol>
             </div>
 
             <!-- form -->
-            <form method="POST" action="/confirm" accept-charset="UTF-8" id="" name="">
+            <form method="POST" action="/tw/confirm" accept-charset="UTF-8" id="" name="">
                 {!! csrf_field() !!}
 
                 <div class="contents_form">
                     <div class="form-input">
                         <dl>
-                            <dt><label for="first_name">First Name</label> <span class="form--attention">*</span></dt>
+                            <dt><label for="first_name">名字拼音(英文)</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
-                                {{Form::input('text','first_name',array_get($form,'first_name'),['maxlength'=>'40','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Taro (Given name)'])}}
-                                <p class="tf-message-first_name-required message"> Please enter first name.</p>
+                                {{Form::input('text','first_name',array_get($form,'first_name'),['maxlength'=>'40','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Taro (名字)'])}}
+                                <p class="tf-message-first_name-required message"> 請輸入名字拼音(英文)</p>
                                 {!! $errors->first('first_name', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>
                         <dl>
-                            <dt><label for="last_name">Last Name</label> <span class="form--attention">*</span></dt>
+                            <dt><label for="last_name">姓氏拼音(英文)</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
-                                {{Form::input('text','last_name',array_get($form,'last_name'),['maxlength'=>'80','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Sorano (Surname)'])}}
+                                {{Form::input('text','last_name',array_get($form,'last_name'),['maxlength'=>'80','size'=>35,'class'=>'text tf-required tf-en','placeholder'=>'Sorano (姓氏)'])}}
 
-                                <p class="tf-message-last_name-required message"> Please enter last name.</p>
+                                <p class="tf-message-last_name-required message"> 請輸入姓氏拼音(英文)</p>
                                 {!! $errors->first('last_name', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>
                         <dl>
-                            <dt><label for="gender">Gender</label> <span class="form--attention">*</span></dt>
+                            <dt><label for="gender">性別</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
                                 <div class="custom">
                                     {{Form::select("gender",$genderList,array_get($form,'gender'),['id'=>'gender','class'=>'tf-required'])}}
@@ -108,7 +108,7 @@
                             </dd>
                         </dl>
                         <dl>
-                            <dt><label for="email">Email</label> <span class="form--attention">*</span></dt>
+                            <dt><label for="email">電子信箱地址</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
                                 <input size="35" class="text tf-required tf-email" placeholder="sorano-taro@ana.com" name="email" type="text" value="{{array_get($form,'email')}}" maxlength="50">
                                 <p class="tf-message-email-required message"> messages.s25_form_error_mail_required</p>
@@ -117,14 +117,14 @@
                         </dl>
 
                         <dl>
-                            <dt><label for="email_confirm">Email <span>(Confirmation)</span> <span class="form--attention">*</span></label></dt>
+                            <dt><label for="email_confirm">請您確認電子信箱地址<span class="form--attention">*</span></label></dt>
                             <dd class="wifi-cam">
                                 <input id="email_confirm" size="35" class="text tf-required" placeholder="sorano-taro@ana.com" name="email_confirm" type="text" value="{{array_get($form,'email_confirm')}}" maxlength="50">
                                 {!! $errors->first('email_confirm', '<p class="error">:message</p>') !!}
                             </dd>
                         </dl>
                         <dl>
-                            <dt><label for="residence_region">Residence Region</label> <span class="form--attention">*</span></dt>
+                            <dt><label for="residence_region">居住地區</label> <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam">
                                 {{Form::input('text','residence_region',array_get($form,'residence_region',$country_name),['size'=>35,'class'=>'text tf-required tf-en','placeholder'=>''])}}
                                 {!! $errors->first('residence_region', '<p class="error">:message</p>') !!}
@@ -133,20 +133,19 @@
 
                         <div class="form-checkbox agree_newsletter">
                             <p class="agree_newsletter">
-                            <p class="agree_newsletter"><input id="agree_newsletter" class="checkbox" checked="checked" name="agree_newsletter" type="checkbox" value="1"><label for="agree_newsletter" class="checkbox"><span>Yes, I would like to receive e-newsletter from ANA.</span></label></p>
+                            <p class="agree_newsletter"><input id="agree_newsletter" class="checkbox" checked="checked" name="agree_newsletter" type="checkbox" value="1"><label for="agree_newsletter" class="checkbox"><span>是，我願意收到ANA的電子報</span></label></p>
                             {!! $errors->first('agree_newsletter', '<p class="error">:message</p>') !!}
                         </div>
                     </div>
                     <!-- /form-input -->
 
                     <div class="form-note">
-                        <p>By submitting this ANA e-Newsletter enrollment form you acknowledge to ANA that you are at least 18 years of age.<br>
-                            ANA will only use the personal information you provide in this sign up form in accordance with <a href="http://www.ana.co.jp/wws/privacy/e/ana.html" target="_blank">ANA's privacy policy</a>, and ANA will comply with your requests indicated above, and any changes to those requests you indicate in the future, regarding the receipt of marketing materials from ANA.</p>
+                        <p>"當您同意透過本網站註冊ANA電子報,即表明您已年滿18歲或以上。當您完成填寫並送出個人資料後，即視同您充分瞭解及同意ANA依據<a href="http://www.ana.co.jp/wws/privacy/tw/ana.html" target="_blank">「隱私權政策」</a>蒐集、處理、利用 您所提供的個人資料而進行行銷相關活動。ANA將依據您同意接收或者未來選擇退出接收訊息的需求而繼續或停止發送相關行銷推廣訊息。</p>
                     </div>
 
                     <div class="form-btn">
                         <div class="submit-btn">
-                            <button type="submit" name="confirm-btn" id="submit" class="submit" value="CONFIRM">Confirm<i class="fa-angle-right"></i></button>
+                            <button type="submit" name="confirm-btn" id="submit" class="submit" value="CONFIRM">確認<i class="fa-angle-right"></i></button>
                         </div>
                     </div>
 

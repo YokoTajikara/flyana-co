@@ -70,7 +70,7 @@ class TWEmailController extends Controller
             "country_name" => $country_name
         ];
 
-        return view('email.registration', $data);
+        return view('twemail.registration', $data);
 
     }
 
@@ -104,7 +104,7 @@ class TWEmailController extends Controller
             "genderList" => $this->genderList
         ];
 
-        return view('email.confirm', $data);
+        return view('twemail.confirm', $data);
 
     }
 
@@ -133,7 +133,7 @@ class TWEmailController extends Controller
         }
 
 
-        return view('email.thanks');
+        return view('twemail.thanks');
 
     }
 
