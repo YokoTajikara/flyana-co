@@ -36,6 +36,11 @@ a:hover {
 	text-align:right;
 	float: right; display: inline-block;
 }
+.text-right-side {
+	width:20%;
+	text-align:left;
+	float: right; display: inline-block;
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -152,6 +157,13 @@ footer a:hover {
 		width:132px;
 		text-align:left;
 		float: right; display: inline-block;
+	}
+	header .text-right-side {
+		width:22%;
+		text-align:left;
+		float: left;
+		display: flex;
+		padding-left: 5%;
 	}
 	header .nav {
 		padding-top:2%;

@@ -64,12 +64,12 @@
                 <div class="col-xs-12 text-left">
                     <a href="/"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
-                <div class="col-xs-12 text-right">
-                    <select id="lang">
+                <div class="col-xs-12 text-right-side">
+                    <select id="lang" onchange="location.href=value">
                         <option value="/tw/">台灣中文</option>
                         <option value="/hk/">香港中文</option>
                         <option value="/kr/">한글</option>
-                        <option value="/id/">Bahasa Indonesia</option>
+                        <option value="/id/">Indonesia</option>
                         <option value="/th/">ภาษาไทย</option>
                         <option value="/vn/">Việt Nam</option>
                   </select>
