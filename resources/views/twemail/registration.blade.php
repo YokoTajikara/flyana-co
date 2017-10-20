@@ -68,6 +68,7 @@
                 </div>
                 <div class="col-xs-12 text-right-side">
                     <select id="lang" onchange="location.href=value">
+                        <option value="#" class="selected">台灣中文</li>
                         <option value="/">English</option>
                         <option value="/hk/">香港中文</option>
                         <option value="/kr/">한글</option>
