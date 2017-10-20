@@ -122,7 +122,7 @@ class EmailController extends Controller
 
         $data = [
             "form"       => $request->toArray(),
-            "genderList" => $this->genderList
+            "genderList" => $this->genderList,
             "countryList" => $this->countryList
         ];
 
