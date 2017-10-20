@@ -38,7 +38,7 @@
 		class_empty: "minict_empty", // "No results" message
 		class_active: "active", // applied to wrapper when the dropdown is displayed
 		class_disabled: "disabled", // applied to list elements that are disabled
-		//class_selected: "selected", // the currently selected item in the dropdown
+		class_selected: "selected", // the currently selected item in the dropdown
 		class_hidden: "hidden", // an item that doesn't match the filter search term
 		class_highlighted: "highlighted", // item highlighted by keyboard navigation
 		//class_first: "minict_first", // first visible element
