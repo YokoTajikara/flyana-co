@@ -14,7 +14,7 @@ use Lang;
  */
 class HKEmailController extends Controller
 {
-    private $language   = "en";
+    private $language   = "hk";
     private $genderList = [];
     private $countryList = [];
 
