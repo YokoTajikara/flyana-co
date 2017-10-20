@@ -1,19 +1,5 @@
 <!DOCTYPE HTML>
-<?php if ('en' == $language) { ?>
-<html lang="en" class="en">
-<?php } else if ('tw' == $language) { ?>
-<html lang="zh" class="zh">
-<?php } else if ('hk' == $language) { ?>
-<html lang="zh" class="zh">
-<?php } else if ('kr' == $language) { ?>
-<html lang="ko" class="ko">
-<?php } else if ('th' == $language) { ?>
-<html lang="th" class="th">
-<?php } else if ('id' == $language) { ?>
-<html lang="in" class="in">
-<?php } else if ('vn' == $language) { ?>
-<html lang="vi" class="vi">
-<?php } ?>
+<html lang={{$language}}>
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
