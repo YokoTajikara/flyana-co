@@ -38,7 +38,7 @@ class EmailController extends Controller
             ""       => Lang::get("messages.email_form_name_empty"),
             "Australia"   => "Australia",
             "Cambodia"   => "Cambodia",
-            "Hong Kong" => "Hong Kong"
+            "Hong Kong" => "Hong Kong",
             "India"   => "India",
             "Indonesia"   => "Indonesia",
             "Korea"   => "Korea",
@@ -47,7 +47,7 @@ class EmailController extends Controller
             "Singapore"   => "Singapore",
             "Taiwan"   => "Taiwan",
             "Thailand"   => "Thailand",
-            "The Philippines" => "The Philippines"
+            "The Philippines" => "The Philippines",
             "Vietnam"   => "Vietnam",
 
         ];
