@@ -38,7 +38,6 @@
 		class_empty: "minict_empty", // "No results" message
 		class_active: "active", // applied to wrapper when the dropdown is displayed
 		class_disabled: "disabled", // applied to list elements that are disabled
-		class_selected: "selected", // the currently selected item in the dropdown
 		class_hidden: "hidden", // an item that doesn't match the filter search term
 		class_highlighted: "highlighted", // item highlighted by keyboard navigation
 		class_first: "minict_first", // first visible element
@@ -48,7 +47,7 @@
 		// callbacks
 		beforeinit: function(){}, // called before Minimalect is initialized
 		afterinit: function(){}, // called right after Minimalect is initialized
-		onchange: function(){}, // called whenever the user changes the selected value
+		// onchange: function(){}, // called whenever the user changes the selected value
 		onopen: function(){}, // called when the dropdown is displayed
 		onclose: function(){}, // called when the dropdown is hidden
 		onfilter: function(){} // called every time the filter has been activated
@@ -78,7 +77,7 @@
 
 			var op = this.options,
 				m = this;
-				
+
 			if(op.ajax)
 				op.live = false;
 
@@ -248,7 +247,7 @@
 						m.wrapper.removeClass(op.class_disabled);
 				}, 100);
 			}
- 
+
 
 			// after init callback
 			op.afterinit();
@@ -550,7 +549,7 @@
 
 			// if it's disabled, au revoir
 			if(ch.hasClass(this.options.class_disabled)) return false;
-			
+
 			if(!op.live)
 				this.items = this.wrapper.find('li');
 
