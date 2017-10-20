@@ -12,15 +12,15 @@ return [
     'ph-email_form_error_name_Residence_Region__c_required' => 'Please enter your Residence Region.',
     "ph-email_form_name_empty"                              => "Please select",
 
-    //email
-    'email_form_error_name_First_Name__c_required'       => '請以英文輸入名字',
-    'email_form_error_name_Last_Name__c_required'        => '請以英文輸入姓氏',
-    'email_form_error_name_Gender__c_required'           => '請選擇性別',
-    'email_form_error_name_Email_required'               => '請輸入電郵地址',
-    'email_form_error_name_Email_email'                  => '請輸入有效的電郵地址',
-    'email_form_error_name_Email_confirm_required'       => '請再次確認電郵地址',
-    'email_form_error_name_Email_confirm_same'           => '電郵地址資料不符',
-    'email_form_error_name_Residence_Region__c_required' => '請選擇你居住的地區',
+    //emai
+    'email_form_error_name_First_Name__c_required'       => 'Masukkan Nama Depan',
+    'email_form_error_name_Last_Name__c_required'        => 'Masukkan Nama Belakang',
+    'email_form_error_name_Gender__c_required'           => 'Masukkan Jenis Kelamin',
+    'email_form_error_name_Email_required'               => 'Masukkan alamat Email',
+    'email_form_error_name_Email_email'                  => 'Masukkan alamat Email yang berlaku',
+    'email_form_error_name_Email_confirm_required'       => 'Masukkan alamat Email (Konfirmasi)',
+    'email_form_error_name_Email_confirm_same'           => 'Alamat Email tidak sesuai',
+    'email_form_error_name_Residence_Region__c_required' => 'Pilih area tempat tinggal Anda',
     "email_form_name_empty"                              => "Please select",
 
     // anayose2017manila

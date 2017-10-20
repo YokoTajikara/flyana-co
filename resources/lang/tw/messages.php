@@ -13,14 +13,14 @@ return [
     "ph-email_form_name_empty"                              => "Please select",
 
     //email
-    'email_form_error_name_First_Name__c_required'       => '請以英文輸入名字',
-    'email_form_error_name_Last_Name__c_required'        => '請以英文輸入姓氏',
+    'email_form_error_name_First_Name__c_required'       => '請輸入名字拼音(英文)',
+    'email_form_error_name_Last_Name__c_required'        => '請輸入姓氏拼音(英文)',
     'email_form_error_name_Gender__c_required'           => '請選擇性別',
-    'email_form_error_name_Email_required'               => '請輸入電郵地址',
-    'email_form_error_name_Email_email'                  => '請輸入有效的電郵地址',
-    'email_form_error_name_Email_confirm_required'       => '請再次確認電郵地址',
-    'email_form_error_name_Email_confirm_same'           => '電郵地址資料不符',
-    'email_form_error_name_Residence_Region__c_required' => '請選擇你居住的地區',
+    'email_form_error_name_Email_required'               => '請輸入電子信箱',
+    'email_form_error_name_Email_email'                  => '請輸入有效的電子信箱',
+    'email_form_error_name_Email_confirm_required'       => '請再次確認電子信箱',
+    'email_form_error_name_Email_confirm_same'           => '電子信箱資料有誤',
+    'email_form_error_name_Residence_Region__c_required' => '請選擇您所居住的地區',
     "email_form_name_empty"                              => "Please select",
 
     // anayose2017manila

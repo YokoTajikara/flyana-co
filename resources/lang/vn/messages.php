@@ -13,14 +13,14 @@ return [
     "ph-email_form_name_empty"                              => "Please select",
 
     //email
-    'email_form_error_name_First_Name__c_required'       => '請以英文輸入名字',
-    'email_form_error_name_Last_Name__c_required'        => '請以英文輸入姓氏',
-    'email_form_error_name_Gender__c_required'           => '請選擇性別',
-    'email_form_error_name_Email_required'               => '請輸入電郵地址',
-    'email_form_error_name_Email_email'                  => '請輸入有效的電郵地址',
-    'email_form_error_name_Email_confirm_required'       => '請再次確認電郵地址',
-    'email_form_error_name_Email_confirm_same'           => '電郵地址資料不符',
-    'email_form_error_name_Residence_Region__c_required' => '請選擇你居住的地區',
+    'email_form_error_name_First_Name__c_required'       => 'Vui lòng nhập Tên',
+    'email_form_error_name_Last_Name__c_required'        => 'Vui lòng nhập Họ',
+    'email_form_error_name_Gender__c_required'           => 'Vui lòng chọn Giới tính',
+    'email_form_error_name_Email_required'               => 'Vui lòng nhập địa chỉ email',
+    'email_form_error_name_Email_email'                  => 'Vui lòng nhập địa chỉ email phù hợp',
+    'email_form_error_name_Email_confirm_required'       => 'Vui lòng nhập địa chỉ email (xác nhận)',
+    'email_form_error_name_Email_confirm_same'           => 'Đỉa chỉ email không giống',
+    'email_form_error_name_Residence_Region__c_required' => 'Vui lòng chọn khu vực cư trú',
     "email_form_name_empty"                              => "Please select",
 
     // anayose2017manila

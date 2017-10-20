@@ -13,105 +13,121 @@ return [
     |
     */
 
-    "accepted"         => ":attributeが確認されていません。",
-    "active_url"       => ":attributeは無効なURLです。",
-    "after"            => ":attributeは:dateより後の日付でなければなりません。",
-    "alpha"            => ":attributeにはアルファベット以外使用できません。",
-    "alpha_dash"       => ":attributeにはアルファベット、数字、ハイフン、アンダーバー以外使用できません。",
-    "alpha_num"        => ":attributeにはアルファベット、数字以外使用できません。",
-    "before"           => ":attributeは:dateより前の日付でなければなりません。",
-    "between"          => array(
-        "numeric" => ":attributeは:min～:maxの範囲である必要があります。",
-        "file"    => ":attributeのファイルサイズは:min～:maxキロバイトの範囲である必要があります。",
-        "string"  => ":attributeの長さは:min～:max文字の範囲である必要があります。",
-    ),
-    "confirmed"        => ":attributeは確認欄と一致しませんでした。",
-    "date"             => ":attributeは正しい日付ではありません。",
-    "date_format"      => ":attributeは:format形式ではありません。",
-    "different"        => ":attributeと:otherは異なる必要があります。",
-    "digits"           => ":attributeは:digits桁である必要があります。",
-    "digits_between"   => ":attributeは:min～:max桁の範囲である必要があります。",
-    "email"            => "正しいメールアドレスを入力してください。",
-    "exists"           => "選択された:attributeは存在しませんでした。",
-    "image"            => ":attributeは画像ファイルである必要があります。",
-    "in"               => "選択された:attributeは正しくありません。",
-    "integer"          => ":attributeは整数である必要があります。",
-    "ip"               => ":attributeは正しいIPアドレスではありません。",
-    "max"              => array(
-        "numeric" => ":attributeは:max以下である必要があります。",
-        "file"    => ":attributeのファイルサイズは:maxキロバイト以下である必要があります。",
-        "string"  => ":attributeの長さは:max文字以下である必要があります。",
-    ),
-    "mimes"            => ":attributeのファイル種別は:valuesである必要があります。",
-    "min"              => array(
-        "numeric" => ":attributeは:min以上である必要があります。",
-        "file"    => ":attributeのファイルサイズは:minキロバイト以上である必要があります。",
-        "string"  => ":attributeの長さは :min文字以上である必要があります。",
-    ),
-    "not_in"           => "選択された:attributeは正しくありません。",
-    "numeric"          => ":attributeは数値である必要があります。",
-    "regex"            => ":attributeの形式は正しくありません。",
-    "required"         => ":attributeを入力してください。",
-    "required_if"      => ":otherが:valueである場合、:attributeは必須項目です。",
-    "required_with"    => ":valuesが指定されている場合、:attributeは必須項目です。",
-    "required_without" => ":valuesが指定されていない場合、:attributeは必須項目です。",
-    "required_without_all" => ":attributeは必須項目です。",
-    "same"             => ":attributeが一致しません。",
-    "size"             => array(
-        "numeric" => ":attributeは:sizeである必要があります。",
-        "file"    => ":attributeのファイルサイズは:sizeキロバイトである必要があります。",
-        "string"  => ":attributeの長さは:size文字である必要があります。",
-    ),
-    "unique"           => ":attributeはすでに使われています。",
-    "url"              => ":attributeは正しいURL形式ではありません。",
-    "mimes_ex"       =>":attributeの種別はcsvである必要があります。",
-
-    /*
-    |--------------------------------------------------------------------------
-    | Custom Validation Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | Here you may specify custom validation messages for attributes using the
-    | convention "attribute.rule" to name the lines. This makes it quick to
-    | specify a specific custom language line for a given attribute rule.
-    |
-    */
-
-    'custom' => [
-        'Email' => [
-				'required' => 'กรุณาใส่อีเมลของคุณ',
-				'email' => 'กรุณาใส่อีเมลที่ถูกต้อง',
-		],
-    	'Country' => [
-    			'required' => 'โปรดเลือก ประเทศที่พำนัก',
-    	],
-    	'Privacy' => [
-    			'required' => 'โปรดยอมรับ ANA Privacy Policy',
-    	]
+    'accepted'             => 'The :attribute must be accepted.',
+    'active_url'           => 'The :attribute is not a valid URL.',
+    'after'                => 'The :attribute must be a date after :date.',
+    'alpha'                => 'The :attribute may only contain letters.',
+    'alpha_dash'           => 'The :attribute may only contain letters, numbers, and dashes.',
+    'alpha_num'            => 'The :attribute may only contain letters and numbers.',
+    'array'                => 'The :attribute must be an array.',
+    'before'               => 'The :attribute must be a date before :date.',
+    'between'              => [
+        'numeric' => 'The :attribute must be between :min and :max.',
+        'file'    => 'The :attribute must be between :min and :max kilobytes.',
+        'string'  => 'The :attribute must be between :min and :max characters.',
+        'array'   => 'The :attribute must have between :min and :max items.',
     ],
+    'boolean'              => 'The :attribute field must be true or false.',
+    'confirmed'            => 'The :attribute confirmation does not match.',
+    'date'                 => 'The :attribute is not a valid date.',
+    'date_format'          => 'The :attribute does not match the format :format.',
+    'different'            => 'The :attribute and :other must be different.',
+    'digits'               => 'The :attribute must be :digits digits.',
+    'digits_between'       => 'The :attribute must be between :min and :max digits.',
+    'distinct'             => 'The :attribute field has a duplicate value.',
+    'email'                => 'The :attribute must be a valid email address.',
+    'exists'               => 'The selected :attribute is invalid.',
+    'filled'               => 'The :attribute field is required.',
+    'image'                => 'The :attribute must be an image.',
+    'in'                   => 'The selected :attribute is invalid.',
+    'in_array'             => 'The :attribute field does not exist in :other.',
+    'integer'              => 'The :attribute must be an integer.',
+    'ip'                   => 'The :attribute must be a valid IP address.',
+    'json'                 => 'The :attribute must be a valid JSON string.',
+    'max'                  => [
+        'numeric' => 'The :attribute may not be greater than :max.',
+        'file'    => 'The :attribute may not be greater than :max kilobytes.',
+        'string'  => 'The :attribute must be less than :max characters.',
+        'array'   => 'The :attribute may not have more than :max items.',
+    ],
+    'mimes'                => 'The :attribute must be a file of type: :values.',
+    'min'                  => [
+        'numeric' => 'The :attribute must be at least :min.',
+        'file'    => 'The :attribute must be at least :min kilobytes.',
+        'string'  => 'The :attribute must be at least :min characters.',
+        'array'   => 'The :attribute must have at least :min items.',
+    ],
+    'not_in'               => 'The selected :attribute is invalid.',
+    'numeric'              => 'The :attribute must be a number.',
+    'present'              => 'The :attribute field must be present.',
+    'regex'                => 'The :attribute format is invalid.',
+    'required'             => ':attribute is required',
+    'required_if'          => 'The :attribute field is required when :other is :value.',
+    'required_unless'      => 'The :attribute field is required unless :other is in :values.',
+    'required_with'        => 'The :attribute field is required when :values is present.',
+    'required_with_all'    => 'The :attribute field is required when :values is present.',
+    'required_without'     => 'The :attribute field is required when :values is not present.',
+    'required_without_all' => 'The :attribute field is required when none of :values are present.',
+    'same'                 => 'The :attribute and :other must match.',
+    'size'                 => [
+        'numeric' => 'The :attribute must be :size.',
+        'file'    => 'The :attribute must be :size kilobytes.',
+        'string'  => 'The :attribute must be :size characters.',
+        'array'   => 'The :attribute must contain :size items.',
+    ],
+    'string'               => 'The :attribute must be a string.',
+    'timezone'             => 'The :attribute must be a valid zone.',
+    'unique'               => 'The :attribute has already been taken.',
+    'url'                  => 'The :attribute format is invalid.',
 
-    /*
-    |--------------------------------------------------------------------------
-    | Custom Validation Attributes
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used to swap attribute place-holders
-    | with something more reader friendly such as E-Mail Address instead
-    | of "email". This simply helps us make messages a little cleaner.
-    |
-    */
 
-    'attributes' => array(
-        'Reservation_number' => 'หมายเลขอ้างอิง',
-    	'Sex'                => '',
-        'First_Name'         => 'ชื่อจริง',
-        'Last_Name'          => 'นามสกุล',
-        'Email'              => 'อีเมล',
-        'Email_confirm'      => 'อีเมล',
-        'Country'            => 'ประเทศที่พำนัก',
-        'Country_code'       => 'รหัสประเทศ',
-        'Tel'                => 'หมายเลขโทรศัพท์',
-        'Privacy'            => 'Privacy Policy',
-    ),
+	/*
+	 |--------------------------------------------------------------------------
+	 | Custom Validation Language Lines
+	 |--------------------------------------------------------------------------
+	 |
+	 | Here you may specify custom validation messages for attributes using the
+	 | convention "attribute.rule" to name the lines. This makes it quick to
+	 | specify a specific custom language line for a given attribute rule.
+	 |
+	 */
+
+	'custom' => [
+			'Email' => [
+					'required' => 'Email Address is required',
+					'email' => 'Please enter valid Email Address',
+			],
+			'Country' => [
+					'required' => 'Please select your residence Country',
+			],
+			'Privacy' => [
+					'required' => 'Please agree to continue',
+			]
+	],
+
+	/*
+	 |--------------------------------------------------------------------------
+	| Custom Validation Attributes
+	|--------------------------------------------------------------------------
+	|
+	| The following language lines are used to swap attribute place-holders
+	| with something more reader friendly such as E-Mail Address instead
+	| of "email". This simply helps us make messages a little cleaner.
+	|
+	*/
+
+	'attributes' => array(
+			'Reservation_number' => 'Reservation Code',
+			'Sex'                => 'Sex',
+			'First_Name'         => 'First Name',
+			'Last_Name'          => 'Last Name',
+			'Email'              => 'Email',
+			'Email_confirm'      => 'Email (Confirmation)',
+			'Country'            => 'Country',
+			'Country_code'       => 'Country Code',
+			'Tel'                => 'Tel',
+			'Privacy'            => 'Privacy Policy',
+	),
+
 
 ];
