@@ -41,6 +41,14 @@
         //$("select").minimalect();
 		$("#lang").minimalect({ theme: "bubble", placeholder: "Language" });
 		});
+		$('#js-target-select').minimalect({
+		    onchange: function() {
+		        $('#js-target-select').trigger('change');
+		       }
+	    });
+        $('#js-target-select').change(function(){
+            // do onchange event
+        });
     </script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
