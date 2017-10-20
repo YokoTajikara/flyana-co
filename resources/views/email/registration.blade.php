@@ -24,9 +24,9 @@
     <script src="/javascripts/base.js"></script>
     <script src="/javascripts/jquery.fs.boxer.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="/javascript/pick/jquery.minimalect.css" media="screen" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script src="/javascript/pick/jquery.minimalect.js"></script>
+    <link rel="stylesheet" type="text/css" href="/javascripts/pick/jquery.minimalect.css" media="screen" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="/javascripts/pick/jquery.minimalect.js"></script>
 
     <style type="text/css">
         .form-btn .submit.disabled {
