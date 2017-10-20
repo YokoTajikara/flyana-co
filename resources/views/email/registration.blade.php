@@ -24,6 +24,10 @@
     <script src="/javascripts/base.js"></script>
     <script src="/javascripts/jquery.fs.boxer.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="/javascript/pick/jquery.minimalect.css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="/javascript/pick/jquery.minimalect.js"></script>
+
     <style type="text/css">
         .form-btn .submit.disabled {
             background-color: darkgray;
@@ -53,8 +57,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="#"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
+                <div class="col-xs-12 text-right minict_wrapper bubble active">
+                    <select id="example2">
+                        <option value="/tw/">台灣中文</option>
+                        <option value="/hk/">香港中文</option>
+                        <option value="/kr/">한글</option>
+                        <option value="/id/">Bahasa Indonesia</option>
+                        <option value="/th/">ภาษาไทย</option>
+                        <option value="/vn/">Việt Nam</option>
+                  </select>
+                </div>
+
             </div>
         </div>
     </header>
