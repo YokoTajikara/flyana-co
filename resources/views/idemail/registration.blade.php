@@ -99,7 +99,7 @@
             <!-- form -->
             <form method="POST" action="/id/confirm" accept-charset="UTF-8" id="" name="">
                 {!! csrf_field() !!}
-
+                <input type="hidden" name="language" value="id"/>
                 <div class="contents_form">
                     <div class="form-input">
                         <dl>
@@ -163,7 +163,7 @@
                     <!-- /form-input -->
 
                     <div class="form-note">
-                        <p>B"Dengan mengisi formulir pendaftaran ANA e-Newsletter ini, Anda memastikan bahwa usia Anda minimal 18 tahun. Kami hanya akan menggunakan informasi pribadi yang Anda berikan dalam formulir pendaftaran ini sesuai dengan kebijakan privasi dan akan mematuhi permintaan Anda yang ditunjukkan di atas serta setiap perubahan atas permintaan yang Anda nyatakan di masa depan, mengenai penerimaan materi penawaran dari ANA.</p>
+                        <p>Dengan mengisi formulir pendaftaran ANA e-Newsletter ini, Anda memastikan bahwa usia Anda minimal 18 tahun. Kami hanya akan menggunakan informasi pribadi yang Anda berikan dalam formulir pendaftaran ini sesuai dengan kebijakan privasi dan akan mematuhi permintaan Anda yang ditunjukkan di atas serta setiap perubahan atas permintaan yang Anda nyatakan di masa depan, mengenai penerimaan materi penawaran dari ANA.</p>
                     </div>
 
                     <div class="form-btn">

@@ -100,7 +100,7 @@
             <!-- form -->
             <form method="POST" action="/kr/confirm" accept-charset="UTF-8" id="" name="">
                 {!! csrf_field() !!}
-
+                <input type="hidden" name="language" value="kr"/>
                 <div class="contents_form">
                     <div class="form-input">
                         <dl>

@@ -78,7 +78,7 @@
             <!-- form -->
             <form method="POST" action="/id/thankyou" accept-charset="UTF-8" id="" name="">
                 {!! csrf_field() !!}
-
+                <input type="hidden" name="language" value="id"/>
                 <div class="contents_form">
                     <div class="form-input">
                         <dl>
