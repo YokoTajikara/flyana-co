@@ -221,6 +221,7 @@ class VNEmailController extends Controller
             "Email__c"            => Arr::get($data, 'email'),
             "Residence_Region__c" => Arr::get($data, 'residence_region'),
             "e_newsletter__c"     => (bool)Arr::get($data, 'agree_newsletter'),
+            "Language__c"       => Arr::get($data, 'language'),
         ];
 
         $sfSrv = App::make(\Ana\SalesForceService::class);
