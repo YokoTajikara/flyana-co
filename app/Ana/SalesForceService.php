@@ -299,6 +299,7 @@ class SalesforceService
             "Email__c",
             "Residence_Region__c",
             "e_newsletter__c",
+            "Language__c",
         );
 
         $args = array();
