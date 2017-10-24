@@ -220,3 +220,8 @@
       border-bottom-right-radius: 6px; }
   .minict_wrapper.bubble .minict_reset {
     width: 30px; }
+
+@media screen and (max-width:640px){
+.minict_wrapper.bubble ul {
+      width: 140%; }
+}
