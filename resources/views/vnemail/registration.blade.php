@@ -68,10 +68,10 @@
                     <select id="lang" onchange="location.href=value">
                         <option value="#" class="selected">Việt Nam</li>
                         <option value="/">English</option>
-                        <option value="/tw/">台灣中文</option>
-                        <option value="/hk/">香港中文</option>
-                        <option value="/kr/">한글</option>
-                        <option value="/id/">Indonesia</option>
+                        <option value="/tw/">繁體中文(台湾)</option>
+                        <option value="/hk/">繁體中文(香港)</option>
+                        <option value="/kr/">한국어</option>
+                        <option value="/id/">Bahasa Indonesia</option>
                         <option value="/th/">ภาษาไทย</option>
                   </select>
                 </div>
