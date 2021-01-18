@@ -165,7 +165,7 @@
                     <!-- /form-input -->
 
                     <div class="form-note">
-                        <p>Khi gửi mẫu đăng ký nhận bản tin điện tử ANA này, quý khách xác nhận mình ít nhất 18 tuổi. ANA chỉ sử dụng thông tin cá nhân quý khách cung cấp trong mẫu đăng ký này theo chính sách bảo mật của ANA, và ANA tuân thủ đúng theo yêu cầu của quý khách liệt kê ở trên, và bất cứ thay đổi yêu cầu nào trong tương lai của quý khách, liên quan đến việc nhận bản tin từ ANA.</p>
+                        <p>Khi gửi mẫu đăng ký nhận bản tin điện tử ANA này, quý khách xác nhận mình ít nhất 18 tuổi. ANA chỉ sử dụng thông tin cá nhân quý khách cung cấp trong mẫu đăng ký này theo <a href="https://www.ana.co.jp/wws/privacy/v/ana.html" target="_blank">chính sách bảo mật của ANA</a>, và ANA tuân thủ đúng theo yêu cầu của quý khách liệt kê ở trên, và bất cứ thay đổi yêu cầu nào trong tương lai của quý khách, liên quan đến việc nhận bản tin từ ANA.</p>
                     </div>
 
                     <div class="form-btn">

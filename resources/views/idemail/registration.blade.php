@@ -163,7 +163,7 @@
                     <!-- /form-input -->
 
                     <div class="form-note">
-                        <p>Dengan mengisi formulir pendaftaran ANA e-Newsletter ini, Anda memastikan bahwa usia Anda minimal 18 tahun. Kami hanya akan menggunakan informasi pribadi yang Anda berikan dalam formulir pendaftaran ini sesuai dengan kebijakan privasi dan akan mematuhi permintaan Anda yang ditunjukkan di atas serta setiap perubahan atas permintaan yang Anda nyatakan di masa depan, mengenai penerimaan materi penawaran dari ANA.</p>
+                        <p>Dengan mengisi formulir pendaftaran ANA e-Newsletter ini, Anda memastikan bahwa usia Anda minimal 18 tahun. Kami hanya akan menggunakan informasi pribadi yang Anda berikan dalam formulir pendaftaran ini sesuai dengan <a href="https://www.ana.co.jp/wws/privacy/i/ana.html" target="_blank">kebijakan privasi</a> dan akan mematuhi permintaan Anda yang ditunjukkan di atas serta setiap perubahan atas permintaan yang Anda nyatakan di masa depan, mengenai penerimaan materi penawaran dari ANA.</p>
                     </div>
 
                     <div class="form-btn">
