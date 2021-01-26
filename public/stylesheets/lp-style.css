@@ -182,6 +182,10 @@ ul.merit {
     background-size: auto,auto,auto,auto;
 }
 
+.registration.confirm{
+    background-position: -4.5% 96px,104% 520px,4% 799px,97% 395px;
+}
+
 .registration:before {
     content: "";
     display: block;
@@ -194,10 +198,28 @@ ul.merit {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.registration.confirm {
+    margin-top: 0;
+    padding-bottom: 99px;
+}
+.registration.confirm:before {
+    display: none;
+}
+.confirm .contents_form {
+    padding-bottom: 30px;
+}
 /*---- 修正 ----*/
 .registration .container {
     margin-top: 135px;
     background: none;
+}
+.registration.confirm .container {
+    padding-top: 72px;
+    background-color: #fff;
+    margin-top: 67px;
+    max-width: 798px;
+    width: auto;
+    border-radius: 21px;
 }
 .registration .mainimg {
     width: 60%;
@@ -270,6 +292,15 @@ ul.merit {
     font-size: 19px;
     color: #333;
 }
+.registration.confirm .step-number ol li {
+    padding-left: 11px;
+}
+.registration.confirm .step-number ol li:nth-child(1) {
+    padding-left: 69px;
+}
+.registration.confirm .step-number ol li:nth-child(3) {
+    padding-left: 42px;
+}
 .registration .step-number ol li:nth-child(1){
     padding-left: 46px;
 }
@@ -284,7 +315,9 @@ ul.merit {
     background-color: #EEE;
     width: 40.33%!important;
 }
-
+.registration .step-number .line li{
+    width: 32.33%!important;  
+}
 
 .registration .step-number .line li:last-child {
     background: none;
@@ -309,13 +342,20 @@ ul.merit {
 
 .registration .contents_form dt {
     font-size: 19px;
-    margin: 13px 0px;
+    margin: 15px 0px;
+}
+.form-input dd.confirm-text{
+    font-size: 17px
 }
 
 
 .registration .mainimg {
     width: 546px;
     margin-left: -290px;
+}
+
+.sp-lp{
+    display:none;
 }
 
 @media screen and (min-width: 1440px){
@@ -342,6 +382,9 @@ ul.merit {
 @media screen and (max-width: 769px){
     .section-mainvisual{
         margin-bottom: 0;
+    }
+    .registration.confirm {
+        background-image: none;
     }
     .registration .mainimg {
         width: 85%;
@@ -417,9 +460,26 @@ ul.merit {
         font-size: 30px;
         padding: 18px 0;
     }
+.registration.confirm .step-number ol li {
+    padding-left: 0;
+}
+.registration.confirm .step-number ol li:nth-child(1) {
+    padding-left: 0;
+    text-align: center;
+    padding-right: 23px;
+}
+.registration.confirm .step-number ol li:nth-child(3) {
+    padding-left: 0;
+}
 }
 
 @media screen and (max-width:640px){
+    .sp-lp{
+        display:block;
+    }
+    .pc-lp{
+        display:none;
+    }
     header {
         padding-top: 11px;
         height: 55px;
@@ -459,8 +519,69 @@ ul.merit {
        margin-bottom: 0;
         padding-bottom: 35px;     
     }
+    .registration.confirm  .contents_form{
+        padding-bottom: 17px;
+    }
     .registration .title {
         font-size: 20px;
+    }
+    .registration.confirm .container {
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-top: 0;
+        padding-top: 10px;
+        padding-left: 28px;
+    }
+    .registration.confirm .confirm-btn.submit-btn {
+        margin: 47px auto 0;
+        width: 234px;
+    }
+    .registration.confirm .form-btn{
+        padding-right: 28px;
+    }
+    .confirm .confirm-btn.submit-btn .back{
+        margin-left: 0;
+    }
+    .confirm .confirm-btn.submit-btn .send {
+        margin-left: 0;
+    }
+       .registration.confirm .wifi-cam-confirm-list i.fa-check{
+        font-size: 29px;
+        margin-top: -4px;
+        float: left;
+        margin-right: 13px;
+    }
+    .confirm .confirm-btn.submit-btn .back{
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+        height: 59px;
+        margin-bottom: 13px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 234px;
+        font-size: 25px;   
+    }
+    .confirm .confirm-btn.submit-btn .send{
+        display: block;
+        height: 59px;
+        margin-left: 0;
+        height: 59px;
+        margin-bottom: 13px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 234px;
+        font-size: 25px;
+    }
+    .confirm .submit-btn button.back i {
+        left: 24%
+    }
+    .confirm .submit-btn button.send i{
+        right: 23%;
+    }
+    .confirm .confirm-btn.submit-btn{
+        margin-top: 47px;
+        padding-bottom: 0;
     }
 }
 @media screen and (max-width:480px){
@@ -497,8 +618,9 @@ ul.merit {
         margin-bottom: 20px;
     }
 
-        .registration {
+    .registration {
         margin-top: 124px;
+        background-image: none;
     }
     .registration:before {
         background-size: 121%;
@@ -521,8 +643,26 @@ ul.merit {
         font-size: 15px;
         width: 30.33%!important;
     }
+    .registration.confirm .step-number ol li {
+        width: 24.33%!important;
+    }
+    .registration.confirm .step-number ol li:nth-child(1) {
+        padding-left: 22px;
+        margin: 0;
+    }
+    .registration.confirm .step-number ol li:nth-child(2) {
+        padding-right: 36px;
+        padding-left: 0;
+        margin: 0;
+    }
+    .registration.confirm .step-number ol li:nth-child(3) {
+        padding-left: 0px;
+    }
     .registration .step-number ul.line{
         margin: 0 5px 11px 14px;
+    }
+    .registration.confirm .step-number ul.line {
+        margin: 0 5px 11px 0px;
     }
     .registration .step-number .line li {
         margin: 0 0 11px 0;
@@ -549,17 +689,40 @@ ul.merit {
         margin-bottom: 5px;
         margin-top: 20px;
     }
+    .registration.confirm .contents_form dt {
+        margin-bottom: 11px;
+    }
+    .registration.confirm .contents_form dt {
+        font-size: 16px;
+    }
+    .confirm .form-input dd.confirm-text {
+        font-size: 19px;
+    }
     .registration .step-number {
         margin: 0 0 57px 0;
     }
 
-
+    .registration.confirm .step-number {
+        margin: 0 0 35px 0;
+    }
     .registration .step-number .line li.current:before {
         border: 10px solid #03156E
     }
+    .registration.confirm .form-checkbox{
+        padding-top: 29px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .registration.confirm {
+        padding-bottom: 89px;
+    }
+ 
 }
 @media screen and (min-width:640px){
-
+    .registration.confirm .form-input dl {
+        padding-top: 0;
+        padding-left: 33px
+    }
     .contents_form {
         margin: 51px auto 0;
         max-width: 655px;
@@ -573,12 +736,20 @@ ul.merit {
         width: 69.5%;
         padding-right: 13px;
     }
+    .registration.confirm .form-input dd {
+        margin: 13px 0px;
+    }
     #gender{
         padding:15px 0px 15px 20px;
     }
     .form-checkbox {
         padding: 17px 0px 0px;
         margin-left: 28%;
+    }
+    .confirm .agree_newsletter.form-checkbox {
+        margin-left: 6%;
+        font-size: 14px;
+        letter-spacing: normal;
     }
     input[type=checkbox] + label::before{
         width: 26px;
@@ -601,10 +772,34 @@ ul.merit {
         margin-left: -8px;
         padding: 16px 0px 30px;
     }
+    .confirm .form-btn .submit-btn{
+        margin: auto;
+        padding: 28px 0px 30px;
+    }
     .form-btn .submit {
         width: 429px;
         height: 60px;
         font-size: 19px;
+    }
+    .confirm-btn.submit-btn .back {
+        width: 234px;
+        height: 59px;
+        font-size: 19px;
+        padding-left: 15px;
+    }
+    .confirm-btn.submit-btn .send {
+        width: 235px;
+        height: 59px;
+        font-size: 19px;
+        padding-left: 31px;
+    }
+    .submit-btn button.back i {
+        left: 23.5%;
+        top: 31%;
+    }
+    .submit-btn button.send i {
+        top: 32%;
+        right: 22.5%;
     }
     footer .cntct-txt{
         float: left;
@@ -641,6 +836,10 @@ ul.merit {
     .form-input dt,
     .form-input dd{
         width:100%;
+    }
+    .registration.confirm .container {
+        margin-left: 22px;
+        margin-right: 22px;
     }
 
 }
