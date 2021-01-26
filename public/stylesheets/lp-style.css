@@ -1,0 +1,649 @@
+header{
+    padding-top: 15px;
+    padding-bottom: 18px;
+    height: 59px;
+}
+header .container {
+    max-width: 1060px;
+}
+.text-right-side{
+    width: auto;
+}
+.text-left{
+    padding-top: 3px;
+}
+.minict_wrapper.bubble{
+    width: 191px;
+    height: 2rem;
+}
+.section-mainvisual{
+    height: 602px;
+    margin-top: 49px;
+    background: none;
+    background-image: url(../images/main-img.png),url(../images/cloud-top-main.png),url(../images/cloud-center-main.png),url(../images/cloud-right-main.png),url(../images/cloud-bottom-main.png),url(../images/main-background.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: 20.5% 33px,-57px 46px,1022px 55px,1249px 98px,center 281px,center center;
+    background-size: auto,auto,auto,auto,auto,cover;
+}
+.section-mainvisual .inner-box {
+    max-width: 1060px;
+    margin: 0 auto;
+    position: relative;
+}
+.section-mainvisual h1.hdg {
+    font-size: 69px;
+    float: right;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: normal;
+    color: #00146E;
+    margin-top: 96px;
+    margin-right: 4px;
+}
+span.hdg-txt {
+    font-size: 57px;
+    line-height: 89px;
+}
+.section-mainvisual.sbsc-now .sbsc-now-txt01 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+.section-mainvisual .sbsc-now .sbsc-now-txt02 {
+    font-size: 49px;
+    font-weight: 700;
+}
+.section-mainvisual .sbsc-now {
+    width: 265px;
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    right: 35px;
+    top: 352px;
+    line-height: 22px;
+    background-image: url(../images/ballon.png);
+    background-repeat: no-repeat;
+    background-position: center 11px;
+    color: #fff;
+}
+section.main-contents {
+    max-width: 1180px;
+    margin: 44px auto 0;
+    position: relative;
+}
+.outer-box01 {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.outer-box01 img{
+    margin-left: 8px;
+    position: absolute;
+    top: -51px;
+    z-index: 1;
+}
+ul.merit {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 94px auto 90px;
+    max-width: 1180px;
+}
+.merit li{
+    margin: 102px 0 0;
+    margin-left: 50px;
+    width: 43.05%;
+    height: 508px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border: 10px solid #fff;
+    border-radius: 263px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFF9E5;
+    box-shadow: 0px 8px 17px -5px rgba(0, 0, 0, 0.4);
+}
+.merit li:nth-child(1){
+    background-image: url(../images/spacial-fares.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.merit li:nth-child(2){
+    background-image: url(../images/promotions.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.merit li:nth-child(3){
+    background-image: url(../images/travel-to-japan.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.merit li:nth-child(4){
+    background-image: url(../images/information.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.merit li:nth-child(3){
+    margin-top:56px;
+}
+.merit li:nth-child(even) {
+    margin-top: -10px;
+    margin-left: 23px;
+}
+.merit li:nth-child(4){
+    margin-top:-55px;
+}
+.merit li h2{
+    font-size: 39px;
+    font-weight: 700;
+    color: #00146E;
+}
+.merit li:nth-child(1) h2{
+    margin: 145px 0 8px 0;
+}
+.merit li:nth-child(2) h2{
+    margin: 177px 0 9px 0;
+}
+.merit li:nth-child(3) h2 {
+    margin: 255px 0 8px -5px;
+}
+.merit li:nth-child(4) h2 {
+    margin: 218px 0 9px 0;
+}
+.merit li p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 30px;
+}
+.registration {
+    margin-top: 250px;
+    padding-top: 92px;
+    background-color: #BCECFE;
+    background-image: url(../images/cloud-up-form.png),url(../images/cloud-middle-form.png),url(../images/cloud-bottom-form.png),url(../images/airplane-form.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: -54px 203px,1213px 625px,43px 905px,1088px 498px;
+    background-size: auto,auto,auto,auto;
+}
+
+.registration:before {
+    content: "";
+    display: block;
+    height: 281px;
+    width: 100%;
+    position: absolute;
+    top: -277px;
+    background-image: url(../images/cloud-under-main.png);
+    background-position: center 0px;
+}
+/*---- 修正 ----*/
+.registration .container {
+    margin-top: 135px;
+    background: none;
+}
+.registration .mainimg {
+    width: 60%;
+    position: absolute;
+    top: 40px;
+    left: 51.25%;
+    margin-left: -30%;
+    z-index: 10;
+}
+
+.registration .title{
+    letter-spacing: 0.03em;
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 18px 0;
+    position: relative;
+    border-radius: 10px;
+    background: #D07000;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #D07000), color-stop(0.00, #F78400));
+    background: -webkit-linear-gradient(#F78400, #D07000);
+    background: -moz-linear-gradient(#F78400, #D07000);
+    background: -o-linear-gradient(#F78400, #D07000);
+    background: -ms-linear-gradient(#F78400, #D07000);
+    background: linear-gradient(#F78400, #D07000);
+    background: linear-gradient(to bottom, #F78400, #D07000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F78400', endColorstr='#D07000', GradientType=0);
+}
+
+.registration .title::after {
+    position: absolute;
+    left: 50%;
+    bottom: -39px;
+    margin-left: -15px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 15px 0 15px;
+    border-color: #D07000 transparent transparent;
+}
+
+
+
+.registration .step-number ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration .step-number ul.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 64px 7px 41px;
+}
+.registration .step-number li{
+    background-image: none;
+    position: relative;
+    margin: 0 16px;
+    width: calc(33.33% - 32px)!important;
+}
+.registration .step-number ol li{
+    margin: 0 10px;
+    width: calc(33.33% - 24px)!important;
+    text-align: left;
+    padding-left: 41px;
+    font-size: 19px;
+    color: #333;
+}
+.registration .step-number ol li:nth-child(1){
+    padding-left: 46px;
+}
+.registration .step-number ol li:nth-child(3){
+    padding-left: 73px;
+}
+.registration .step-number .line li{
+    background-image: none;
+    position: relative;
+    margin: 0 0 20px 0;
+    height: 8px;
+    background-color: #EEE;
+    width: 40.33%!important;
+}
+
+.registration .step-number .line li:after {
+    /*content: '';
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 8px;
+    background-color: #EEE;
+    position: absolute;
+    top: -20px;
+    margin-left: 5px;*/
+}
+.registration .step-number .line li:last-child {
+    background: none;
+    width: 30px!important;
+}
+
+.registration .step-number .line li:before {
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    z-index: 1;
+}
+.registration .step-number .line li.current:before {
+    border: 14px solid #03156E;
+    box-sizing: border-box;
+}
+
+.registration .contents_form dt {
+    font-size: 19px;
+    margin: 13px 0px;
+}
+
+
+.registration .mainimg {
+    width: 546px;
+    margin-left: -290px;
+}
+ 
+@media screen and (max-width: 1000px){
+    .main-contents .outer-box01{
+        margin-left: 16px;
+    }
+    .merit li{
+        width: 42.05%;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .section-mainvisual{
+        margin-bottom: 0;
+    }
+    .registration .mainimg {
+        width: 85%;
+        margin-left: -42%;
+    }
+    .registration .title{
+        font-size: 1.2em;
+        padding: 0.8em 0 0.9em;
+    }
+    .main-contents .outer-box01{
+        width: 300px;
+        margin: 20px auto;
+    }
+    .main-contents ul.merit{
+        display: block;
+    }
+    .main-contents .merit li{
+        margin: 0 auto 10px;
+        width: 300px;
+        border-radius: 0;
+        height: 300px;
+        background-size: 48%;
+        margin-bottom: 18px!important;
+        padding-bottom: 15px;
+        max-width: 284px;
+        height: auto;
+    }
+    section.main-contents {
+        padding-top: 100px;
+        margin: 0 30px 80px;
+    }
+    .outer-box01 img{
+        top: 0;
+        left: 10%;
+    }
+    .main-contents ul.merit {
+        margin-top: 112px;
+    }
+
+    .merit li h2{
+        font-size: 21px;
+    }
+    .merit li p {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: left;
+    }
+    .merit li:nth-child(1) {
+       background-position: center 20px;
+    }
+    .merit li:nth-child(2) {
+        background-position: center 16px;
+    }
+    .merit li:nth-child(1) h2 {
+        margin: 184px 0 10px 0;
+    }
+    .merit li:nth-child(2) h2 {
+        margin: 183px 0 9px 0;
+    }
+    .merit li:nth-child(3) h2 {
+        margin: 158px 0 16px 0;
+    }
+    .merit li:nth-child(3) {
+        background-position: center 16px;
+    }
+    .merit li:nth-child(4) {
+        background-position: center 18px;
+    }
+    .merit li:nth-child(4) h2 {
+        margin: 185px 0 9px 0;
+    }
+    .registration .title {
+        font-size: 30px;
+        padding: 18px 0;
+    }
+}
+
+@media screen and (max-width:640px){
+    header {
+        padding-top: 11px;
+        height: 55px;
+    }
+    header .text-left{
+        padding-top: 9px;
+        padding-left: 14px;
+    }
+    header img{
+        width: 186px;
+    }
+    .section-mainvisual h1.hdg{
+        line-height: 14px;
+        float: none;
+        text-align: center;
+        margin-top: 0;
+        font-size: 41px;
+        padding-top: 54px;
+    }
+    span.hdg-txt{
+        font-size: 34px;
+    }
+    .section-mainvisual{
+        margin-top: -4px;
+    }
+    .outer-box01 img{
+        width: 101%;
+        top: 82px;
+        left: -2px;
+        margin: 0;
+    }
+
+    p.cntct-txt {
+        display: none;
+    }
+    .contents_form{
+       margin-bottom: 0;
+        padding-bottom: 35px;     
+    }
+    .registration .title {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:480px){
+    .registration .step-number .line li.current:before {
+        font-size: 41px;
+        line-height: 6px;
+    }
+
+    .section-mainvisual {
+        height: 598px;
+        background: none;
+        background-image: url(../images/main-img-sp.png),url(../images/cloud-top-main-sp.png),url(../images/cloud-center-main-sp.png),url(../images/cloud-right-main-sp.png),url(../images/cloud-bottom-main-sp.png),url(../images/main-background.png);
+        background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+        background-position: 15px 185px,48px 42px,-22px 247px,272px 236px,center 511px,center bottom;
+        background-size: auto,auto,auto,auto,auto,cover;
+        margin-bottom: 0;
+        margin-top: 45px;
+    }
+    section.main-contents{
+        margin: 0 22px 80px;
+    }
+    .section-mainvisual .sbsc-now{
+        width: 197px;
+        height: 197px;
+        background-size: 100%;
+        background-position: center;
+        top: 465px;
+        right: -1px;
+        line-height: 16px; 
+        font-size: 19px;       
+    }
+    .section-mainvisual .sbsc-now .sbsc-now-txt02{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+        .registration {
+        margin-top: 124px;
+    }
+    .registration:before {
+        background-size: 121%;
+        background-repeat: no-repeat;
+        background-position: center 50px;
+        top: -149px
+    }
+
+    .registration .mainimg{
+        width: 331px;
+        margin-left: -45%;
+    }
+    .registration .title {
+        margin-top: 26px;
+    }
+    .registration .title::after {
+        bottom: -30px;
+    }
+    .registration .step-number ol li {
+        font-size: 15px;
+        width: 30.33%!important;
+    }
+    .registration .step-number ul.line{
+        margin: 0 5px 11px 14px;
+    }
+    .registration .step-number .line li {
+        margin: 0 0 11px 0;
+    }
+    .registration .step-number .line li:before{
+        width: 25px;
+        height: 25px;
+        top: -9px;
+    }
+    .registration .step-number ol li:nth-child(1) {
+        padding-left: 16px
+    }
+    .registration .step-number ol li:nth-child(2) {
+        padding-left: 36px;
+    }
+    .registration .step-number ol li:nth-child(3) {
+        padding-left: 36px;
+    }
+    .registration .container {
+        margin-top: 96px;
+    }
+    .registration .contents_form dt {
+        font-size: 13px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    .registration .step-number {
+        margin: 0 0 57px 0;
+    }
+
+
+    .registration .step-number .line li.current:before {
+        border: 10px solid #03156E
+    }
+}
+@media screen and (min-width:640px){
+
+    .contents_form {
+        margin: 51px auto 0;
+        max-width: 655px;
+        padding: 0 0px 60px;
+    }
+    .text {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    .form-input dd{
+        width: 69.5%;
+        padding-right: 13px;
+    }
+    #gender{
+        padding:15px 0px 15px 20px;
+    }
+    .form-checkbox {
+        padding: 17px 0px 0px;
+        margin-left: 28%;
+    }
+    input[type=checkbox] + label::before{
+        width: 26px;
+        height: 26px;
+        padding-top: 2px;
+    }
+    .form-checkbox span {
+        font-size: 14px;
+    }
+    .form-note{
+        width: auto;
+        margin-right: 20px;
+        margin-top: 6px;
+    }
+    .form-note p{
+        font-size: 14px;
+        padding: 20px 15px;
+    }
+    .form-btn .submit-btn{
+        margin-left: -8px;
+        padding: 16px 0px 30px;
+    }
+    .form-btn .submit {
+        width: 429px;
+        height: 60px;
+        font-size: 19px;
+    }
+    footer .cntct-txt{
+        float: left;
+        padding-top: 6px;
+    }
+    footer .cntct-txt .txt01{
+        padding: 5px 10px 5px 0;
+        margin-right: 10px;
+        border-right: 1px solid #EEE;
+        font-weight: bold;
+    }
+    footer .cntct-txt .txt02{
+        padding: 8px 0 8px 0;
+        color: rgb(12, 48, 142);
+        text-decoration: underline;
+    }
+    footer .container{
+        max-width: 1082px;
+        padding-top: 6px;
+        height: 54px;
+    }
+    .text-right img{
+        width: 272px;
+        height: auto;
+    }
+}
+@media screen and (max-width:829px) and (min-width:641px){
+    .form-input dt,
+    .form-input dd{
+        width:100%;
+    }
+}
+@media screen and (max-width: 320px){
+    header .text-left {
+        padding-left: 0px;
+    }
+    .section-mainvisual h1.hdg {
+        line-height: 38px;
+    }
+    .main-contents .merit li {
+        box-sizing: border-box;
+    }
+    .registration .mainimg{
+        margin-left: -50%;
+        width: 96%;
+    }
+    .registration:before {
+        top: -135px;
+    }
+    .registration .step-number ol li {
+        width: 31.33%!important;
+    }
+    .registration .step-number ol li:nth-child(3) {
+        padding-left: 21px;
+    }
+}
