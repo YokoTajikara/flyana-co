@@ -631,11 +631,18 @@ ul.merit {
         height: auto;
     }
 }
+@media screen and (max-width:924px) and (min-width:770px){
+    .merit li:nth-child(3) h2 {
+        margin: 224px 0 8px -5px;
+        width: 103%;
+    }
+}
 @media screen and (max-width:829px) and (min-width:641px){
     .form-input dt,
     .form-input dd{
         width:100%;
     }
+
 }
 @media screen and (max-width: 320px){
     header .text-left {
