@@ -92,7 +92,7 @@
         </div>
     </section>
     <section class="main-contents">
-        <div class="outer-box01"><img src="../../../public/images/flag.png" alt='Stay connected with ANA'></div>
+        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
         <ul class="merit">
             <li>
                 <div>
@@ -123,8 +123,18 @@
     </section>
 
     <div class="registration">
+        <div class="cloud-img"></div>
+        <div class="mainimg">
+            <h3 class="title">Let’s sign up for ANA E-newsletter</h3>
+        </div>
         <div class="container">
             <div class="step-number">
+                <div class="line"></div>
+                <ul class="line">
+                    <li class="current"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
                 <ol>
                     <li class="current">Input</li>
                     <li>Confirmation</li>

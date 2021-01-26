@@ -17,13 +17,13 @@ header .container {
     height: 2rem;
 }
 .section-mainvisual{
-    height: 602px;
+    height: 615px;
     margin-top: 49px;
     background: none;
     background-image: url(../images/main-img.png),url(../images/cloud-top-main.png),url(../images/cloud-center-main.png),url(../images/cloud-right-main.png),url(../images/cloud-bottom-main.png),url(../images/main-background.png);
-    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
-    background-position: 20.5% 33px,-57px 46px,1022px 55px,1249px 98px,center 281px,center center;
-    background-size: auto,auto,auto,auto,auto,cover;
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,repeat-x;
+    background-position: 20.5% 33px,-5% 46px,83% 55px,111.8% 98px,center bottom,center center;
+    background-size: auto,auto,auto,auto,109%,auto;
 }
 .section-mainvisual .inner-box {
     max-width: 1060px;
@@ -89,7 +89,7 @@ ul.merit {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 94px auto 90px;
+    margin: 82px auto 90px;
     max-width: 1180px;
 }
 .merit li{
@@ -168,19 +168,21 @@ ul.merit {
     background-color: #BCECFE;
     background-image: url(../images/cloud-up-form.png),url(../images/cloud-middle-form.png),url(../images/cloud-bottom-form.png),url(../images/airplane-form.png);
     background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
-    background-position: -54px 203px,1213px 625px,43px 905px,1088px 498px;
+    background-position: -4.8% 203px,103.59% 625px,43px 905px,96.5% 498px;
     background-size: auto,auto,auto,auto;
 }
 
 .registration:before {
     content: "";
     display: block;
-    height: 281px;
+    height: 334px;
     width: 100%;
     position: absolute;
     top: -277px;
     background-image: url(../images/cloud-under-main.png);
-    background-position: center 0px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*---- 修正 ----*/
 .registration .container {
@@ -273,17 +275,7 @@ ul.merit {
     width: 40.33%!important;
 }
 
-.registration .step-number .line li:after {
-    /*content: '';
-    display: block;
-    clear: both;
-    width: 100%;
-    height: 8px;
-    background-color: #EEE;
-    position: absolute;
-    top: -20px;
-    margin-left: 5px;*/
-}
+
 .registration .step-number .line li:last-child {
     background: none;
     width: 30px!important;
@@ -315,7 +307,19 @@ ul.merit {
     width: 546px;
     margin-left: -290px;
 }
- 
+
+@media screen and (min-width: 1440px){
+    .registration {
+        margin-top: 300px;
+    }
+    .registration:before {
+        background-size: 109%;
+        background-position: center top;
+        top: -339px;
+        height: 30%;
+    }
+} 
+
 @media screen and (max-width: 1000px){
     .main-contents .outer-box01{
         margin-left: 16px;
