@@ -109,6 +109,11 @@ ul.merit {
     background-color: #FFF9E5;
     box-shadow: 0px 8px 17px -5px rgba(0, 0, 0, 0.4);
 }
+@media screen and (-ms-high-contrast: none) {
+  *::-ms-backdrop, .merit li {
+        box-shadow: 0px 8px 17px 3px rgba(0, 0, 0, 0.2); 
+    }
+}
 .merit li:nth-child(1){
     background-image: url(../images/spacial-fares.png);
     background-repeat: no-repeat;
@@ -143,6 +148,11 @@ ul.merit {
     font-size: 39px;
     font-weight: 700;
     color: #00146E;
+}
+@media screen and (-ms-high-contrast: none) {
+  *::-ms-backdrop, .merit li h2{
+        width: 99.5%
+    }
 }
 .merit li:nth-child(1) h2{
     margin: 145px 0 8px 0;
