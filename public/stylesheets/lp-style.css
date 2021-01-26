@@ -158,13 +158,13 @@ ul.merit {
     margin: 145px 0 8px 0;
 }
 .merit li:nth-child(2) h2{
-    margin: 177px 0 9px 0;
+    margin: 151px 0 9px 0;
 }
 .merit li:nth-child(3) h2 {
-    margin: 255px 0 8px -5px;
+    margin: 222px 0 8px -5px;
 }
 .merit li:nth-child(4) h2 {
-    margin: 218px 0 9px 0;
+    margin: 199px 0 9px 0;
 }
 .merit li p{
     font-size: 20px;
@@ -315,8 +315,28 @@ ul.merit {
     background-color: #EEE;
     width: 40.33%!important;
 }
-.registration .step-number .line li{
-    width: 32.33%!important;  
+.registration .step-number .line li:nth-child(1):after {
+    content: "Input";
+    position: absolute;
+    top: 35px;
+    left: -11px;
+    font-size: 19px;
+}
+.registration .step-number .line li:nth-child(2):after {
+    content: "Confirmation";
+    position: absolute;
+    top: 35px;
+    left: -33px;
+    font-size: 19px;
+}.registration .step-number .line li:nth-child(3):after {
+    content: "Completion";
+    position: absolute;
+    top: 35px;
+    left: -33px;
+    font-size: 19px;
+}
+.registration.confirm .step-number .line li{
+    width: 37.33%!important;
 }
 
 .registration .step-number .line li:last-child {
@@ -531,6 +551,7 @@ ul.merit {
         margin-top: 0;
         padding-top: 10px;
         padding-left: 28px;
+        border-radius: 10px;
     }
     .registration.confirm .confirm-btn.submit-btn {
         margin: 47px auto 0;
@@ -583,6 +604,9 @@ ul.merit {
         margin-top: 47px;
         padding-bottom: 0;
     }
+    .registration .step-number {
+        margin: 0 0 86px 0;
+    }
 }
 @media screen and (max-width:480px){
     .registration .step-number .line li.current:before {
@@ -619,7 +643,7 @@ ul.merit {
     }
 
     .registration {
-        margin-top: 124px;
+        margin-top: 207px;
         background-image: none;
     }
     .registration:before {
@@ -643,12 +667,25 @@ ul.merit {
         font-size: 15px;
         width: 30.33%!important;
     }
+
+.registration.confirm .step-number .line li{
+    width: 32.33%!important;  
+}
+.registration.confirm .step-number .line li:last-child {
+    width: 25px!important;
+}
+.registration .step-number .line li:nth-child(1):after,
+.registration .step-number .line li:nth-child(2):after,
+.registration .step-number .line li:nth-child(3):after{
+    font-size: 15px;
+}
     .registration.confirm .step-number ol li {
         width: 24.33%!important;
     }
     .registration.confirm .step-number ol li:nth-child(1) {
-        padding-left: 22px;
+        padding-left: 0;
         margin: 0;
+        padding-right: 30px;
     }
     .registration.confirm .step-number ol li:nth-child(2) {
         padding-right: 36px;
@@ -698,12 +735,10 @@ ul.merit {
     .confirm .form-input dd.confirm-text {
         font-size: 19px;
     }
-    .registration .step-number {
-        margin: 0 0 57px 0;
-    }
+
 
     .registration.confirm .step-number {
-        margin: 0 0 35px 0;
+        margin: 0 0 63px 0;
     }
     .registration .step-number .line li.current:before {
         border: 10px solid #03156E
@@ -724,7 +759,7 @@ ul.merit {
         padding-left: 33px
     }
     .contents_form {
-        margin: 51px auto 0;
+        margin: 79px auto 0;
         max-width: 655px;
         padding: 0 0px 60px;
     }

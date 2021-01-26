@@ -135,11 +135,11 @@
                     <li></li>
                     <li></li>
                 </ul>
-                <ol>
+                <!--ol>
                     <li class="current">Input</li>
                     <li>Confirmation</li>
                     <li>Completion</li>
-                </ol>
+                </ol-->
             </div>
 
             <!-- form -->
