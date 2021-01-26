@@ -25,6 +25,15 @@ header .container {
     background-position: 20.5% 33px,-5% 46px,83% 55px,111.8% 98px,center bottom,center center;
     background-size: auto,auto,auto,auto,109%,auto;
 }
+.section-mainvisual.thanks{
+    height: 488px;
+    margin-top: 49px;
+    background: none;
+    background-image: url(../images/cloud-top-main.png),url(../images/cloud-center-main.png),url(../images/cloud-right-main.png),url(../images/cloud-bottom-main.png),url(../images/main-background.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,repeat-x;
+    background-position: -5% 10px,83% 55px,110% 46px,center bottom,center center;
+    background-size: auto,auto,auto,109%,auto;
+}
 .section-mainvisual .inner-box {
     max-width: 1060px;
     margin: 0 auto;
@@ -39,6 +48,14 @@ header .container {
     color: #00146E;
     margin-top: 96px;
     margin-right: 4px;
+}
+.section-mainvisual.thanks h1.hdg {
+    font-size: 43px;
+    float: none;
+    margin: 0;
+    text-align: center;
+    padding-top: 106px;
+    line-height: 61px;
 }
 span.hdg-txt {
     font-size: 57px;
@@ -374,6 +391,65 @@ ul.merit {
     margin-left: -290px;
 }
 
+.links-icons-list {
+    text-align: center;
+}
+
+.links-icons-list div {
+    width: 295px;
+    height: 106px;
+    background-color: #FFF9E5;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 16px;
+    border-radius: 21px;
+}
+.icon-facebook,.icon-web{
+    box-shadow: 0px 7px 12px -5px rgb(0 0 0 / 40%);
+}
+.icon-facebook .inner-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    background-image: url(../images/icon-facebook.png),url(../images/icon-link.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: 5px center,237px 69px;
+}
+.icon-web .inner-box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+    width: auto;
+    line-height: 37px;
+    background-image: url(../images/icon-website.png),url(../images/icon-link.png);
+    background-repeat: no-repeat;
+    background-position: left center,237px 69px;
+}
+
+.outer-box p {
+    font-size: 17px;
+    font-weight: 700;
+    color: #00146E;
+}
+.outer-box p.txt01 {
+    padding-top: 13px;
+}
+
+.outer-box p.txt {
+    font-size: 13px;
+    font-weight: normal;
+    color: #333;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 17px;
+}
+.icon-facebook .inner-box p {
+    padding-left: 52PX;
+}
+section.links-icons {
+    margin-bottom: 39px;
+}
 .sp-lp{
     display:none;
 }
@@ -389,6 +465,18 @@ ul.merit {
         height: 30%;
     }
 } 
+
+@media screen and (max-width: 1090px){
+.section-mainvisual.thanks{
+    height: 488px;
+    margin-top: 49px;
+    background: none;
+    background-image: url(../images/cloud-top-main.png),url(../images/cloud-bottom-main.png),url(../images/main-background.png);
+    background-repeat: no-repeat,no-repeat,repeat-x;
+    background-position: -5% 10px,center bottom,center center;
+    background-size: auto,109%,auto;
+}
+}
 
 @media screen and (max-width: 1000px){
     .main-contents .outer-box01{
@@ -491,6 +579,19 @@ ul.merit {
 .registration.confirm .step-number ol li:nth-child(3) {
     padding-left: 0;
 }
+.links-icons-list div {
+    display: block;
+    margin: 0 auto 17px;
+}
+    .icon-web .inner-box{
+        background-position: 19px center,252px 68px;
+    }
+    .icon-facebook .inner-box{
+        background-position: 18px center,252px 64px;
+    }
+    .outer-box p.txt{
+        padding-left: 37px;
+    }
 }
 
 @media screen and (max-width:640px){
@@ -607,6 +708,23 @@ ul.merit {
     .registration .step-number {
         margin: 0 0 86px 0;
     }
+    .section-mainvisual.thanks h1.hdg {
+        font-size: 26px;
+        line-height: 36px;
+            padding-top: 43px;
+    }
+    .section-mainvisual.thanks{
+        height: 290px;
+        background-image: url(../images/cloud-small-sp.png),url(../images/cloud-bottom-main.png),url(../images/main-background.png);
+        background-position: 18% 35px,center bottom,center center;
+    }
+    section.links-icons{
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+
+
+
 }
 @media screen and (max-width:480px){
     .registration .step-number .line li.current:before {
@@ -751,6 +869,7 @@ ul.merit {
     .registration.confirm {
         padding-bottom: 89px;
     }
+
  
 }
 @media screen and (min-width:640px){
