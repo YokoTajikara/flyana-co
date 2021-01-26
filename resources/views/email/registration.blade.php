@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="/stylesheets/animate.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/form.css">
-    <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
@@ -64,7 +63,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
                 <div class="col-xs-12 text-right-side">
                     <select id="lang" onchange="location.href=value">
@@ -83,58 +82,14 @@
     </header>
 
     <section class="section-mainvisual">
-        <div class="inner-box">
-            <h1 class="hdg">
-                <span class="hdg-txt">Subscribe</span><br>
-                <strong>ANA E-newsletter!</strong>
-            </h1>
-            <p class="sbsc-now"><span class="sbsc-now-txt01">Subscribe</span><br><span class="sbsc-now-txt02">NOW</span></p>
+        <div class="mainimg">
+            <h1 class="title">Sign up for ANA E-newsletter</h1>
         </div>
-    </section>
-    <section class="main-contents">
-        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
-        <ul class="merit">
-            <li>
-                <div>
-                    <h2>Exclusive special fares</h2>
-                    <p>You’ll be the first to receive limited<br>special fare information from ANA.</p>                  
-                </div>
-
-            </li>
-            <li>
-                <div>
-                    <h2>Discover ANA promotions</h2>
-                    <p>Don’t miss our promotions such as<br>anniversary lucky draws, travel fair<br>events and more.</p>                    
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h2>Find out how to plan a<br>travel to Japan</h2>
-                    <p>We provide varied Japan travel<br>themes such as traditional and<br>modern culture,  magnificent<br>nature, and travel tips.</p>                    
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h2>Information<br>about ANA services</h2>
-                    <p>Stay up to date with airport and in-<br>flight services, and ANA flight<br>status.</p>
-                </div>
-            </li>
-        </ul>
     </section>
 
     <div class="registration">
-        <div class="cloud-img"></div>
-        <div class="mainimg">
-            <h3 class="title">Let’s sign up for ANA E-newsletter</h3>
-        </div>
         <div class="container">
             <div class="step-number">
-                <div class="line"></div>
-                <ul class="line">
-                    <li class="current"></li>
-                    <li></li>
-                    <li></li>
-                </ul>
                 <ol>
                     <li class="current">Input</li>
                     <li>Confirmation</li>
@@ -234,7 +189,6 @@
     <footer>
         <div class="container">
             <div class="row">
-                <p class="cntct-txt"><span class="txt01">Contact</span><span class="txt02">info@ana-campaign.com</span></p>
                 <div class="col-xs-12 text-right">
                     <img src="/images/footer-logo.png" alt="A STAR ALLIANCE MEMBER"/>
                 </div>
