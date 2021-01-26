@@ -104,19 +104,19 @@
             <li>
                 <div>
                     <h2>Discover ANA promotions</h2>
-                    <p>Don’t miss our promotions such as<br>anniversary lucky draws, travel fair<br>events and more.</p>                    
+                    <p>Don't miss our local campaign and<br>event information in your country.</p>                
                 </div>
             </li>
             <li>
                 <div>
-                    <h2>Find out how to plan a<br>travel to Japan</h2>
-                    <p>We provide varied Japan travel<br>themes such as traditional and<br>modern culture,  magnificent<br>nature, and travel tips.</p>                    
+                    <h2>Find out how to plan a<br>trip to Japan</h2>
+                    <p>We provide varied Japan travel<br>recommendations such as things<br>to do, travel tips and more</p>                    
                 </div>
             </li>
             <li>
                 <div>
                     <h2>Information<br>about ANA services</h2>
-                    <p>Stay up to date with airport and in-<br>flight services, and ANA flight<br>status.</p>
+                    <p>Stay up to date with ANA flight<br>information and experience.</p>
                 </div>
             </li>
         </ul>
