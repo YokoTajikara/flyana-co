@@ -32,7 +32,7 @@ header .container {
     background-image: url(../images/cloud-top-main.png),url(../images/cloud-center-main.png),url(../images/cloud-right-main.png),url(../images/cloud-bottom-main.png),url(../images/main-background.png);
     background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,repeat-x;
     background-position: -5% 10px,83% 55px,110% 46px,center bottom,center center;
-    background-size: auto,auto,auto,109%,auto;
+    background-size: auto,auto,auto,109%,100% 99%;
 }
 .section-mainvisual .inner-box {
     max-width: 1060px;
@@ -445,7 +445,7 @@ ul.merit {
     line-height: 17px;
 }
 .icon-facebook .inner-box p {
-    padding-left: 52PX;
+    padding-left: 90px;
 }
 section.links-icons {
     margin-bottom: 39px;
@@ -474,7 +474,7 @@ section.links-icons {
     background-image: url(../images/cloud-top-main.png),url(../images/cloud-bottom-main.png),url(../images/main-background.png);
     background-repeat: no-repeat,no-repeat,repeat-x;
     background-position: -5% 10px,center bottom,center center;
-    background-size: auto,109%,auto;
+    background-size: auto,109%,100% 99%;
 }
 }
 
@@ -990,6 +990,7 @@ section.links-icons {
     .form-input dt,
     .form-input dd{
         width:100%;
+        padding-right: 0;
     }
     .registration.confirm .container {
         margin-left: 22px;
