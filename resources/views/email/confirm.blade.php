@@ -37,6 +37,12 @@
             opacity: 1;
         }
     </style>
+    <script type="text/javascript">
+    $(function() {
+        //$("select").minimalect();
+        $("#lang").minimalect({ theme: "bubble", placeholder: "Language" });
+        });
+    </script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -68,19 +74,6 @@
                         <option value="/th/">ภาษาไทย</option>
                         <option value="/vn/">Việt Nam</option>
                   </select>
-                    <div class="minict_wrapper bubble">
-                        <span contenteditable="true" data-placeholder="English">English</span>
-                            <ul style="display: none;">
-                                <li data-value="#" class="selected">English</li>
-                                <li data-value="/tw/" class="">繁體中文(台湾)</li>
-                                <li data-value="/hk/" class="">繁體中文(香港)</li>
-                                <li data-value="/kr/" class="">한국어</li>
-                                <li data-value="/id/" class="">Bahasa Indonesia</li>
-                                <li data-value="/th/" class="">ภาษาไทย</li>
-                                <li data-value="/vn/" class="minict_last">Việt Nam</li>
-                                <li class="minict_empty" style="display: none;">No results match your keyword.</li>
-                            </ul>
-                    </div>
                 </div>
             </div>
         </div>
