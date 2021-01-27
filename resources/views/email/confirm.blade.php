@@ -56,10 +56,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="#"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="#"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
                 <div class="col-xs-12 text-right-side">
-                    <select id="lang" onchange="location.href=value">
+                    <select id="lang" onchange="location.href=value" style="display: none;">
                         <option value="#" class="selected">English</li>
                         <option value="/tw/">繁體中文(台湾)</option>
                         <option value="/hk/">繁體中文(香港)</option>
@@ -68,16 +68,23 @@
                         <option value="/th/">ภาษาไทย</option>
                         <option value="/vn/">Việt Nam</option>
                   </select>
+                    <div class="minict_wrapper bubble">
+                        <span contenteditable="true" data-placeholder="English">English</span>
+                            <ul style="display: none;">
+                                <li data-value="#" class="selected">English</li>
+                                <li data-value="/tw/" class="">繁體中文(台湾)</li>
+                                <li data-value="/hk/" class="">繁體中文(香港)</li>
+                                <li data-value="/kr/" class="">한국어</li>
+                                <li data-value="/id/" class="">Bahasa Indonesia</li>
+                                <li data-value="/th/" class="">ภาษาไทย</li>
+                                <li data-value="/vn/" class="minict_last">Việt Nam</li>
+                                <li class="minict_empty" style="display: none;">No results match your keyword.</li>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <section class="section-mainvisual">
-        <div class="mainimg">
-            <h1 class="title">Sign up for ANA E-newsletter</h1>
-        </div>
-    </section>
 
     <div class="registration confirm">
             <div class="step-number sp-lp">
