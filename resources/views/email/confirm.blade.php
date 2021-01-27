@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/stylesheets/animate.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/form.css">
+    <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
@@ -23,6 +24,9 @@
     <script src="/javascripts/wow.min.js"></script>
     <script src="/javascripts/base.js"></script>
     <script src="/javascripts/jquery.fs.boxer.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="javascripts/pick/jquery.minimalect.css" media="screen" />
+    <script src="javascripts/pick/jquery.minimalect.js"></script>
 
     <style type="text/css">
         .form-btn .submit.disabled {
@@ -54,6 +58,17 @@
                 <div class="col-xs-12 text-left">
                     <a href="#"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
+                <div class="col-xs-12 text-right-side">
+                    <select id="lang" onchange="location.href=value">
+                        <option value="#" class="selected">English</li>
+                        <option value="/tw/">繁體中文(台湾)</option>
+                        <option value="/hk/">繁體中文(香港)</option>
+                        <option value="/kr/">한국어</option>
+                        <option value="/id/">Bahasa Indonesia</option>
+                        <option value="/th/">ภาษาไทย</option>
+                        <option value="/vn/">Việt Nam</option>
+                  </select>
+                </div>
             </div>
         </div>
     </header>
@@ -64,14 +79,23 @@
         </div>
     </section>
 
-    <div class="registration">
+    <div class="registration confirm">
+            <div class="step-number sp-lp">
+                <div class="line"></div>
+                <ul class="line">
+                    <li></li>
+                    <li class="current"></li>
+                    <li></li>
+                </ul>
+            </div>
         <div class="container">
-            <div class="step-number">
-                <ol>
-                    <li>Input</li>
-                    <li class="current">Confirmation</li>
-                    <li>Completion</li>
-                </ol>
+            <div class="step-number pc-lp">
+                <div class="line"></div>
+                <ul class="line">
+                    <li></li>
+                    <li class="current"></li>
+                    <li></li>
+                </ul>
             </div>
 
             <!-- form -->
@@ -134,6 +158,7 @@
     <footer>
         <div class="container">
             <div class="row">
+                <p class="cntct-txt"><span class="txt01">Contact</span><span class="txt02">info@ana-campaign.com</span></p>
                 <div class="col-xs-12 text-right">
                     <img src="/images/footer-logo.png" alt="A STAR ALLIANCE MEMBER"/>
                 </div>
