@@ -25,9 +25,6 @@
     <script src="/javascripts/base.js"></script>
     <script src="/javascripts/jquery.fs.boxer.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="javascripts/pick/jquery.minimalect.css" media="screen" />
-    <script src="javascripts/pick/jquery.minimalect.js"></script>
-
     <style type="text/css">
         .form-btn .submit.disabled {
             background-color: darkgray;
@@ -37,12 +34,6 @@
             opacity: 1;
         }
     </style>
-    <script type="text/javascript">
-    $(function() {
-        //$("select").minimalect();
-        $("#lang").minimalect({ theme: "bubble", placeholder: "Language" });
-        });
-    </script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -63,17 +54,6 @@
             <div class="row">
                 <div class="col-xs-12 text-left">
                     <a href="#"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
-                </div>
-                <div class="col-xs-12 text-right-side">
-                    <select id="lang" onchange="location.href=value" style="display: none;">
-                        <option value="#" class="selected">English</li>
-                        <option value="/tw/">繁體中文(台湾)</option>
-                        <option value="/hk/">繁體中文(香港)</option>
-                        <option value="/kr/">한국어</option>
-                        <option value="/id/">Bahasa Indonesia</option>
-                        <option value="/th/">ภาษาไทย</option>
-                        <option value="/vn/">Việt Nam</option>
-                  </select>
                 </div>
             </div>
         </div>
