@@ -88,7 +88,7 @@
                 <span class="hdg-txt">Subscribe</span><br>
                 <strong>ANA E-newsletter!</strong>
             </h1>
-            <p class="sbsc-now"><span class="sbsc-now-txt01">Subscribe</span><br><span class="sbsc-now-txt02">NOW</span></p>
+            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01">Subscribe</span><br><span class="sbsc-now-txt02">NOW</span></a></p>
         </div>
     </section>
     <section class="main-contents">
@@ -122,7 +122,7 @@
         </ul>
     </section>
 
-    <div class="registration">
+    <div id="registration" class="registration">
         <div class="cloud-img"></div>
         <div class="mainimg">
             <h3 class="title">Let’s sign up for ANA E-newsletter</h3>

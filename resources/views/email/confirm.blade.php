@@ -106,23 +106,23 @@
                     <div class="form-input">
                         <dl>
                             <dt>First Name <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{ array_get($form, 'first_name') }}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{ array_get($form, 'first_name') }}</dd>
                         </dl>
                         <dl>
                             <dt>Last Name <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{ array_get($form, 'last_name') }}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{ array_get($form, 'last_name') }}</dd>
                         </dl>
                         <dl>
                             <dt>Gender <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{$genderList[array_get($form,'gender')]}}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{$genderList[array_get($form,'gender')]}}</dd>
                         </dl>
                         <dl>
                             <dt>Email <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{array_get($form,'email')}}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{array_get($form,'email')}}</dd>
                         </dl>
                         <dl>
                             <dt>Residence Region <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{array_get($form,'residence_region')}}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{array_get($form,'residence_region')}}</dd>
                         </dl>
 
                         <div class="form-checkbox agree_newsletter wifi-cam-confirm-list">

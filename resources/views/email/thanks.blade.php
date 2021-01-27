@@ -104,7 +104,7 @@
             </div>
             <div class="outer-box icon-facebook sha">
                 <div class="inner-box">
-                    <p>Official Facebook page</p>
+                    <p>Official Facebook<br>page</p>
                 </div>
             </div>
         </div>

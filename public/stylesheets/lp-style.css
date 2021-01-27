@@ -70,7 +70,7 @@ span.hdg-txt {
     font-size: 49px;
     font-weight: 700;
 }
-.section-mainvisual .sbsc-now {
+.section-mainvisual .sbsc-now a {
     width: 265px;
     height: 265px;
     display: flex;
@@ -82,10 +82,18 @@ span.hdg-txt {
     right: 35px;
     top: 352px;
     line-height: 22px;
-    background-image: url(../images/ballon.png);
-    background-repeat: no-repeat;
-    background-position: center 11px;
+    background-image: url(../images/ballon-bk.png),url(../images/ballon.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: center 40px,center 11px;
     color: #fff;
+    text-decoration: none;
+}
+.section-mainvisual .sbsc-now a:hover {
+    opacity: 0.9;
+}
+.section-mainvisual .sbsc-now-txt01 {
+    font-size: 26px;
+    font-weight: 700;
 }
 section.main-contents {
     max-width: 1180px;
@@ -252,6 +260,7 @@ ul.merit {
     color: #fff;
     font-size: 30px;
     font-weight: normal;
+    font-weight: 700;
     letter-spacing: normal;
     text-align: center;
     padding: 18px 0;
@@ -415,6 +424,7 @@ ul.merit {
     background-image: url(../images/icon-facebook.png),url(../images/icon-link.png);
     background-repeat: no-repeat,no-repeat;
     background-position: 5px center,237px 69px;
+    text-align: left;
 }
 .icon-web .inner-box {
     display: flex;
@@ -583,6 +593,9 @@ section.links-icons {
     display: block;
     margin: 0 auto 17px;
 }
+.icon-facebook .inner-box p {
+    padding-left: 103px;
+}
     .icon-web .inner-box{
         background-position: 19px center,252px 68px;
     }
@@ -745,11 +758,11 @@ section.links-icons {
     section.main-contents{
         margin: 0 22px 80px;
     }
-    .section-mainvisual .sbsc-now{
+    .section-mainvisual .sbsc-now a{
         width: 197px;
         height: 197px;
-        background-size: 100%;
-        background-position: center;
+        background-size: 79%,100%;
+        background-position: center 40%,center;
         top: 465px;
         right: -1px;
         line-height: 16px; 
@@ -758,6 +771,10 @@ section.links-icons {
     .section-mainvisual .sbsc-now .sbsc-now-txt02{
         font-size: 35px;
         margin-bottom: 20px;
+    }
+
+    .section-mainvisual .sbsc-now-txt01 {
+        font-size: 19px;
     }
 
     .registration {
