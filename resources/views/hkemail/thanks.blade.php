@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE HTML>
-<html lang="zh" class="zh">
+<html lang="en" class="en">
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="/stylesheets/animate.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/form.css">
+    <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
+    <link rel="stylesheet" href="/stylesheets/font_zh.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
@@ -23,6 +25,7 @@
     <script src="/javascripts/wow.min.js"></script>
     <script src="/javascripts/base.js"></script>
 		<script src="/javascripts/jquery.fs.boxer.js"></script>
+
 
     <style type="text/css">
 				.form-btn .submit.disabled {
@@ -52,20 +55,84 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="#"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="#"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
             </div>
         </div>
     </header>
 
 
-    <div class="section-thanks">
-        <h1 class="title">感謝你的訂閱</h1>
-        <h2 class="copy">請期待下一份送上的<br>ANA E-newsletter!</h2>
-    </div>
+    <section class="section-mainvisual thanks">
+        <div class="inner-box">
+            <h1 class="hdg pc">
+                感謝您的註冊！<br>
+                敬請期待 ANA 第一期電子通訊！<br>
+            </h1>
+            <h1 class="hdg sp">
+                感謝您的註冊！<br>
+                敬請期待 ANA 第一期電子通訊！<br>
+            </h1>
+        </div>
+    </section>
+    <section class="links-icons">
+        <div class="links-icons-list">
+@if($region ==='Australia')
+    <a href="https://www.ana.co.jp/en/au/" class="link_icon" target="_blank">
+@elseif($region ==='Cambodia')
+    <a href="https://www.ana.co.jp/en/kh/" class="link_icon" target="_blank">
+@elseif($region ==='Hong Kong')
+    <a href="https://www.ana.co.jp/en/hk/" class="link_icon" target="_blank">
+@elseif($region ==='India')
+    <a href="https://www.ana.co.jp/en/in/" class="link_icon" target="_blank">
+@elseif($region ==='Indonesia')
+    <a href="https://www.ana.co.jp/en/id/" class="link_icon" target="_blank">
+@elseif($region ==='Korea')
+    <a href="https://www.ana.co.jp/ko/kr/" class="link_icon" target="_blank">
+@elseif($region ==='Malaysia')
+    <a href="https://www.ana.co.jp/en/my/" class="link_icon" target="_blank">
+@elseif($region ==='Mynamar')
+    <a href="https://www.ana.co.jp/en/mm/" class="link_icon" target="_blank">
+@elseif($region ==='Singapore')
+    <a href="https://www.ana.co.jp/en/sg/" class="link_icon" target="_blank">
+@elseif($region ==='Taiwan')
+    <a href="https://www.ana.co.jp/en/tw/" class="link_icon" target="_blank">
+@elseif($region ==='Thailand')
+    <a href="https://www.ana.co.jp/en/th/" class="link_icon" target="_blank">
+@elseif($region ==='The Philippines')
+    <a href="https://www.ana.co.jp/en/oh/" class="link_icon" target="_blank">
+@elseif($region ==='Vietenam')
+    <a href="https://www.ana.co.jp/en/vn/" class="link_icon" target="_blank">
+@else
+
+@endif
+                <div class="outer-box icon-web sha">
+                    
+                        <div class="inner-box">
+                            <p class="txt01">ANA 官網</p>
+                            <p class="txt">享受前所未有的旅行體驗</p>
+                        </div>
+                </div>
+            </a>
+@if($region ==='Hong Kong')
+    <a href="https://www.facebook.com/ana.hongkong" class="link_icon" target="_blank">
+@elseif($region ==='Taiwan')
+    <a href="https://www.facebook.com/ana.ch.traditional" class="link_icon" target="_blank">
+@else
+    <a href="https://www.facebook.com/flyworld.ana/" class="link_icon" target="_blank">
+@endif
+                <div class="outer-box icon-facebook sha">                    
+                        <div class="inner-box">
+                            <p>官方Facebook專頁</p>
+                        </div>                    
+                </div>
+            </a>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="row">
+                <p class="cntct-txt"><span class="txt01">Contact</span><span class="txt02">info@ana-campaign.com</span></p>
                 <div class="col-xs-12 text-right">
                     <img src="/images/footer-logo.png" alt="A STAR ALLIANCE MEMBER"/>
                 </div>

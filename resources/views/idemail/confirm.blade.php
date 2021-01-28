@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE HTML>
-<html lang="in" class="in">
+<html lang="en" class="en">
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/stylesheets/animate.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/form.css">
+    <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
@@ -52,27 +53,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="#"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="#"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
             </div>
         </div>
     </header>
 
-
-    <section class="section-mainvisual">
-        <div class="mainimg">
-            <h1 class="title">Pendaftaran ANA E-newsletter</h1>
-        </div>
-    </section>
-
-    <div class="registration">
+    <div class="registration confirm">
+            <div class="step-number sp-lp">
+                <div class="line"></div>
+                <ul class="line">
+                    <li></li>
+                    <li class="current"></li>
+                    <li></li>
+                </ul>
+            </div>
         <div class="container">
-            <div class="step-number">
-                <ol>
-                    <li>Memasukkan</li>
-                    <li class="current">Setuju</li>
-                    <li>Penamatan</li>
-                </ol>
+            <div class="step-number pc-lp">
+                <div class="line"></div>
+                <ul class="line">
+                    <li></li>
+                    <li class="current"></li>
+                    <li></li>
+                </ul>
             </div>
 
             <!-- form -->
@@ -132,10 +135,10 @@
     </div>
     <!-- /registration -->
 
-
     <footer>
         <div class="container">
             <div class="row">
+                <p class="cntct-txt"><span class="txt01">Contact</span><span class="txt02">info@ana-campaign.com</span></p>
                 <div class="col-xs-12 text-right">
                     <img src="/images/footer-logo.png" alt="A STAR ALLIANCE MEMBER"/>
                 </div>
