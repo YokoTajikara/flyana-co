@@ -132,7 +132,7 @@ ul.merit {
     text-align: center;
     text-decoration: none;
     background-color: #FFF9E5;
-    box-shadow: 0px 8px 17px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 8px 58px -5px rgb(200 216 220 / 40%);
 }
 @media screen and (-ms-high-contrast: none) {
   *::-ms-backdrop, .merit li {
@@ -393,7 +393,13 @@ ul.merit {
 .form-input dd.confirm-text{
     font-size: 17px
 }
-
+.text{
+    background-color: #fff;
+}
+#gender{
+    background: none;
+    background-color: #fff;
+}
 
 .registration .mainimg {
     width: 546px;
@@ -464,6 +470,14 @@ section.links-icons {
     display:none;
 }
 
+a.link_icon {
+    text-decoration: none;
+}
+
+a.link_icon:hover{
+    opacity: 0.8;
+}
+
 @media screen and (min-width: 1440px){
     .registration {
         margin-top: 300px;
@@ -489,6 +503,13 @@ section.links-icons {
 }
 
 @media screen and (max-width: 1000px){
+    .section-mainvisual {
+        background-image: url(../images/main-img-sp.png),url(../images/cloud-top-main.png),url(../images/cloud-center-main.png),url(../images/cloud-right-main.png),url(../images/cloud-bottom-main.png),url(../images/main-background.png);
+        background-position: 14.5% 253px,-5% 46px,83% 55px,111.8% 98px,center bottom,center center;
+    }
+    .section-mainvisual h1.hdg{
+        margin-right: 30px;
+    }
     .main-contents .outer-box01{
         margin-left: 16px;
     }
@@ -632,12 +653,14 @@ section.links-icons {
         margin-top: 0;
         font-size: 41px;
         padding-top: 54px;
+        margin-right: 0px;
     }
     span.hdg-txt{
         font-size: 34px;
     }
     .section-mainvisual{
         margin-top: -4px;
+        background-position: 14.5% 161px,-5% 46px,83% 55px,111.8% 98px,center bottom,center center;
     }
     .outer-box01 img{
         width: 101%;
@@ -902,6 +925,7 @@ section.links-icons {
     .text {
         padding: 15px 20px;
         font-size: 14px;
+        background: #fff;
     }
     .form-input dd{
         width: 69.5%;
@@ -912,6 +936,7 @@ section.links-icons {
     }
     #gender{
         padding:15px 0px 15px 20px;
+        background:#fff;
     }
     .form-checkbox {
         padding: 17px 0px 0px;
@@ -974,7 +999,7 @@ section.links-icons {
     }
     footer .cntct-txt{
         float: left;
-        padding-top: 6px;
+        padding-top: 12px;
     }
     footer .cntct-txt .txt01{
         padding: 5px 10px 5px 0;

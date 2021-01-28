@@ -77,17 +77,22 @@
     </section>
     <section class="links-icons">
         <div class="links-icons-list">
-            <div class="outer-box icon-web sha">
-                <div class="inner-box">
-                    <p class="txt01">ANA official website</p>
-                    <p class="txt">Enjoy traveling more<br>than ever before</p>
+            <a href="" class="link_icon">
+                <div class="outer-box icon-web sha">
+                    
+                        <div class="inner-box">
+                            <p class="txt01">ANA official website</p>
+                            <p class="txt">Enjoy traveling more<br>than ever before</p>
+                        </div>
                 </div>
-            </div>
-            <div class="outer-box icon-facebook sha">
-                <div class="inner-box">
-                    <p>Official Facebook<br>page</p>
+            </a>
+            <a href="" class="link_icon">
+                <div class="outer-box icon-facebook sha">                    
+                        <div class="inner-box">
+                            <p>Official Facebook<br>page</p>
+                        </div>                    
                 </div>
-            </div>
+            </a>
         </div>
     </section>
 
