@@ -86,7 +86,7 @@
         <div class="inner-box">
             <h1 class="hdg">
                 <span class="hdg-txt">Subscribe</span><br>
-                <strong>ANA E-newsletter!</strong>
+                <strong>ANA e-newsletter!</strong>
             </h1>
             <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01">Subscribe</span><br><span class="sbsc-now-txt02">NOW</span></a></p>
         </div>
