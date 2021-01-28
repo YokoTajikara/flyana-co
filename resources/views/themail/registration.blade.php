@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/stylesheets/form.css">
     <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
+    <link rel="stylesheet" href="/stylesheets/font_th.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
