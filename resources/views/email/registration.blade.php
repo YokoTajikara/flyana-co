@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="/stylesheets/animate.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/form.css">
-    <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
@@ -64,7 +63,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
                 <div class="col-xs-12 text-right-side">
                     <select id="lang" onchange="location.href=value">
@@ -83,63 +82,19 @@
     </header>
 
     <section class="section-mainvisual">
-        <div class="inner-box">
-            <h1 class="hdg">
-                <span class="hdg-txt">Subscribe</span><br>
-                <strong>ANA e-newsletter!</strong>
-            </h1>
-            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01">Subscribe</span><br><span class="sbsc-now-txt02">NOW</span></a></p>
-        </div>
-    </section>
-    <section class="main-contents">
-        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
-        <ul class="merit">
-            <li>
-                <div>
-                    <h2>Exclusive special fares</h2>
-                    <p>You’ll be the first to receive limited<br>special fare information from ANA.</p>                  
-                </div>
-
-            </li>
-            <li>
-                <div>
-                    <h2>Discover ANA promotions</h2>
-                    <p>Don't miss our local campaign and<br>event information in your country.</p>                
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h2>Find out how to plan a<br>trip to Japan</h2>
-                    <p>We provide varied Japan travel<br>recommendations such as things<br>to do, travel tips and more</p>                    
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h2>Information<br>about ANA services</h2>
-                    <p>Stay up to date with ANA flight<br>information and experience.</p>
-                </div>
-            </li>
-        </ul>
-    </section>
-
-    <div id="registration" class="registration">
-        <div class="cloud-img"></div>
         <div class="mainimg">
-            <h3 class="title">Let’s sign up for ANA E-newsletter</h3>
+            <h1 class="title">Sign up for ANA E-newsletter</h1>
         </div>
+    </section>
+
+    <div class="registration">
         <div class="container">
             <div class="step-number">
-                <div class="line"></div>
-                <ul class="line">
-                    <li class="current"></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <!--ol>
+                <ol>
                     <li class="current">Input</li>
                     <li>Confirmation</li>
                     <li>Completion</li>
-                </ol-->
+                </ol>
             </div>
 
             <!-- form -->
@@ -234,7 +189,6 @@
     <footer>
         <div class="container">
             <div class="row">
-                <p class="cntct-txt"><span class="txt01">Contact</span><span class="txt02">info@ana-campaign.com</span></p>
                 <div class="col-xs-12 text-right">
                     <img src="/images/footer-logo.png" alt="A STAR ALLIANCE MEMBER"/>
                 </div>
@@ -293,5 +247,6 @@ function SCClick(LinkName){
 //--></script>
 
 <script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script>
+<script type="text/javascript" src="https://www.ana.co.jp/common/js/tealium/tealium_flyana.js"></script>
 </body>
 </html>

@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="/stylesheets/animate.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/form.css">
-    <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
@@ -53,29 +52,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="#"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="#"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="registration confirm">
-            <div class="step-number sp-lp">
-                <div class="line"></div>
-                <ul class="line">
-                    <li></li>
-                    <li class="current"></li>
-                    <li></li>
-                </ul>
-            </div>
+    <section class="section-mainvisual">
+        <div class="mainimg">
+            <h1 class="title">Sign up for ANA E-newsletter</h1>
+        </div>
+    </section>
+
+    <div class="registration">
         <div class="container">
-            <div class="step-number pc-lp">
-                <div class="line"></div>
-                <ul class="line">
-                    <li></li>
-                    <li class="current"></li>
-                    <li></li>
-                </ul>
+            <div class="step-number">
+                <ol>
+                    <li>Input</li>
+                    <li class="current">Confirmation</li>
+                    <li>Completion</li>
+                </ol>
             </div>
 
             <!-- form -->
@@ -86,23 +82,23 @@
                     <div class="form-input">
                         <dl>
                             <dt>First Name <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm confirm-text">{{ array_get($form, 'first_name') }}</dd>
+                            <dd class="wifi-cam-confirm">{{ array_get($form, 'first_name') }}</dd>
                         </dl>
                         <dl>
                             <dt>Last Name <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm confirm-text">{{ array_get($form, 'last_name') }}</dd>
+                            <dd class="wifi-cam-confirm">{{ array_get($form, 'last_name') }}</dd>
                         </dl>
                         <dl>
                             <dt>Gender <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm confirm-text">{{$genderList[array_get($form,'gender')]}}</dd>
+                            <dd class="wifi-cam-confirm">{{$genderList[array_get($form,'gender')]}}</dd>
                         </dl>
                         <dl>
                             <dt>Email <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm confirm-text">{{array_get($form,'email')}}</dd>
+                            <dd class="wifi-cam-confirm">{{array_get($form,'email')}}</dd>
                         </dl>
                         <dl>
                             <dt>Residence Region <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm confirm-text">{{array_get($form,'residence_region')}}</dd>
+                            <dd class="wifi-cam-confirm">{{array_get($form,'residence_region')}}</dd>
                         </dl>
 
                         <div class="form-checkbox agree_newsletter wifi-cam-confirm-list">
@@ -138,7 +134,6 @@
     <footer>
         <div class="container">
             <div class="row">
-                <p class="cntct-txt"><span class="txt01">Contact</span><span class="txt02">info@ana-campaign.com</span></p>
                 <div class="col-xs-12 text-right">
                     <img src="/images/footer-logo.png" alt="A STAR ALLIANCE MEMBER"/>
                 </div>
@@ -197,5 +192,6 @@ function SCClick(LinkName){
 //--></script>
 
 <script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script>
+<script type="text/javascript" src="https://www.ana.co.jp/common/js/tealium/tealium_flyana.js"></script>
 </body>
 </html>
