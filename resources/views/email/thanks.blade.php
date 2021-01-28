@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/stylesheets/animate.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/form.css">
+    <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
@@ -23,6 +24,7 @@
     <script src="/javascripts/wow.min.js"></script>
     <script src="/javascripts/base.js"></script>
 		<script src="/javascripts/jquery.fs.boxer.js"></script>
+
 
     <style type="text/css">
 				.form-btn .submit.disabled {
@@ -52,21 +54,52 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="#"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="#"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
             </div>
         </div>
     </header>
 
 
-    <div class="section-thanks">
-        <h1 class="title">Thank you for registration!</h1>
-        <h2 class="copy">Look forward to<br>first E-newsletter from ANA!</h2>
-    </div>
+    <section class="section-mainvisual thanks">
+        <div class="inner-box">
+            <h1 class="hdg pc">
+                Thank you for registration!<br>
+                Look forward to your<br>
+                first E-newsletter from ANA!<br>
+            </h1>
+            <h1 class="hdg sp">
+                Thank you for<br>registration!<br>
+                Look forward to your<br>
+                first E-newsletter<br>from ANA!<br>
+            </h1>
+        </div>
+    </section>
+    <section class="links-icons">
+        <div class="links-icons-list">
+            <a href="" class="link_icon">
+                <div class="outer-box icon-web sha">
+                    
+                        <div class="inner-box">
+                            <p class="txt01">ANA official website</p>
+                            <p class="txt">Enjoy traveling more<br>than ever before</p>
+                        </div>
+                </div>
+            </a>
+            <a href="" class="link_icon">
+                <div class="outer-box icon-facebook sha">                    
+                        <div class="inner-box">
+                            <p>Official Facebook<br>page</p>
+                        </div>                    
+                </div>
+            </a>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
             <div class="row">
+                <p class="cntct-txt"><span class="txt01">Contact</span><span class="txt02">info@ana-campaign.com</span></p>
                 <div class="col-xs-12 text-right">
                     <img src="/images/footer-logo.png" alt="A STAR ALLIANCE MEMBER"/>
                 </div>
