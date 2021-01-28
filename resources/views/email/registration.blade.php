@@ -125,7 +125,7 @@
     <div id="registration" class="registration">
         <div class="cloud-img"></div>
         <div class="mainimg">
-            <h3 class="title">Let’s sign up for ANA E-newsletter</h3>
+            <h3 class="title">Let’s sign up for ANA e-newsletter</h3>
         </div>
         <div class="container">
             <div class="step-number">
