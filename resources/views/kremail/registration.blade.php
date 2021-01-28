@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="ko" class="ko">
+<html lang="en" class="en">
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/stylesheets/animate.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/form.css">
+    <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
@@ -41,7 +42,8 @@
         //$("select").minimalect();
 		$("#lang").minimalect({ theme: "bubble", placeholder: "Language" });
 		});
-    </script>
+	</script>
+
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -62,14 +64,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="/kr/"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
                 <div class="col-xs-12 text-right-side">
                     <select id="lang" onchange="location.href=value">
-                        <option value="#" class="selected">한글</li>
-                        <option value="/">English</option>
+                        <option value="#" class="selected">English</li>
                         <option value="/tw/">繁體中文(台湾)</option>
                         <option value="/hk/">繁體中文(香港)</option>
+                        <option value="/kr/">한국어</option>
                         <option value="/id/">Bahasa Indonesia</option>
                         <option value="/th/">ภาษาไทย</option>
                         <option value="/vn/">Việt Nam</option>
@@ -80,21 +82,64 @@
         </div>
     </header>
 
-
     <section class="section-mainvisual">
-        <div class="mainimg">
-            <h1 class="title">지금 바로 E-newsletter에 등록하세요!</h1>
+        <div class="inner-box">
+            <h1 class="hdg">
+                <span class="hdg-txt">구독 신청</span><br>
+                <strong>ANA e-뉴스레터!</strong>
+            </h1>
+            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01">지금</span><br><span class="sbsc-now-txt02">구독 신청</span></a></p>
         </div>
     </section>
+    <section class="main-contents">
+        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
+        <ul class="merit">
+            <li>
+                <div>
+                    <h2>스페셜 특가</h2>
+                    <p>가장 먼저 ANA의 특가 정보를 받으실 수 있습니다.</p>                  
+                </div>
 
-    <div class="registration">
+            </li>
+            <li>
+                <div>
+                    <h2>ANA 프로모션</h2>
+                    <p>한국에서 진행되는 캠페인과 이벤트 정보와 <br>같은 프로모션 소식을 알려드립니다.</p>                
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>일본 여행 계획에 대한 정보를 확인해 보세요.</h2>
+                    <p>일본 여행에서의 활동, 여행 팁 등 다양한 일본<br>여행에 대한 추천을 받아 보세요.</p>                    
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>ANA의 서비스에 대한 정보</h2>
+                    <p>ANA로부터 비행과 서비스에 대한 최신<br>업데이트 정보를 받아보세요.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <div id="registration" class="registration">
+        <div class="cloud-img"></div>
+        <div class="mainimg">
+            <h3 class="title">ANA e-뉴스레터 구독 신청</h3>
+        </div>
         <div class="container">
             <div class="step-number">
-                <ol>
-                    <li class="current">입력</li>
-                    <li>확인</li>
-                    <li>완료</li>
-                </ol>
+                <div class="line"></div>
+                <ul class="line">
+                    <li class="current"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <!--ol>
+                    <li class="current">Input</li>
+                    <li>Confirmation</li>
+                    <li>Completion</li>
+                </ol-->
             </div>
 
             <!-- form -->
@@ -183,9 +228,11 @@
     </div>
     <!-- /registration -->
 
+
     <footer>
         <div class="container">
             <div class="row">
+                <p class="cntct-txt"><span class="txt01">Contact</span><span class="txt02">info@ana-campaign.com</span></p>
                 <div class="col-xs-12 text-right">
                     <img src="/images/footer-logo.png" alt="A STAR ALLIANCE MEMBER"/>
                 </div>

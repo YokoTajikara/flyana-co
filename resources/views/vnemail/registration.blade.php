@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="vi" class="vi">
+<html lang="en" class="en">
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/stylesheets/animate.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/form.css">
+    <link rel="stylesheet" href="/stylesheets/lp-style.css">
     <link rel="stylesheet" href="/stylesheets/jquery.fs.boxer.css">
 
     <script src="/javascripts/jquery-2.1.4.min.js"></script>
@@ -41,7 +42,8 @@
         //$("select").minimalect();
 		$("#lang").minimalect({ theme: "bubble", placeholder: "Language" });
 		});
-    </script>
+	</script>
+
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -58,21 +60,21 @@
 
 <body class="page-en">
 <div class="main-wrapper">
-   <header>
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="/vn/"><img src="/images/logo.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
                 <div class="col-xs-12 text-right-side">
                     <select id="lang" onchange="location.href=value">
-                        <option value="#" class="selected">Việt Nam</li>
-                        <option value="/">English</option>
+                        <option value="#" class="selected">English</li>
                         <option value="/tw/">繁體中文(台湾)</option>
                         <option value="/hk/">繁體中文(香港)</option>
                         <option value="/kr/">한국어</option>
                         <option value="/id/">Bahasa Indonesia</option>
                         <option value="/th/">ภาษาไทย</option>
+                        <option value="/vn/">Việt Nam</option>
                   </select>
                 </div>
 
@@ -80,21 +82,64 @@
         </div>
     </header>
 
-
     <section class="section-mainvisual">
-        <div class="mainimg">
-            <h1 class="title">Đăng ký nhận bản tin điện tử của ANA</h1>
+        <div class="inner-box">
+            <h1 class="hdg">
+                <span class="hdg-txt">Đăng ký nhận</span><br>
+                <strong>bản tin điện tử ANA!</strong>
+            </h1>
+            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01"></span><br><span class="sbsc-now-txt02">Đăng ký ngay</span></a></p>
         </div>
     </section>
+    <section class="main-contents">
+        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
+        <ul class="merit">
+            <li>
+                <div>
+                    <h2>Giá vé siêu đặc biệt</h2>
+                    <p>Bạn sẽ là người đầu tiên nhận thông tin về giá vé đặc biệt giới hạn từ ANA</p>                  
+                </div>
 
-    <div class="registration">
+            </li>
+            <li>
+                <div>
+                    <h2>Khám phá các chương trình khuyến mãi của ANA</h2>
+                    <p>Đừng bỏ lỡ thông tin về các chương trình khuyến mãi và sự kiện của ANA dành riêng cho khách hàng tại Việt Nam</p>                
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Khám phá cách lên kế hoạch cho chuyến đi đến Nhật</h2>
+                    <p>Chúng tôi đưa ra các gợi ý du lịch Nhật Bản phong phú như các hoạt động hữu ích, lời khuyên du lịch và hơn thế nữa.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h2>Thông tin về các dịch vụ của ANA</h2>
+                    <p>Luôn cập nhật thông tin và trải nghiệm về chuyến bay ANA</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <div id="registration" class="registration">
+        <div class="cloud-img"></div>
+        <div class="mainimg">
+            <h3 class="title">Hãy đăng ký nhận bản tin điện tử ANA</h3>
+        </div>
         <div class="container">
             <div class="step-number">
-                <ol>
-                    <li class="current">Nhập thông tin</li>
-                    <li>Xác nhận</li>
-                    <li>Hoàn tất</li>
-                </ol>
+                <div class="line"></div>
+                <ul class="line">
+                    <li class="current"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <!--ol>
+                    <li class="current">Input</li>
+                    <li>Confirmation</li>
+                    <li>Completion</li>
+                </ol-->
             </div>
 
             <!-- form -->
@@ -188,6 +233,7 @@
     <footer>
         <div class="container">
             <div class="row">
+                <p class="cntct-txt"><span class="txt01">Contact</span><span class="txt02">info@ana-campaign.com</span></p>
                 <div class="col-xs-12 text-right">
                     <img src="/images/footer-logo.png" alt="A STAR ALLIANCE MEMBER"/>
                 </div>
