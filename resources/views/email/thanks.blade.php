@@ -77,7 +77,35 @@
     </section>
     <section class="links-icons">
         <div class="links-icons-list">
-            <a href="" class="link_icon">
+@if($region ==='Australia')
+    <a href="https://www.ana.co.jp/en/au/" class="link_icon" target="_blank">
+@elseif($region ==='Cambodia')
+    <a href="https://www.ana.co.jp/en/kh/" class="link_icon" target="_blank">
+@elseif($region ==='Hong Kong')
+    <a href="https://www.ana.co.jp/en/hk/" class="link_icon" target="_blank">
+@elseif($region ==='India')
+    <a href="https://www.ana.co.jp/en/in/" class="link_icon" target="_blank">
+@elseif($region ==='Indonesia')
+    <a href="https://www.ana.co.jp/en/id/" class="link_icon" target="_blank">
+@elseif($region ==='Korea')
+    <a href="https://www.ana.co.jp/ko/kr/" class="link_icon" target="_blank">
+@elseif($region ==='Malaysia')
+    <a href="https://www.ana.co.jp/en/my/" class="link_icon" target="_blank">
+@elseif($region ==='Mynamar')
+    <a href="https://www.ana.co.jp/en/mm/" class="link_icon" target="_blank">
+@elseif($region ==='Singapore')
+    <a href="https://www.ana.co.jp/en/sg/" class="link_icon" target="_blank">
+@elseif($region ==='Taiwan')
+    <a href="https://www.ana.co.jp/en/tw/" class="link_icon" target="_blank">
+@elseif($region ==='Thailand')
+    <a href="https://www.ana.co.jp/en/th/" class="link_icon" target="_blank">
+@elseif($region ==='The Philippines')
+    <a href="https://www.ana.co.jp/en/oh/" class="link_icon" target="_blank">
+@elseif($region ==='Vietenam')
+    <a href="https://www.ana.co.jp/en/vn/" class="link_icon" target="_blank">
+@else
+
+@endif
                 <div class="outer-box icon-web sha">
                     
                         <div class="inner-box">
@@ -86,7 +114,13 @@
                         </div>
                 </div>
             </a>
-            <a href="" class="link_icon">
+@if($region ==='Hong Kong')
+    <a href="https://www.facebook.com/ana.hongkong" class="link_icon" target="_blank">
+@elseif($region ==='Taiwan')
+    <a href="https://www.facebook.com/ana.ch.traditional" class="link_icon" target="_blank">
+@else
+    <a href="https://www.facebook.com/flyworld.ana/" class="link_icon" target="_blank">
+@endif
                 <div class="outer-box icon-facebook sha">                    
                         <div class="inner-box">
                             <p>Official Facebook<br>page</p>

@@ -8,6 +8,7 @@ header .container {
 }
 .text-right-side{
     width: auto;
+    margin-right: 30px;
 }
 .text-left{
     padding-top: 3px;
@@ -515,6 +516,10 @@ a.link_icon:hover{
     }
     .merit li{
         width: 42.05%;
+    }
+    .registration {
+        margin-top: 207px;
+        background-image: none;
     }
 }
 
