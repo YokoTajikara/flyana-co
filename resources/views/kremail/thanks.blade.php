@@ -90,7 +90,7 @@
     <a href="https://www.ana.co.jp/ko/kr/" class="link_icon" target="_blank">
 @elseif($region ==='Malaysia')
     <a href="https://www.ana.co.jp/en/my/" class="link_icon" target="_blank">
-@elseif($region ==='Mynamar')
+@elseif($region ==='Myanmar')
     <a href="https://www.ana.co.jp/en/mm/" class="link_icon" target="_blank">
 @elseif($region ==='Singapore')
     <a href="https://www.ana.co.jp/en/sg/" class="link_icon" target="_blank">
@@ -100,8 +100,8 @@
     <a href="https://www.ana.co.jp/en/th/" class="link_icon" target="_blank">
 @elseif($region ==='The Philippines')
     <a href="https://www.ana.co.jp/en/ph/" class="link_icon" target="_blank">
-@elseif($region ==='Vietenam')
-    <a href="https://www.ana.co.jp/en/vn/" class="link_icon" target="_blank">
+@elseif($region ==='Vietnam')
+    <a href="https://www.ana.co.jp/vi/vn/" class="link_icon" target="_blank">
 @else
 
 @endif

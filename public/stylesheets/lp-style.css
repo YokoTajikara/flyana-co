@@ -192,6 +192,9 @@ ul.merit {
 .merit li:nth-child(4) h2 {
     margin: 199px 0 9px 0;
 }
+.merit.vn li:nth-child(3) h2 {
+    margin: 179px 0 8px -5px;
+}
 .merit li p{
     font-size: 20px;
     font-weight: normal;
