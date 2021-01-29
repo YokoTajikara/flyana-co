@@ -154,8 +154,10 @@ class KREmailController extends Controller
             throw new \Exception("failed to insert salesforce data.");
         }
 
+        $value = $request->toArray(); 
+        $region = $value['residence_region'];
 
-        return view('kremail.thanks');
+        return view('kremail.thanks',compact('region'));
 
     }
 

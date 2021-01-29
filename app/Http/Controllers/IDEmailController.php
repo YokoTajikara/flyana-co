@@ -155,8 +155,10 @@ class IDEmailController extends Controller
             throw new \Exception("failed to insert salesforce data.");
         }
 
+        $value = $request->toArray(); 
+        $region = $value['residence_region'];
 
-        return view('idemail.thanks');
+        return view('idemail.thanks',compact('region'));
 
     }
 

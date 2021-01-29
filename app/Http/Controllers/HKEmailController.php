@@ -154,8 +154,10 @@ class HKEmailController extends Controller
             throw new \Exception("failed to insert salesforce data.");
         }
 
+        $value = $request->toArray(); 
+        $region = $value['residence_region'];
 
-        return view('hkemail.thanks');
+        return view('hkemail.thanks',compact('region'));
 
     }
 

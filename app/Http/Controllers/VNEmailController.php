@@ -154,8 +154,10 @@ class VNEmailController extends Controller
             throw new \Exception("failed to insert salesforce data.");
         }
 
+        $value = $request->toArray(); 
+        $region = $value['residence_region'];
 
-        return view('vnemail.thanks');
+        return view('vnemail.thanks',compact('region'));
 
     }
 

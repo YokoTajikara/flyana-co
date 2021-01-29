@@ -154,8 +154,10 @@ class THEmailController extends Controller
             throw new \Exception("failed to insert salesforce data.");
         }
 
+        $value = $request->toArray(); 
+        $region = $value['residence_region'];
 
-        return view('themail.thanks');
+        return view('themail.thanks',compact('region'));
 
     }
 
