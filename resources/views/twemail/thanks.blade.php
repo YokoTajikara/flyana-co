@@ -95,7 +95,7 @@
 @elseif($region ==='Singapore')
     <a href="https://www.ana.co.jp/en/sg/" class="link_icon" target="_blank">
 @elseif($region ==='Taiwan')
-    <a href="https://www.ana.co.jp/en/tw/" class="link_icon" target="_blank">
+    <a href="https://www.ana.co.jp/zh/tw/" class="link_icon" target="_blank">
 @elseif($region ==='Thailand')
     <a href="https://www.ana.co.jp/en/th/" class="link_icon" target="_blank">
 @elseif($region ==='The Philippines')
