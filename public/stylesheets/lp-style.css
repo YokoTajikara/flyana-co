@@ -173,8 +173,11 @@ ul.merit {
     color: #00146E;
 }
 @media screen and (-ms-high-contrast: none) {
+  *::-ms-backdrop, .merit li div{
+        width: 100%;
+    }
   *::-ms-backdrop, .merit li h2{
-        width: 99.5%
+        width: 99.5%;
     }
 }
 .merit li:nth-child(1) h2{
