@@ -65,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/kr/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
                 <div class="col-xs-12 text-right-side">
                     <select id="lang" onchange="location.href=value">
@@ -89,11 +89,11 @@
                 <span class="hdg-txt">구독 신청</span><br>
                 <strong>ANA e-뉴스레터!</strong>
             </h1>
-            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01">지금</span><br><span class="sbsc-now-txt02">구독 신청</span></a></p>
+            <p class="sbsc-now"><a href="#registration"><img src="/images/kr_ballon.png" alt="지금 구독 신청"></a></p>
         </div>
     </section>
     <section class="main-contents">
-        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
+        <div class="outer-box01"><img src="/images/kr_flag.png" alt='Stay connected with ANA'></div>
         <ul class="merit">
             <li>
                 <div>
@@ -123,7 +123,7 @@
         </ul>
     </section>
 
-    <div id="registration" class="registration">
+    <div id="registration" class="registration kr hk">
         <div class="cloud-img"></div>
         <div class="mainimg">
             <h3 class="title">ANA e-뉴스레터 구독 신청</h3>
@@ -132,9 +132,9 @@
             <div class="step-number">
                 <div class="line"></div>
                 <ul class="line">
-                    <li class="current"></li>
-                    <li></li>
-                    <li></li>
+                    <li class="current"><p>입력</p></li>
+                    <li><p>확인</p></li>
+                    <li><p>완료</p></li>
                 </ul>
                 <!--ol>
                     <li class="current">Input</li>

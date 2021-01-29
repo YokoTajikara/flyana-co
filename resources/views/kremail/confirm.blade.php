@@ -54,28 +54,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="#"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/kr/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="registration confirm">
+    <div class="registration confirm kr hk">
             <div class="step-number sp-lp">
                 <div class="line"></div>
                 <ul class="line">
-                    <li></li>
-                    <li class="current"></li>
-                    <li></li>
+                    <li><p>입력</p></li>
+                    <li class="current"><p>확인</p></li>
+                    <li><p>완료</p></li>
                 </ul>
             </div>
         <div class="container">
             <div class="step-number pc-lp">
                 <div class="line"></div>
                 <ul class="line">
-                    <li></li>
-                    <li class="current"></li>
-                    <li></li>
+                      <li><p>입력</p></li>
+                    <li class="current"><p>확인</p></li>
+                    <li><p>완료</p></li>
                 </ul>
             </div>
 
@@ -104,6 +104,7 @@
                         <dl>
                             <dt>거주지 <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{array_get($form,'residence_region')}}</dd>
+                            <input type="hidden" name="residence_region" value="{{array_get($form,'residence_region')}}">
                         </dl>
 
                         <div class="form-checkbox agree_newsletter wifi-cam-confirm-list">

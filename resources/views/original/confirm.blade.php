@@ -114,6 +114,7 @@
                         <dl>
                             <dt>Residence Region <span class="form--attention">*</span></dt>
                             <dd class="wifi-cam-confirm">{{array_get($form,'residence_region')}}</dd>
+                            <input type="hidden" name="residence_region" value="{{array_get($form,'residence_region')}}">
                         </dl>
 
                         <div class="form-checkbox agree_newsletter wifi-cam-confirm-list">

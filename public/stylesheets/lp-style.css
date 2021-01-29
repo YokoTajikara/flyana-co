@@ -81,11 +81,8 @@ span.hdg-txt {
     position: absolute;
     text-align: center;
     right: 35px;
-    top: 352px;
+    top: 361px;
     line-height: 22px;
-    background-image: url(../images/ballon-bk.png),url(../images/ballon.png);
-    background-repeat: no-repeat,no-repeat;
-    background-position: center 40px,center 11px;
     color: #fff;
     text-decoration: none;
 }
@@ -198,6 +195,15 @@ ul.merit {
     color: #333333;
     line-height: 30px;
 }
+.merit.th li p{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.merit.vn li p{
+    width: 80%;
+    margin: 0 auto;
+}
 .registration {
     margin-top: 250px;
     padding-top: 92px;
@@ -278,6 +284,10 @@ ul.merit {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F78400', endColorstr='#D07000', GradientType=0);
 }
 
+.registration.hk .title,.registration.tw .title{
+    padding: 12px 0;
+}
+
 .registration .title::after {
     position: absolute;
     left: 50%;
@@ -342,25 +352,67 @@ ul.merit {
     background-color: #EEE;
     width: 40.33%!important;
 }
-.registration .step-number .line li:nth-child(1):after {
-    content: "Input";
+.registration .step-number .line li:nth-child(1) p {
+    /*content: "Input";*/
     position: absolute;
     top: 35px;
     left: -11px;
     font-size: 19px;
 }
-.registration .step-number .line li:nth-child(2):after {
-    content: "Confirmation";
+.registration.hk .step-number .line li:nth-child(1) p {
+    left: 1px;
+}
+.registration.id .step-number .line li:nth-child(1) p {
+    left: -41px;
+}
+.registration.confirm.id .step-number .line li:nth-child(1) p {
+    left: -32px;
+}
+.registration.th .step-number .line li:nth-child(1) p {
+    left: -25px;
+}
+.registration.vn .step-number .line li:nth-child(1) p {
+    left: -44px;
+}
+
+.registration .step-number .line li:nth-child(2) p {
+    /*content: "Confirmation";*/
     position: absolute;
     top: 35px;
     left: -33px;
     font-size: 19px;
-}.registration .step-number .line li:nth-child(3):after {
-    content: "Completion";
+}
+.registration.hk .step-number .line li:nth-child(2) p {
+    left: -2px;
+}
+.registration.id .step-number .line li:nth-child(2) p {
+    left: -6px;
+}
+.registration.th .step-number .line li:nth-child(2) p {
+    left: -6px;
+}
+.registration.vn .step-number .line li:nth-child(2) p {
+    left: -16px;
+}
+.registration .step-number .line li:nth-child(3) p {
+    /*content: "Completion";*/
     position: absolute;
     top: 35px;
     left: -33px;
     font-size: 19px;
+}
+.registration.hk .step-number .line li:nth-child(3) p {
+    left: -7px;
+}
+.registration.id .step-number .line li:nth-child(3) p {
+    left: -23px;
+}
+.registration.th .step-number .line li:nth-child(3) p {
+    width: 100px;
+}
+.registration.vn .step-number .line li:nth-child(3) p {
+    left: -16px;
+    width: 100px;
 }
 .registration.confirm .step-number .line li{
     width: 37.33%!important;
@@ -369,6 +421,9 @@ ul.merit {
 .registration .step-number .line li:last-child {
     background: none;
     width: 30px!important;
+}
+.registration.hk .step-number .line li:last-child {
+    width: 37px!important;
 }
 
 .registration .step-number .line li:before {
@@ -405,6 +460,10 @@ ul.merit {
 .registration .mainimg {
     width: 546px;
     margin-left: -290px;
+}
+.registration.id .mainimg {
+    width: 670px;
+    margin-left: -350px;
 }
 
 .links-icons-list {
@@ -451,8 +510,19 @@ ul.merit {
 }
 .outer-box p.txt01 {
     padding-top: 13px;
+    text-align: left;
+    padding-left: 22px;
 }
-
+.outer-box.th p.txt01 {
+    line-height: 1;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+.outer-box.vn p.txt01 {
+    line-height: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .outer-box p.txt {
     font-size: 13px;
     font-weight: normal;
@@ -460,6 +530,12 @@ ul.merit {
     text-align: left;
     padding-left: 20px;
     line-height: 17px;
+}
+.outer-box.th p.txt{
+    width: 78%;
+}
+.outer-box.vn p.txt{
+    width: 72%;
 }
 .icon-facebook .inner-box p {
     padding-left: 86px;
@@ -521,6 +597,52 @@ a.link_icon:hover{
         margin-top: 207px;
         background-image: none;
     }
+    .outer-box01 img{
+        width: 500px;
+        height: auto;
+    }
+    /* 多言語　*/
+    .merit.vn li:nth-child(3) h2 {
+        margin-top: 156px;
+    }
+    .merit.id li:nth-child(3) h2 {
+        margin-top: 156px;
+    }
+    .merit.vn li:nth-child(2){
+        background-position: center -27px;
+    }
+    .merit.vn li:nth-child(3){
+        background-position: center -21px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    /* メリット縦並び*/
+    ul.merit{
+        display: block;
+    }
+
+    .merit li{
+        margin:auto;
+        border-radius: 0;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .merit li:nth-child(even) {
+        margin:auto; 
+    }
+    .merit li:nth-child(3) {
+        margin-top: 30px;
+    }
+    .merit.th li p,.merit.vn li p {
+        width: auto;
+    }
+    section.main-contents{
+        padding-top: 10px;
+    }
+    /*縦並びここまで*/
+
 }
 
 @media screen and (max-width: 769px){
@@ -533,6 +655,10 @@ a.link_icon:hover{
     .registration .mainimg {
         width: 85%;
         margin-left: -42%;
+    }
+    .registration.id .mainimg {
+        width: 89%;
+        margin-left: -45%;
     }
     .registration .title{
         font-size: 1.2em;
@@ -591,7 +717,7 @@ a.link_icon:hover{
     .merit li:nth-child(3) h2 {
         margin: 158px 0 16px 0;
     }
-    .merit li:nth-child(3) {
+    .merit li:nth-child(3),.merit.vn li:nth-child(2),.merit.vn li:nth-child(3) {
         background-position: center 16px;
     }
     .merit li:nth-child(4) {
@@ -631,6 +757,9 @@ a.link_icon:hover{
     .outer-box p.txt{
         padding-left: 37px;
     }
+    .outer-box p.txt01{
+        padding-left: 38px;
+    }
 }
 
 @media screen and (max-width:640px){
@@ -659,6 +788,9 @@ a.link_icon:hover{
         font-size: 41px;
         padding-top: 54px;
         margin-right: 0px;
+    }
+    .section-mainvisual.th h1.hdg{
+        line-height: 55px;
     }
     span.hdg-txt{
         font-size: 34px;
@@ -796,6 +928,9 @@ a.link_icon:hover{
         line-height: 16px; 
         font-size: 19px;       
     }
+    .section-mainvisual .sbsc-now a img{
+        width: 195px;
+    }
     .section-mainvisual .sbsc-now .sbsc-now-txt02{
         font-size: 35px;
         margin-bottom: 20px;
@@ -837,10 +972,11 @@ a.link_icon:hover{
 .registration.confirm .step-number .line li:last-child {
     width: 25px!important;
 }
-.registration .step-number .line li:nth-child(1):after,
-.registration .step-number .line li:nth-child(2):after,
-.registration .step-number .line li:nth-child(3):after{
+.registration .step-number .line li:nth-child(1) p,
+.registration .step-number .line li:nth-child(2) p,
+.registration .step-number .line li:nth-child(3) p{
     font-size: 15px;
+    top: 31px;
 }
     .registration.confirm .step-number ol li {
         width: 24.33%!important;
@@ -1029,9 +1165,10 @@ a.link_icon:hover{
 }
 @media screen and (max-width:924px) and (min-width:770px){
     .merit li:nth-child(3) h2 {
-        margin: 224px 0 8px -5px;
-        width: 103%;
+        margin: 201px 0 8px -5px;
+        /*width: 103%;*/
     }
+
 }
 @media screen and (max-width:829px) and (min-width:641px){
     .form-input dt,

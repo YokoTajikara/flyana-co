@@ -64,7 +64,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/vn/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
                 <div class="col-xs-12 text-right-side">
                     <select id="lang" onchange="location.href=value">
@@ -82,18 +82,18 @@
         </div>
     </header>
 
-    <section class="section-mainvisual">
+    <section class="section-mainvisual vn">
         <div class="inner-box">
             <h1 class="hdg">
                 <span class="hdg-txt">Đăng ký nhận</span><br>
                 <strong>bản tin điện tử ANA!</strong>
             </h1>
-            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01"></span><br><span class="sbsc-now-txt02">Đăng ký ngay</span></a></p>
+            <p class="sbsc-now"><a href="#registration"><img src="/images/vn_ballon.png" alt="Đăng ký ngay"></a></p>
         </div>
     </section>
     <section class="main-contents">
-        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
-        <ul class="merit">
+        <div class="outer-box01"><img src="/images/vn_flag.png" alt='Stay connected with ANA'></div>
+        <ul class="merit vn">
             <li>
                 <div>
                     <h2>Giá vé siêu đặc biệt</h2>
@@ -122,7 +122,7 @@
         </ul>
     </section>
 
-    <div id="registration" class="registration">
+    <div id="registration" class="registration vn">
         <div class="cloud-img"></div>
         <div class="mainimg">
             <h3 class="title">Hãy đăng ký nhận bản tin điện tử ANA</h3>
@@ -131,9 +131,9 @@
             <div class="step-number">
                 <div class="line"></div>
                 <ul class="line">
-                    <li class="current"></li>
-                    <li></li>
-                    <li></li>
+                    <li class="current"><p>Nhập thông tin</p></li>
+                    <li><p>Xác nhận</p></li>
+                    <li><p>Hoàn tất</p></li>
                 </ul>
                 <!--ol>
                     <li class="current">Input</li>

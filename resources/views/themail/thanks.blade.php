@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="#"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/th/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
             </div>
         </div>
@@ -97,15 +97,15 @@
 @elseif($region ==='Taiwan')
     <a href="https://www.ana.co.jp/en/tw/" class="link_icon" target="_blank">
 @elseif($region ==='Thailand')
-    <a href="https://www.ana.co.jp/en/th/" class="link_icon" target="_blank">
+    <a href="https://www.ana.co.jp/th/th/" class="link_icon" target="_blank">
 @elseif($region ==='The Philippines')
-    <a href="https://www.ana.co.jp/en/oh/" class="link_icon" target="_blank">
+    <a href="https://www.ana.co.jp/en/ph/" class="link_icon" target="_blank">
 @elseif($region ==='Vietenam')
     <a href="https://www.ana.co.jp/en/vn/" class="link_icon" target="_blank">
 @else
 
 @endif
-                <div class="outer-box icon-web sha">
+                <div class="outer-box icon-web sha th">
                     
                         <div class="inner-box">
                             <p class="txt01">เว็บไซต์อย่างเป็นทางการของ ANA</p>

@@ -95,11 +95,11 @@
 @elseif($region ==='Singapore')
     <a href="https://www.ana.co.jp/en/sg/" class="link_icon" target="_blank">
 @elseif($region ==='Taiwan')
-    <a href="https://www.ana.co.jp/en/tw/" class="link_icon" target="_blank">
+    <a href="https://www.ana.co.jp/zn/tw/" class="link_icon" target="_blank">
 @elseif($region ==='Thailand')
     <a href="https://www.ana.co.jp/en/th/" class="link_icon" target="_blank">
 @elseif($region ==='The Philippines')
-    <a href="https://www.ana.co.jp/en/oh/" class="link_icon" target="_blank">
+    <a href="https://www.ana.co.jp/en/ph/" class="link_icon" target="_blank">
 @elseif($region ==='Vietenam')
     <a href="https://www.ana.co.jp/en/vn/" class="link_icon" target="_blank">
 @else
@@ -122,7 +122,7 @@
 @endif
                 <div class="outer-box icon-facebook sha">                    
                         <div class="inner-box">
-                            <p>官方 Facebook 粉絲專頁</p>
+                            <p>官方 Facebook<br>粉絲專頁</p>
                         </div>                    
                 </div>
             </a>

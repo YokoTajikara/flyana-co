@@ -89,11 +89,11 @@
                 <span class="hdg-txt">訂閱</span><br>
                 <strong>ANA 電子通訊!</strong>
             </h1>
-            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01"></span><br><span class="sbsc-now-txt02">立即訂閱</span></a></p>
+            <p class="sbsc-now"><a href="#registration"><img src="/images/hk_ballon.png" alt="立即訂閱"></a></p>
         </div>
     </section>
     <section class="main-contents">
-        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
+        <div class="outer-box01"><img src="/images/hk_flag.png" alt='Stay connected with ANA'></div>
         <ul class="merit">
             <li>
                 <div>
@@ -123,7 +123,7 @@
         </ul>
     </section>
 
-    <div id="registration" class="registration">
+    <div id="registration" class="registration hk">
         <div class="cloud-img"></div>
         <div class="mainimg">
             <h3 class="title">立即註冊 ANA 電子通訊</h3>
@@ -132,9 +132,9 @@
             <div class="step-number">
                 <div class="line"></div>
                 <ul class="line">
-                    <li class="current"></li>
-                    <li></li>
-                    <li></li>
+                    <li class="current"><p>輸入</p></li>
+                    <li><p>確認</p></li>
+                    <li><p>完成</p></li>
                 </ul>
                 <!--ol>
                     <li class="current">Input</li>

@@ -53,28 +53,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="#"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/id/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="registration confirm">
+    <div class="registration confirm id">
             <div class="step-number sp-lp">
                 <div class="line"></div>
                 <ul class="line">
-                    <li></li>
-                    <li class="current"></li>
-                    <li></li>
+                    <li><p>Memasukkan</p></li>
+                    <li class="current"><p>Setuju</p></li>
+                    <li><p>Penamatan</p></li>
                 </ul>
             </div>
         <div class="container">
             <div class="step-number pc-lp">
                 <div class="line"></div>
                 <ul class="line">
-                    <li></li>
-                    <li class="current"></li>
-                    <li></li>
+                    <li><p>Memasukkan</p></li>
+                    <li class="current"><p>Setuju</p></li>
+                    <li><p>Penamatan</p></li>
                 </ul>
             </div>
 
@@ -86,23 +86,24 @@
                     <div class="form-input">
                         <dl>
                             <dt>Nama Depan (Alfabet)<span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{ array_get($form, 'first_name') }}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{ array_get($form, 'first_name') }}</dd>
                         </dl>
                         <dl>
                             <dt>Nama Belakang (Alfabet)<span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{ array_get($form, 'last_name') }}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{ array_get($form, 'last_name') }}</dd>
                         </dl>
                         <dl>
                             <dt>Jenis Kelamin <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{$genderList[array_get($form,'gender')]}}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{$genderList[array_get($form,'gender')]}}</dd>
                         </dl>
                         <dl>
                             <dt>Email <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{array_get($form,'email')}}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{array_get($form,'email')}}</dd>
                         </dl>
                         <dl>
                             <dt>Negara <span class="form--attention">*</span></dt>
-                            <dd class="wifi-cam-confirm">{{array_get($form,'residence_region')}}</dd>
+                            <dd class="wifi-cam-confirm confirm-text">{{array_get($form,'residence_region')}}</dd>
+                            <input type="hidden" name="residence_region" value="{{array_get($form,'residence_region')}}">
                         </dl>
 
                         <div class="form-checkbox agree_newsletter wifi-cam-confirm-list">

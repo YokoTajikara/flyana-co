@@ -65,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-left">
-                    <a href="/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
+                    <a href="/th/"><img src="/images/logo-en.png" alt="ANA Inspiration of JAPAN"/></a>
                 </div>
                 <div class="col-xs-12 text-right-side">
                     <select id="lang" onchange="location.href=value">
@@ -83,18 +83,18 @@
         </div>
     </header>
 
-    <section class="section-mainvisual">
+    <section class="section-mainvisual th">
         <div class="inner-box">
             <h1 class="hdg">
                 <span class="hdg-txt"></span><br>
-                <strong>สมัครรับจดหมายข่าว ANA!</strong>
+                <strong>สมัครรับจดหมายข่าว<br>ANA!</strong>
             </h1>
-            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01"></span><br><span class="sbsc-now-txt02">สมัครตอนนี้</span></a></p>
+            <p class="sbsc-now"><a href="#registration"><img src="/images/th_ballon.png" alt="สมัครตอนนี้"></a></p>
         </div>
     </section>
     <section class="main-contents">
-        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
-        <ul class="merit">
+        <div class="outer-box01"><img src="/images/th_flag.png" alt='Stay connected with ANA'></div>
+        <ul class="merit th">
             <li>
                 <div>
                     <h2>ค่าโดยสารราคาพิเศษ</h2>
@@ -123,7 +123,7 @@
         </ul>
     </section>
 
-    <div id="registration" class="registration">
+    <div id="registration" class="registration th">
         <div class="cloud-img"></div>
         <div class="mainimg">
             <h3 class="title">มาสมัครรับจดหมายข่าว ANA</h3>
@@ -132,9 +132,9 @@
             <div class="step-number">
                 <div class="line"></div>
                 <ul class="line">
-                    <li class="current"></li>
-                    <li></li>
-                    <li></li>
+                    <li class="current"><p>กรอกข้อมูล</p></li>
+                    <li><p>ยืนยัน</p></li>
+                    <li><p>เสร็จสมบูรณ์</p></li>
                 </ul>
                 <!--ol>
                     <li class="current">Input</li>

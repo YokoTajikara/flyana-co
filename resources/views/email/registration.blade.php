@@ -88,7 +88,7 @@
                 <span class="hdg-txt">Subscribe</span><br>
                 <strong>ANA e-newsletter!</strong>
             </h1>
-            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01">Subscribe</span><br><span class="sbsc-now-txt02">NOW</span></a></p>
+            <p class="sbsc-now"><a href="#registration"><img src="/images/en_ballon.png" alt="Subscribe NOW"></a></p>
         </div>
     </section>
     <section class="main-contents">
@@ -131,9 +131,9 @@
             <div class="step-number">
                 <div class="line"></div>
                 <ul class="line">
-                    <li class="current"></li>
-                    <li></li>
-                    <li></li>
+                    <li class="current"><p>Input</p></li>
+                    <li><p>Confirmation</p></li>
+                    <li><p>Completion</p></li>
                 </ul>
                 <!--ol>
                     <li class="current">Input</li>

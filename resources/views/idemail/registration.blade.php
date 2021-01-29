@@ -88,23 +88,23 @@
                 <span class="hdg-txt">Berlangganan</span><br>
                 <strong>e-newsletter ANA!</strong>
             </h1>
-            <p class="sbsc-now"><a href="#registration"><span class="sbsc-now-txt01">Daftar</span><br><span class="sbsc-now-txt02">sekarang</span></a></p>
+            <p class="sbsc-now"><a href="#registration"><img src="/images/id_ballon.png" alt="Daftar sekarang"></a></p>
         </div>
     </section>
     <section class="main-contents">
-        <div class="outer-box01"><img src="/images/flag.png" alt='Stay connected with ANA'></div>
-        <ul class="merit">
+        <div class="outer-box01"><img src="/images/id_flag.png" alt='Stay connected with ANA'></div>
+        <ul class="merit id">
             <li>
                 <div>
                     <h2>Penawaran harga ekskusif</h2>
-                    <p>Anda menjadi orang pertama yang mendapatkan penawaran<br>tarif khusus dari ANA.</p>                  
+                    <p>Anda menjadi orang pertama yang<br>mendapatkan penawaran<br>tarif khusus dari ANA.</p>                  
                 </div>
 
             </li>
             <li>
                 <div>
                     <h2>Temukan banyak promosi dari ANA</h2>
-                    <p>Jangan lewatkan informasi mengenai program dan acara<br>lokal di negara Anda.</p>                
+                    <p>Jangan lewatkan<br>informasi mengenai program dan acara<br>lokal di negara Anda.</p>                
                 </div>
             </li>
             <li>
@@ -122,7 +122,7 @@
         </ul>
     </section>
 
-    <div id="registration" class="registration">
+    <div id="registration" class="registration id">
         <div class="cloud-img"></div>
         <div class="mainimg">
             <h3 class="title">Mari bergabung dengan e-newsletter ANA</h3>
@@ -131,9 +131,9 @@
             <div class="step-number">
                 <div class="line"></div>
                 <ul class="line">
-                    <li class="current"></li>
-                    <li></li>
-                    <li></li>
+                    <li class="current"><p>Memasukkan</p></li>
+                    <li><p>Setuju</p></li>
+                    <li><p>Penamatan</p></li>
                 </ul>
                 <!--ol>
                     <li class="current">Input</li>
