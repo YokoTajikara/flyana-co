@@ -86,7 +86,6 @@
     <section class="section-mainvisual th">
         <div class="inner-box">
             <h1 class="hdg">
-                <span class="hdg-txt"></span><br>
                 <strong>สมัครรับจดหมายข่าว<br>ANA!</strong>
             </h1>
             <p class="sbsc-now"><a href="#registration"><img src="/images/th_ballon.png" alt="สมัครตอนนี้"></a></p>

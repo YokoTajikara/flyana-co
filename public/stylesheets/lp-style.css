@@ -647,6 +647,9 @@ a.link_icon:hover{
     section.main-contents{
         padding-top: 10px;
     }
+    .merit li div {
+        width: 90%;
+    }
     /*縦並びここまで*/
 
 }
@@ -797,6 +800,7 @@ a.link_icon:hover{
     }
     .section-mainvisual.th h1.hdg{
         line-height: 55px;
+        padding-top: 76px;
     }
     .section-mainvisual.vn h1.hdg {
         line-height: 55px;
