@@ -63,18 +63,18 @@
             <div class="step-number sp-lp">
                 <div class="line"></div>
                 <ul class="line">
-                    <li></li>
-                    <li class="current"></li>
-                    <li></li>
+                    <li><p>Input</p></li>
+                    <li class="current"><p>Confirmation</p></li>
+                    <li><p>Completion</p></li>
                 </ul>
             </div>
         <div class="container">
             <div class="step-number pc-lp">
                 <div class="line"></div>
                 <ul class="line">
-                    <li></li>
-                    <li class="current"></li>
-                    <li></li>
+                    <li><p>Input</p></li>
+                    <li class="current"><p>Confirmation</p></li>
+                    <li><p>Completion</p></li>
                 </ul>
             </div>
 

@@ -792,6 +792,9 @@ a.link_icon:hover{
     .section-mainvisual.th h1.hdg{
         line-height: 55px;
     }
+    .section-mainvisual.vn h1.hdg {
+        line-height: 55px;
+    }
     span.hdg-txt{
         font-size: 34px;
     }

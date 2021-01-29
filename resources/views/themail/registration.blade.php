@@ -69,12 +69,12 @@
                 </div>
                 <div class="col-xs-12 text-right-side">
                     <select id="lang" onchange="location.href=value">
-                        <option value="#" class="selected">English</li>
+                        <option value="#" class="selected">ภาษาไทย
+                        </option><option value="/">English</option>
                         <option value="/tw/">繁體中文(台湾)</option>
                         <option value="/hk/">繁體中文(香港)</option>
                         <option value="/kr/">한국어</option>
                         <option value="/id/">Bahasa Indonesia</option>
-                        <option value="/th/">ภาษาไทย</option>
                         <option value="/vn/">Việt Nam</option>
                   </select>
                 </div>
