@@ -202,13 +202,18 @@ ul.merit {
     line-height: 30px;
 }
 .merit.th li p{
-    width: 75%;
+    width: 95%;
     margin: 0 auto;
 }
-
+.merit.th li .th_sp{
+    width: 80%;
+}
 .merit.vn li p{
     width: 80%;
     margin: 0 auto;
+}
+.merit.th li .vn_sp{
+    width: 90%;
 }
 .registration {
     margin-top: 250px;

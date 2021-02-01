@@ -97,7 +97,7 @@
             <li>
                 <div>
                     <h2>Giá vé siêu đặc biệt</h2>
-                    <p>Bạn sẽ là người đầu tiên nhận thông tin<br> về giá vé đặc biệt giới hạn từ ANA</p>                  
+                    <p class="vn_sp">Bạn sẽ là người đầu tiên nhận thông tin<br> về giá vé đặc biệt giới hạn từ ANA</p>                  
                 </div>
 
             </li>
