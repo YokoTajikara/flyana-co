@@ -85,7 +85,7 @@
     <section class="section-mainvisual vn">
         <div class="inner-box">
             <h1 class="hdg">
-                <span class="hdg-txt">Đăng ký nhận</span><br>
+                <span class="hdg-txt">Đăng ký</span><br>
                 <strong>bản tin điện tử ANA!</strong>
             </h1>
             <p class="sbsc-now"><a href="#registration"><img src="/images/vn_ballon.png" alt="Đăng ký ngay"></a></p>
@@ -97,7 +97,7 @@
             <li>
                 <div>
                     <h2>Giá vé siêu đặc biệt</h2>
-                    <p>Bạn sẽ là người đầu tiên nhận thông tin về giá vé đặc biệt giới hạn từ ANA</p>                  
+                    <p>Bạn sẽ là người đầu tiên nhận thông tin<br> về giá vé đặc biệt giới hạn từ ANA</p>                  
                 </div>
 
             </li>
