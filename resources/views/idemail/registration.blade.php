@@ -115,7 +115,7 @@
             </li>
             <li>
                 <div>
-                    <h2>Informasi mengenail<br> layanan ANA</h2>
+                    <h2>Informasi mengenai<br> layanan ANA</h2>
                     <p>Dapatkan pengalaman dan informasi<br>penerbangan terbaru dari ANA.</p>
                 </div>
             </li>
