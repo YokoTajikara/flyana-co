@@ -110,8 +110,8 @@
             </li>
             <li>
                 <div>
-                    <h2>일본 여행 계획에 대한 정보를 확인해 보세요.</h2>
-                    <p>일본 여행에서의 활동, 여행 팁 등 다양한 일본<br>여행에 대한 추천을 받아 보세요.</p>                    
+                    <h2>일본 여행 계획에 대한 정보를<br>확인해 보세요.</h2>
+                    <p>일본에서의 활동, 여행 팁 등 일본 여행에 대한<br>다양한 추천을 받아 보세요.</p>                    
                 </div>
             </li>
             <li>
@@ -210,7 +210,7 @@
                     <!-- /form-input -->
 
                     <div class="form-note">
-                        <p>"ANA e-Newsletter 등록 양식을 제출함으로써, 이용자 본인은 18세 이상임을 인정합니다. ANA는 ANA의 개인 정보 보호 정책에 의거하여 귀하가 제공하는 개인 정보를 이용할 수 있습니다. <a href="https://www.ana.co.jp/wws/privacy/k/ana.html" target="_blank">ANA는 위에 명시된 귀하의 요청을 준수하며</a>, ANA에서 마케팅 자료를 수령한 후에 귀하가 요청한 변경 사항을 반영합니다.</p>
+                        <p>ANA e-Newsletter 등록 양식을 제출함으로써, 이용자 본인은 18세 이상임을 인정합니다. ANA는 ANA의 개인 정보 보호 정책에 의거하여 귀하가 제공하는 개인 정보를 이용할 수 있습니다. <a href="https://www.ana.co.jp/wws/privacy/k/ana.html" target="_blank">ANA는 위에 명시된 귀하의 요청을 준수하며</a>, ANA에서 마케팅 자료를 수령한 후에 귀하가 요청한 변경 사항을 반영합니다.</p>
                     </div>
 
                     <div class="form-btn">

@@ -211,7 +211,7 @@
                     <!-- /form-input -->
 
                     <div class="form-note">
-                        <p>"如同意透過本網站登記收取 ANA E-Newsletter, 表示閣下已年滿18歲或以上。當完成填寫並送出個人資料後, 表示閣下充分瞭解及同意ANA依據<a href="http://www.ana.co.jp/wws/privacy/hk/ana.html" target="_blank">「隱私權政策」</a>蒐集、處理、利用閣下所提供的個人資料而進行行銷和相關活動。ANA將依據閣下同意接收或將來選擇退出接收訊息的要求而繼續或停止發送相關行銷推廣訊息。</p>
+                        <p>如同意透過本網站登記收取 ANA E-Newsletter, 表示閣下已年滿18歲或以上。當完成填寫並送出個人資料後, 表示閣下充分瞭解及同意ANA依據<a href="http://www.ana.co.jp/wws/privacy/hk/ana.html" target="_blank">「隱私權政策」</a>蒐集、處理、利用閣下所提供的個人資料而進行行銷和相關活動。ANA將依據閣下同意接收或將來選擇退出接收訊息的要求而繼續或停止發送相關行銷推廣訊息。</p>
                     </div>
 
                     <div class="form-btn">
