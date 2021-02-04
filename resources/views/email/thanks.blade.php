@@ -71,7 +71,7 @@
             <h1 class="hdg sp">
                 Thank you for<br>registration!<br>
                 Look forward to your<br>
-                first E-newsletter<br>from ANA!<br>
+                first e-newsletter<br>from ANA!<br>
             </h1>
         </div>
     </section>
