@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
-    <title>ANA E-Newsletter Registration From</title>
+    <title>ANA e-Newsletter Registration From</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

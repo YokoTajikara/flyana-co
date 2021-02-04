@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
-    <title>ANA E-Newsletter Registration From</title>
+    <title>ANA e-Newsletter Registration From</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -110,7 +110,7 @@
             <li>
                 <div>
                     <h2>Find out how to plan a<br>trip to Japan</h2>
-                    <p>We provide varied Japan travel<br>recommendations such as things<br>to do, travel tips and more</p>                    
+                    <p>We provide varied Japan travel<br>recommendations such as things<br>to do, travel tips and more.</p>                    
                 </div>
             </li>
             <li>

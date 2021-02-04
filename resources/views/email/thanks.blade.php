@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="fragment" content="!">
-    <title>Thank you for your registration | ANA E-Newsletter Registration From</title>
+    <title>Thank you for your registration | ANA e-Newsletter Registration From</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,7 +66,7 @@
             <h1 class="hdg pc">
                 Thank you for registration!<br>
                 Look forward to your<br>
-                first E-newsletter from ANA!<br>
+                first e-newsletter from ANA!<br>
             </h1>
             <h1 class="hdg sp">
                 Thank you for<br>registration!<br>
