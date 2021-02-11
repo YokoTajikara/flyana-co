@@ -64,12 +64,12 @@
     <section class="section-mainvisual thanks">
         <div class="inner-box">
             <h1 class="hdg pc">
-                Thank you for registration!<br>
+                Thank you for registering!<br>
                 Look forward to your<br>
                 first e-newsletter from ANA!<br>
             </h1>
             <h1 class="hdg sp">
-                Thank you for<br>registration!<br>
+                Thank you for<br>registering!<br>
                 Look forward to your<br>
                 first e-newsletter<br>from ANA!<br>
             </h1>
