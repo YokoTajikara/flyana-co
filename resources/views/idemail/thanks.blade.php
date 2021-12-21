@@ -117,7 +117,7 @@
 @elseif($region ==='Taiwan')
     <a href="https://www.facebook.com/ana.ch.traditional" class="link_icon" target="_blank">
 @else
-    <a href="https://www.facebook.com/flyworld.ana/" class="link_icon" target="_blank">
+    <a href="https://www.facebook.com/allnipponairways" class="link_icon" target="_blank">
 @endif
                 <div class="outer-box icon-facebook sha">                    
                         <div class="inner-box">
