@@ -114,13 +114,7 @@
                         </div>
                 </div>
             </a>
-@if($region ==='Hong Kong')
-    <a href="https://www.facebook.com/ana.hongkong" class="link_icon" target="_blank">
-@elseif($region ==='Taiwan')
-    <a href="https://www.facebook.com/ana.ch.traditional" class="link_icon" target="_blank">
-@else
-    <a href="https://www.facebook.com/allnipponairways" class="link_icon" target="_blank">
-@endif
+            <a href="https://www.facebook.com/allnipponairways" class="link_icon" target="_blank">
                 <div class="outer-box icon-facebook sha">                    
                         <div class="inner-box">
                             <p>Official Facebook<br>page</p>
