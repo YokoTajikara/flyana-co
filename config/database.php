@@ -106,15 +106,24 @@ return [
 
     'redis' => [
 
-        'cluster' => false,
+    'cluster' => false,
 
-        'default' => [
-            'host' => parse_url(env('REDIS_URL', ''), PHP_URL_HOST),
-            'password' => parse_url(env('REDIS_URL', ''), PHP_URL_PASS),
-            'port' => parse_url(env('REDIS_URL', ''), PHP_URL_PORT),
-            'database' => 0,
-        ],
-
+    'default' => [
+        'host'     => parse_url(env('REDIS_URL', ''), PHP_URL_HOST) ?: '127.0.0.1',
+        'password' => parse_url(env('REDIS_URL', ''), PHP_URL_PASS),
+        'port'     => parse_url(env('REDIS_URL', ''), PHP_URL_PORT) ?: 6379,
+        'database' => 0,
+        'scheme'   => parse_url(env('REDIS_URL', ''), PHP_URL_SCHEME) ?: 'tcp',
     ],
+
+    'options' => [
+        'ssl' => [
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true,
+        ],
+    ],
+
+],
 
 ];
