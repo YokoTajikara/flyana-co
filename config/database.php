@@ -104,39 +104,24 @@ return [
     |
     */
 
-   'redis' => [
+    'redis' => [
+    'cluster' => false,
 
-		'client' => env('REDIS_CLIENT', 'predis'),
+    'default' => [
+        'host'     => parse_url(env('REDIS_URL', ''), PHP_URL_HOST) ?: '127.0.0.1',
+        'password' => parse_url(env('REDIS_URL', ''), PHP_URL_PASS),
+        'port'     => parse_url(env('REDIS_URL', ''), PHP_URL_PORT) ?: 6379,
+        'database' => 0,
+        'scheme'   => parse_url(env('REDIS_URL', ''), PHP_URL_SCHEME) ?: 'tcp',
+    ],
 
-		'options' => [
-			'cluster' => env('REDIS_CLUSTER', 'predis'),
-			'prefix' => env('REDIS_PREFIX', str_slug(env('APP_NAME', 'laravel'), '_').'_database_'),
-			'parameters' => [
-				'scheme' => env('REDIS_SCHEME', 'tls'),
-				'ssl' => [
-					'verify_peer' => false,
-					'verify_peer_name' => false,
-					'allow_self_signed' => true,
-				],
-			],
-		],
-
-		'default' => [
-			'url' => env('REDIS_URL'),
-			'host' => env('REDIS_HOST', '127.0.0.1'),
-			'password' => env('REDIS_PASSWORD', null),
-			'port' => env('REDIS_PORT', 6379),
-			'database' => env('REDIS_DB', 0),
-		],
-
-		'cache' => [
-			'url' => env('REDIS_URL'),
-			'host' => env('REDIS_HOST', '127.0.0.1'),
-			'password' => env('REDIS_PASSWORD', null),
-			'port' => env('REDIS_PORT', 6379),
-			'database' => env('REDIS_CACHE_DB', 1),
-		],
-
-	],
+    'options' => [
+        'ssl' => [
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true,
+        ],
+    ],
+],
 
 ];
