@@ -110,7 +110,7 @@ return [
 
 		'options' => [
 			'cluster' => env('REDIS_CLUSTER', 'predis'),
-			'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+			'prefix' => env('REDIS_PREFIX', str_slug(env('APP_NAME', 'laravel'), '_').'_database_'),
 			'parameters' => [
 				'scheme' => env('REDIS_SCHEME', 'tls'),
 				'ssl' => [
