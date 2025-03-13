@@ -65,7 +65,7 @@ class EmailController extends Controller
     {
         try {
             #read Maxmind GeoIP Db with absolute path
-            $reader = new \GeoIp2\Database\Reader(base_path('GeoLite2-City.mmdb'));
+            $reader = new \GeoIp2\Database\Reader(public_path('GeoLite2-City.mmdb'));
             #get the client's IP
             $user_ip = $this->getUserIP();
             #get country of IP from Maxmind GeoIP db
