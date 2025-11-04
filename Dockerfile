@@ -42,6 +42,26 @@ ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
 RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
 
+# Pass environment variables to PHP via Apache
+RUN echo "PassEnv APP_ENV\n\
+PassEnv APP_KEY\n\
+PassEnv APP_DEBUG\n\
+PassEnv DB_CONNECTION\n\
+PassEnv DB_HOST\n\
+PassEnv DB_PORT\n\
+PassEnv DB_DATABASE\n\
+PassEnv DB_USERNAME\n\
+PassEnv DB_PASSWORD\n\
+PassEnv CACHE_DRIVER\n\
+PassEnv SESSION_DRIVER\n\
+PassEnv QUEUE_DRIVER\n\
+PassEnv SF_CLIENT_ID\n\
+PassEnv SF_CLIENT_SECRET\n\
+PassEnv SF_USERNAME\n\
+PassEnv SF_PASSWORD\n\
+PassEnv SF_LOGIN_URL" > /etc/apache2/conf-available/env.conf \
+    && a2enconf env
+
 # Expose port 80
 EXPOSE 80
 
