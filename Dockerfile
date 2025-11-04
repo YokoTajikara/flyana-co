@@ -32,7 +32,7 @@ RUN rm -f composer.lock
 RUN composer install --no-dev --optimize-autoloader --no-scripts
 
 # Change ownership
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/app/Ana/cache
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
