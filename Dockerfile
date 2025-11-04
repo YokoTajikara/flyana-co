@@ -25,8 +25,11 @@ WORKDIR /var/www/html
 # Copy existing application directory contents
 COPY . /var/www/html
 
+# Remove composer.lock and regenerate for PHP 7.3
+RUN rm -f composer.lock
+
 # Install dependencies
-RUN composer install --no-dev --optimize-autoloader
+RUN composer install --no-dev --optimize-autoloader --no-scripts
 
 # Change ownership
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
