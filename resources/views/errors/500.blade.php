@@ -10,7 +10,7 @@
 	<link rel=stylesheet href="/ninjawifi/css/index.css">
 	<link rel="stylesheet" href="/ninjawifi/css/lightbox.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	@include('entry.tag-inside-head')
+	@includeIf('entry.tag-inside-head')
 <!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -27,7 +27,7 @@ src="https://www.facebook.com/tr?id=288668771331051&ev=PageView&noscript=1"
 <!-- End Facebook Pixel Code -->
 </head>
 <body>
-@include('singapore25._component.bodyAfter')
+@includeIf('singapore25._component.bodyAfter')
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
 var js, fjs = d.getElementsByTagName(s)[0];

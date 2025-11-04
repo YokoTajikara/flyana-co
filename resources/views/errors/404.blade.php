@@ -27,11 +27,11 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
     </head>
-	@include('entry.tag-inside-head')
+	@includeIf('entry.tag-inside-head')
 </head>
 
 <body>
-@include('singapore25._component.bodyAfter')
+@includeIf('singapore25._component.bodyAfter')
 {{-- facebook SDK --}}
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
