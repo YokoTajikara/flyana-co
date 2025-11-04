@@ -152,7 +152,7 @@ class SalesforceService
      */
     private function getQueryUrl()
     {
-        $url = $this->sf_oauth->instance_url . "/services/data/v24.0/query?q=";
+        $url = $this->sf_oauth->instance_url . "/services/data/v58.0/query?q=";
 
         return $url;
     }
@@ -313,7 +313,7 @@ class SalesforceService
         $this->log("ph-emailInsertLead: newRecord=" . json_encode($args));
 
         // リクエスト
-        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v24.0/sobjects/EDMmember__c";
+        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v58.0/sobjects/EDMmember__c";
         $res     = $this->sendRestPostRequest($leadUrl, $args);
         $this->log("ph-emailInsertLead: res=" . json_encode($res));
         curl_close($res["curl"]);
@@ -403,7 +403,7 @@ class SalesforceService
         $this->log("kor_cpn_event1701InsertLead: newRecord=" . print_r($args, true));
 
         // リクエスト
-        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v24.0/sobjects/Lead";
+        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v58.0/sobjects/Lead";
         $res     = $this->sendRestPostRequest($leadUrl, $args);
         $this->log("kor_cpn_event1701InsertLead: res=" . print_r($res, true));
         curl_close($res["curl"]);
@@ -506,7 +506,7 @@ class SalesforceService
 
         $this->log("anayose2017manilaInsertLead: newRecord=" . print_r($args, true));
         // リクエスト
-        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v24.0/sobjects/Lead";
+        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v58.0/sobjects/Lead";
         $res     = $this->sendRestPostRequest($leadUrl, $args);
         $this->log("anayose2017manilaInsertLead: res=" . print_r($res, true));
         curl_close($res["curl"]);
@@ -601,7 +601,7 @@ class SalesforceService
         $this->log("bangkok16bInsertLead: newRecord=" . print_r($args, true));
 
         // リクエスト
-        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v24.0/sobjects/Lead";
+        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v58.0/sobjects/Lead";
         $res     = $this->sendRestPostRequest($leadUrl, $args);
         $this->log("bangkok16bInsertLead: res=" . print_r($res, true));
         curl_close($res["curl"]);
@@ -688,7 +688,7 @@ class SalesforceService
         $this->log("s25InsertLead: newRecord=" . print_r($args, true));
 
         // リクエスト
-        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v24.0/sobjects/Lead";
+        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v58.0/sobjects/Lead";
         $res     = $this->sendRestPostRequest($leadUrl, $args);
         $this->log("s25InsertLead: res=" . print_r($res, true));
         curl_close($res["curl"]);
@@ -794,7 +794,7 @@ class SalesforceService
 
         $this->log("insert_lead: newRecord=" . print_r($args, true));
         // リクエスト
-        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v24.0/sobjects/Lead";
+        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v58.0/sobjects/Lead";
         $res     = $this->sendRestPostRequest($leadUrl, $args);
         $this->log("insert_lead: res=" . print_r($res, true));
         curl_close($res["curl"]);
@@ -846,7 +846,7 @@ class SalesforceService
 
         $this->log("insert_lead: newRecord=" . print_r($args, true));
         // リクエスト
-        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v24.0/sobjects/Lead";
+        $leadUrl = $this->sf_oauth->instance_url . "/services/data/v58.0/sobjects/Lead";
         $res     = $this->sendRestPostRequest($leadUrl, $args);
         $this->log("insert_lead: res=" . print_r($res, true));
         curl_close($res["curl"]);
