@@ -310,16 +310,12 @@ class SalesforceService
             $args[$val] = $data[$val];
         }
 
-        $this->log("ph-emailInsertLead: newRecord=" . json_encode($args));
-
         // リクエスト
         $leadUrl = $this->sf_oauth->instance_url . "/services/data/v58.0/sobjects/EDMmember__c";
         $res     = $this->sendRestPostRequest($leadUrl, $args);
-        $this->log("ph-emailInsertLead: res=" . json_encode($res));
         curl_close($res["curl"]);
         $jsonResponse = $res["json_response"];
         $response     = json_decode($jsonResponse, true);
-        $this->log("ph-emailInsertLead: response=" . json_encode($response));
         if ( ! is_array($response) || ! array_key_exists('success', $response) || ! $response["success"]) {
             // duplicate alertは無視
 
@@ -328,7 +324,7 @@ class SalesforceService
 
             $isDuplicateAlertError = (isset($response[0])) && (false !== strpos($response[0]["message"], "duplicate ")) && ($response[0]["errorCode"] == "UNKNOWN_EXCEPTION");
             if ( ! $isDuplicateAlertError) {
-                throw new \Exception("ph-emailInsertLead: response error. response=" . json_encode($response));
+                throw new \Exception("ph-emailInsertLead: SalesForce API error");
             } else {
                 $response["success"] = true;
             }
