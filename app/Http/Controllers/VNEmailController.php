@@ -241,24 +241,23 @@ class VNEmailController extends Controller
     #Returns the IP of the client
     function getUserIP()
     {
-        $client  = @$_SERVER['HTTP_CLIENT_IP'];
-        $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
-        $remote  = $_SERVER['REMOTE_ADDR'];
-
-        if(filter_var($client, FILTER_VALIDATE_IP))
-        {
-            $ip = $client;
-        }
-        elseif(filter_var($forward, FILTER_VALIDATE_IP))
-        {
-            $ip = $forward;
-        }
-        else
-        {
-            $ip = $remote;
+        // Check X-Forwarded-For header (may contain multiple IPs)
+        if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+            $ips = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
+            // Get the first IP (client's real IP)
+            $ip = trim($ips[0]);
+            if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE)) {
+                return $ip;
+            }
         }
 
-        return $ip;
+        // Fallback to other headers
+        if (!empty($_SERVER['HTTP_CLIENT_IP']) && filter_var($_SERVER['HTTP_CLIENT_IP'], FILTER_VALIDATE_IP)) {
+            return $_SERVER['HTTP_CLIENT_IP'];
+        }
+
+        // Last resort: REMOTE_ADDR
+        return $_SERVER['REMOTE_ADDR'] ?? '127.0.0.1';
     }
 
 }
