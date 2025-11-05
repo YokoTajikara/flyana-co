@@ -3,6 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>404 | You have encountered an error | ANA Campaign</title>
+	<meta name="robots" content="noindex, nofollow">
 	<meta name="description" content="ANA Camapign portal">
 	<meta name="keywords" content="ANA, 25th anniversary campaign, fly to Japan, fly to North America">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
