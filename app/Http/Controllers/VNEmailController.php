@@ -63,14 +63,19 @@ class VNEmailController extends Controller
      */
     public function registrationGet(AnaRequest $request)
     {
-        #read Maxmind GeoIP Db
-        $reader = new \GeoIp2\Database\Reader('GeoLite2-City.mmdb');
-        #get the client's IP
-        $user_ip = $this->getUserIP();
-        #get country of IP from Maxmind GeoIP db
-        $record = $reader->city($user_ip);
-        #the country name of client
-        $country_name = $record->country->name;
+        try {
+            #read Maxmind GeoIP Db with absolute path
+            $reader = new \GeoIp2\Database\Reader(public_path('GeoLite2-City.mmdb'));
+            #get the client's IP
+            $user_ip = $this->getUserIP();
+            #get country of IP from Maxmind GeoIP db
+            $record = $reader->city($user_ip);
+            #the country name of client
+            $country_name = $record->country->name;
+        } catch (\GeoIp2\Exception\AddressNotFoundException $e) {
+            $country_name = "Unknown";
+            \Log::warning("GeoIP lookup failed: " . $e->getMessage());
+        }
 
         $form = \Session::get("email_form", []);
         \Session::remove('email_form');
